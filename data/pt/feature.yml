@@ -1,0 +1,26 @@
+############################# feature ###################################
+feature:
+  enable : true
+  image : images/about/ccode-and-coffee.jpg
+  image_webp : images/about/code-and-coffee.webp
+  title : Por que programar?
+  content : "A programação é uma habilidade essencial para a pessoa cientista de dados."
+  feature_item : 
+      # feature item loop
+    - title : O código é texto
+      icon : ti-text # themify icon pack : https://themify.me/themify-icons
+      content : A simples possibilidade de copiar e colar um código traz ganhos enormes em produtividade e reprodutibilidade.
+      # feature item loop
+    - title : O código é uma linguagem
+      icon : ti-comment-alt # themify icon pack : https://themify.me/themify-icons
+      content : O código é um diário de bordo. Ele documenta todas as etapas da análise de dados, algo essencial para reproduzirmos e compartilharmos nosso trabalho.
+
+      # feature item loop
+    - title : O código é aberto
+      icon : ti-unlock # themify icon pack : https://themify.me/themify-icons
+      content : Mais do que gratuito, ser aberto significa ser uma comunidade. Tenha acesso às últimas versões das melhores ferramentas e contate as pessoas criadoras para contribuir e tirar dúvidas.
+      
+      # feature item loop
+    - title : O R é a linguagem criada para Ciência de Dados
+      icon : ti-check # themify icon pack : https://themify.me/themify-icons
+      content : O R nasceu dentro da Estatística e possui o ferramental necessário para executarmos todas as etapas de uma análise de dados.
