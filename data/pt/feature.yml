@@ -4,7 +4,7 @@ feature:
   image : images/about/ccode-and-coffee.jpg
   image_webp : images/about/code-and-coffee.webp
   title : Por que programar?
-  content : "A programação é uma habilidade essencial para a pessoa cientista de dados."
+  content : "A programação é uma habilidade essencial para a pessoa cientista de dados. Listamos os principais motivos para você aprender a programar (em R)."
   feature_item : 
       # feature item loop
     - title : O código é texto

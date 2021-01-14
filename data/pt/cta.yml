@@ -1,11 +1,11 @@
 ############################# call to action ##############################
 cta:
   enable : true
-  bg_image : "images/backgrounds/bg-white-wall.jpg"
-  bg_image_webp : "images/backgrounds/bg-white-wall.webp"
-  title : "Great Design & Incredible Features"
-  content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tenetur odio impedit incidunt? Omnis accusantium ea reiciendis, fugit commodi nostrum."
+  bg_image : "images/backgrounds/bg-universe.jpg"
+  bg_image_webp : "images/backgrounds/bg-universe.webp"
+  title : "Cursos personalizados para a sua empresa"
+  content : "Monte um treinamento que melhor se adeque às demandas da sua equipe."
   button:
     enable : true
-    label : "Start a project with us"
+    label : "Fale conosco"
     link : "#contact"

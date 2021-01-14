@@ -656,6 +656,17 @@ a:hover {
 }
 
 /*=================================================================
+cta
+==================================================================*/
+
+.cta-block h2 {
+  color: white;
+}
+
+.cta-block p {
+  color: white;
+}
+/*=================================================================
  Call To Action 2
 ==================================================================*/
 .call-to-action-2 {
@@ -874,6 +885,36 @@ a:hover {
 
 .portfolio-block {
   position: relative;
+  min-height: 344px;
+  background-size: cover;
+  z-index: 0;
+  margin-bottom: 40px;
+  padding: 70px 20px;
+}
+
+.portfolio-block .service-icon {
+  margin-bottom: 10px;
+  font-size: 50px;
+  color: #f1ecec;
+}
+
+.portfolio-block .caption p {
+  color: #555;
+}
+
+.portfolio-block h3 {
+  color: #f1ecec;
+}
+
+.portfolio-block::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.55);
+    z-index: -1;
 }
 
 .portfolio-block:before {
@@ -929,8 +970,7 @@ a:hover {
 
 .portfolio-block .caption .search-icon {
   background: #57cbcc;
-  width: 50px;
-  height: 50px;
+  padding: 8px 10px;
   color: #fff;
   display: inline-block;
   font-size: 20px;
@@ -941,20 +981,48 @@ a:hover {
   line-height: 50px;
 }
 
+.portfolio-block .portfolio-icon {
+  margin-bottom: 10px;
+  font-size: 50px;
+  color: #f1ecec;
+}
+
 /*=================================================================
   Services section
 ==================================================================*/
 .service-block {
-  padding: 60px 20px;
-  border-left: 1px solid rgba(236, 239, 241, 0.07);
-  border-top: 1px solid rgba(236, 239, 241, 0.07);
+  padding: 100px 20px;
+  min-height: 344px;
   margin-bottom: 40px;
+  background-size: cover;
+  position: relative;
+  z-index: 0;
   box-shadow: 2px 2px 5px rgba(44, 44, 44, 0.3), 13px 13px 0 rgba(255, 255, 255, 0.7);
+}
+
+.service-block::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.55);
+  z-index: -1;
 }
 
 .service-block .service-icon {
   margin-bottom: 10px;
   font-size: 50px;
+  color: #f1ecec;
+}
+
+.service-block p {
+  color: #f1ecec;
+}
+
+.service-block h3 {
+  color: #f1ecec;
 }
 
 /*=================================================================
@@ -1008,12 +1076,19 @@ a:hover {
 }
 
 .skill-bar .progress {
-  height: 6px;
+  height: 1px;
   border-radius: 0;
+  margin-bottom: 10px;
+  background-color: transparent;
 }
 
 .skill-bar .progress .progress-bar {
   background: #57cbcc;
+}
+
+#skills .btn {
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 /*=================================================================

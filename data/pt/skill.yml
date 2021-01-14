@@ -1,26 +1,31 @@
 ################################# Skill ##################################
 skill:
   enable : true
-  title : Our Skills
-  subtitle : We’ve skilled in wide range of web and Other digital market tools.
-  content : Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis magni explicabo cum aperiam recusandae sunt accusamus totam. Quidem quos fugiat sapiente numquam accusamus quas hic, itaque in libero reiciendis tempora!
-  image : images/about/company-growth.webp
+  title : Projetos in-company
+  subtitle : Estruture a sua área de Ciência de Dados
+  content : Temos uma equipe especialista em todas as tarefas da Ciência de Dados. Tire aquele projeto de análise de dados da gaveta e impulssione seu negócio.
+  button:
+    enable : true
+    label : "Inicie um projeto com a gente"
+    link : "#contact"
   skill_item :
     # skill item loop
-    - name :  Business Development
-      percent : 90%
+    - name : Treine sua equipe
+      percent : 53%
       
     # skill item loop
-    - name :  Analysis
-      percent : 70%
+    - name :  Automatize relatórios
+      percent : 63%
       
     # skill item loop
-    - name :  Design
-      percent : 80%
-      
-    - name :  IOS Development
-      percent : 95%
+    - name :  Atualize processos legado
+      percent : 73%
       
     # skill item loop
-    - name :  Android Development
-      percent : 75%
+    - name :  Construa modelos preditivos 
+      percent : 83%
+      
+    - name :  Crie dashboards para o seu negócio
+      percent : 93%
+      
+

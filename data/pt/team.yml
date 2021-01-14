@@ -1,68 +1,108 @@
 ############################### team ############################
 team:
   enable : true
-  title : Our Team
+  title : Nosso time
   team_member :
     # team member loop
-    - name : Abul Mal Muhit
-      image_webp : images/team/team-1.webp
-      image : images/team/team-1.jpg
-      designation : CEO/Founder
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+    - name : Athos Damiani
+      image_webp : images/team/athos.webp
+      image : images/team/athos.jpeg
+      designation : Sócio, professor e cientista de dados
+      content : Bacharel em Estatística pelo IME-USP e mestrando em IA pela Poli-USP. Trabalhou com modelos preditivos, web scraping, visualização e dashboards para ABJ, IBOPE, ClearSale, EDP e Itaú. Se interessa por tudo ligado ao R e à Estatística.
       social :
         - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
-          link : "#"
+          link : "https://www.facebook.com/athos.damiani"
         - icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
-          link : "#"
+          link : "https://twitter.com/athos_damiani"
         - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        - icon : ti-dribbble # themify icon pack : https://themify.me/themify-icons
-          link : "#"
+          link : "https://www.linkedin.com/in/athosdamiani/"
+        - icon : ti-github # themify icon pack : https://themify.me/themify-icons
+          link : "https://github.com/Athospd"
+          
+    - name : Beatriz Milz
+      image_webp : images/team/bea.webp
+      image : images/team/bea.jpg
+      designation : Professora
+      content : Doutoranda em Ciência Ambiental no IEE-USP. É co-organizadora da comunidade R-Ladies São Paulo, e instrutora da Carpentries. Usa o R no dia-a-dia, e se interessa no uso de R para pesquisa reprodutível.
+      social :
+        - icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
+          link : "https://twitter.com/BeaMilz"
+        - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
+          link : "https://www.linkedin.com/in/beatrizmilz/"
+        - icon : ti-github # themify icon pack : https://themify.me/themify-icons
+          link : "https://github.com/beatrizmilz"
         
     # team member loop
-    - name : Frank Miller
-      image_webp : images/team/team-2.webp
-      image : images/team/team-2.jpg
-      designation : Manager
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+    - name : Caio Lente
+      image_webp : images/team/caio.webp
+      image : images/team/caio.jpg
+      designation : Sócio, professor e desenvolvedor
+      content : Mestrando em Ciência da Computação no IME-USP e cientista de dados na Terranova Consultoria. Programador desde os 15 anos, começou a se apaixonar pelo R em 2016 e agora não fala em outra coisa. Metido a designer, maníaco da organização e metade texano.
       social :
-        - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        - icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
-          link : "#"
+        - icon : ti-world # themify icon pack : https://themify.me/themify-icons
+          link : "https://lente.dev/"
         - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        - icon : ti-dribbble # themify icon pack : https://themify.me/themify-icons
-          link : "#"
+          link : "https://www.linkedin.com/in/clente"
+        - icon : ti-github # themify icon pack : https://themify.me/themify-icons
+          link : "https://github.com/clente"
         
     # team member loop
-    - name : Michael Jonson
-      image_webp : images/team/team-3.webp
-      image : images/team/team-3.jpg
-      designation : Web Developer
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+    - name : Daniel Falbel
+      image_webp : images/team/daniel.webp
+      image : images/team/daniel.jpeg
+      designation : Sócio, professor e desenvolvedor
+      content : Bacharel em Estatística pelo IME. Engenheiro de software na RStudio. Trabalha diariamente com R há mais de 6 anos. É interessado por tudo que tem a ver com R, Machine Learning e Estatística.
       social :
         - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
-          link : "#"
+          link : "https://www.facebook.com/danielfalbel"
         - icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
-          link : "#"
+          link : "https://twitter.com/dfalbel"
         - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        - icon : ti-dribbble # themify icon pack : https://themify.me/themify-icons
-          link : "#"
+          link : "https://www.linkedin.com/in/daniel-falbel-54b1a834/"
+        - icon : ti-github # themify icon pack : https://themify.me/themify-icons
+          link : "https://github.com/dfalbel"
+        - icon : ti-world # themify icon pack : https://themify.me/themify-icons
+          link : "https://blogs.rstudio.com/tensorflow/"
         
     # team member loop
-    - name : Mo. Kha. Alamgir
-      image_webp : images/team/team-4.webp
-      image : images/team/team-4.jpg
-      designation : SEO Specialist
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+    - name : Fernando Corrêa
+      image_webp : images/team/fernando.webp
+      image : images/team/fernando.jpeg
+      designation : Sócio, professor e cientista de dados
+      content : Bacharel e mestrando em Estatística pelo IME-USP. Diretor-técnico na Associação Brasileira de Jurimetria. Usa R para tudo, mas tem interesse especial em web scraping, visualização de dados e modelagem bayesiana.
       social :
         - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
-          link : "#"
+          link : "https://www.facebook.com/fernando.filho.58"
         - icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
-          link : "#"
+          link : "https://twitter.com/Azeloc"
         - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        - icon : ti-dribbble # themify icon pack : https://themify.me/themify-icons
-          link : "#"
+          link : "https://www.linkedin.com/in/fernando-corr%c3%aaa-4ba299139/"
+        - icon : ti-github # themify icon pack : https://themify.me/themify-icons
+          link : "https://github.com/azeloc"
+          
+     # team member loop
+    - name : Julio Trecenti
+      image_webp : images/team/julio.webp
+      image : images/team/julio.jpg
+      designation : Sócio, professor e desenvolvedor
+      content : Faxineiro de dados. Doutorando em Estatística pelo IME-USP. Secretário-geral da Associação Brasileira de Jurimetria (ABJ). Conselheiro do CONFE. Sócio da Terranova Consultoria. Trabalha com web scraping, arrumação de dados, construção de modelos preditivos, APIs e dashboards em Shiny.
+      social :
+        - icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
+          link : "https://twitter.com/jtrecenti"
+        - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
+          link : "https://www.linkedin.com/in/jtrecenti/"
+        - icon : ti-github # themify icon pack : https://themify.me/themify-icons
+          link : "https://github.com/jtrecenti"
+          
+     # team member loop
+    - name : William Amorim
+      image_webp : images/team/william.webp
+      image : images/team/william.jpeg
+      designation : Sócio, professor e cientista de dados
+      content : Doutor em Estatística pelo IME-USP. Trabalhando diaramente com análise de dados e programação em R. Especialista em criação de dashboards em Shiny.
+      social :
+        - icon : ti-github # themify icon pack : https://themify.me/themify-icons
+          link : "https://github.com/williamorim"
+        - icon : ti-world # themify icon pack : https://themify.me/themify-icons
+          link : "https://wamorim.com/"
+      

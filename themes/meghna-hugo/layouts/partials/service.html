@@ -19,13 +19,12 @@
 			{{ range .service_item}}
 			{{"<!-- Single Service Item -->" | safeHTML }}
 			<article class="col-lg-4 col-md-6 col-12 wow fadeInUp" data-wow-duration="500ms">
-				<div class="service-block text-center">
-					<div class="service-icon text-center">
-						<i class="{{ .icon }}"></i>
-					</div>
-					<h3>{{ .name | markdownify }}</h3>
-					<p>{{ .content | markdownify }}</p>
-				</div>
+			  <a href = "{{ .link }}">
+  				<div class="service-block text-center" style = "background-image: url('{{ .bgimage | absURL }}' )">
+  					<h3>{{ .name | markdownify }}</h3>
+  					<p>{{ .content | markdownify }}</p>
+  				</div>
+				</a>
 			</article>
 			{{"<!-- End Single Service Item -->" | safeHTML }}
 			{{ end }}
