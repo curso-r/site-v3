@@ -3,237 +3,245 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.curso-r.com/pt/blog/simple-blog-post-8/</loc>
+    <loc>https://www.curso-r.com/blog/simple-blog-post-8/</loc>
     <lastmod>2018-09-12T14:51:12+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="https://www.curso-r.com/en/blog/simple-blog-post-8/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
                 href="https://www.curso-r.com/blog/simple-blog-post-8/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://www.curso-r.com/pt/blog/simple-blog-post-8/"
-                />
   </url>
   
   <url>
-    <loc>https://www.curso-r.com/pt/blog/</loc>
+    <loc>https://www.curso-r.com/blog/</loc>
     <lastmod>2018-09-12T14:51:12+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="https://www.curso-r.com/en/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
                 href="https://www.curso-r.com/blog/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://www.curso-r.com/pt/blog/"
-                />
   </url>
   
   <url>
-    <loc>https://www.curso-r.com/pt/</loc>
+    <loc>https://www.curso-r.com/</loc>
     <lastmod>2018-09-12T14:51:12+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="https://www.curso-r.com/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
                 href="https://www.curso-r.com/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://www.curso-r.com/pt/"
-                />
   </url>
   
   <url>
-    <loc>https://www.curso-r.com/pt/blog/installation/</loc>
+    <loc>https://www.curso-r.com/blog/installation/</loc>
     <lastmod>2018-09-12T14:51:12+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="https://www.curso-r.com/en/blog/installation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
                 href="https://www.curso-r.com/blog/installation/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://www.curso-r.com/pt/blog/installation/"
-                />
   </url>
   
   <url>
-    <loc>https://www.curso-r.com/pt/blog/simple-blog-post-1/</loc>
+    <loc>https://www.curso-r.com/blog/simple-blog-post-1/</loc>
     <lastmod>2018-09-12T12:52:36+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="https://www.curso-r.com/en/blog/simple-blog-post-1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
                 href="https://www.curso-r.com/blog/simple-blog-post-1/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://www.curso-r.com/pt/blog/simple-blog-post-1/"
-                />
   </url>
   
   <url>
-    <loc>https://www.curso-r.com/pt/blog/simple-blog-post-2/</loc>
+    <loc>https://www.curso-r.com/blog/simple-blog-post-2/</loc>
     <lastmod>2018-09-12T12:52:36+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="https://www.curso-r.com/en/blog/simple-blog-post-2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
                 href="https://www.curso-r.com/blog/simple-blog-post-2/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://www.curso-r.com/pt/blog/simple-blog-post-2/"
-                />
   </url>
   
   <url>
-    <loc>https://www.curso-r.com/pt/blog/simple-blog-post-3/</loc>
+    <loc>https://www.curso-r.com/blog/simple-blog-post-3/</loc>
     <lastmod>2018-09-12T12:52:36+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="https://www.curso-r.com/en/blog/simple-blog-post-3/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
                 href="https://www.curso-r.com/blog/simple-blog-post-3/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://www.curso-r.com/pt/blog/simple-blog-post-3/"
-                />
   </url>
   
   <url>
-    <loc>https://www.curso-r.com/pt/blog/simple-blog-post-4/</loc>
+    <loc>https://www.curso-r.com/blog/simple-blog-post-4/</loc>
     <lastmod>2018-09-12T12:52:36+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="https://www.curso-r.com/en/blog/simple-blog-post-4/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
                 href="https://www.curso-r.com/blog/simple-blog-post-4/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://www.curso-r.com/pt/blog/simple-blog-post-4/"
-                />
   </url>
   
   <url>
-    <loc>https://www.curso-r.com/pt/blog/simple-blog-post-5/</loc>
+    <loc>https://www.curso-r.com/blog/simple-blog-post-5/</loc>
     <lastmod>2018-09-12T12:52:36+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="https://www.curso-r.com/en/blog/simple-blog-post-5/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
                 href="https://www.curso-r.com/blog/simple-blog-post-5/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://www.curso-r.com/pt/blog/simple-blog-post-5/"
-                />
   </url>
   
   <url>
-    <loc>https://www.curso-r.com/pt/blog/simple-blog-post-6/</loc>
+    <loc>https://www.curso-r.com/blog/simple-blog-post-6/</loc>
     <lastmod>2018-09-12T12:52:36+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="https://www.curso-r.com/en/blog/simple-blog-post-6/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
                 href="https://www.curso-r.com/blog/simple-blog-post-6/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://www.curso-r.com/pt/blog/simple-blog-post-6/"
-                />
   </url>
   
   <url>
-    <loc>https://www.curso-r.com/pt/blog/simple-blog-post-7/</loc>
+    <loc>https://www.curso-r.com/blog/simple-blog-post-7/</loc>
     <lastmod>2018-09-12T12:52:36+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="https://www.curso-r.com/en/blog/simple-blog-post-7/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
                 href="https://www.curso-r.com/blog/simple-blog-post-7/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://www.curso-r.com/pt/blog/simple-blog-post-7/"
-                />
   </url>
   
   <url>
-    <loc>https://www.curso-r.com/pt/author/</loc>
+    <loc>https://www.curso-r.com/cursos/intro-programacao/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.curso-r.com/author/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="https://www.curso-r.com/en/author/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
                 href="https://www.curso-r.com/author/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://www.curso-r.com/pt/author/"
-                />
   </url>
   
   <url>
-    <loc>https://www.curso-r.com/pt/categories/</loc>
+    <loc>https://www.curso-r.com/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="https://www.curso-r.com/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
                 href="https://www.curso-r.com/categories/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://www.curso-r.com/pt/categories/"
-                />
   </url>
   
   <url>
-    <loc>https://www.curso-r.com/pt/author/john-doe/</loc>
+    <loc>https://www.curso-r.com/cursos/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.curso-r.com/author/john-doe/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="https://www.curso-r.com/en/author/john-doe/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
                 href="https://www.curso-r.com/author/john-doe/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://www.curso-r.com/pt/author/john-doe/"
-                />
   </url>
   
   <url>
-    <loc>https://www.curso-r.com/pt/author/mark-dinn/</loc>
+    <loc>https://www.curso-r.com/author/mark-dinn/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="https://www.curso-r.com/en/author/mark-dinn/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
                 href="https://www.curso-r.com/author/mark-dinn/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://www.curso-r.com/pt/author/mark-dinn/"
-                />
   </url>
   
   <url>
-    <loc>https://www.curso-r.com/pt/tags/</loc>
+    <loc>https://www.curso-r.com/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.curso-r.com/tags/"
+                href="https://www.curso-r.com/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://www.curso-r.com/pt/tags/"
+                href="https://www.curso-r.com/tags/"
                 />
   </url>
   

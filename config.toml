@@ -2,6 +2,7 @@
 baseURL = "https://www.curso-r.com/"
 title = "Curso-R"
 theme = "meghna-hugo"
+defaultContentLanguage = "pt"
 # post pagination
 paginate = "6"
 # post excerpt
@@ -48,13 +49,13 @@ url = "about"
 weight = 1
 
 [[Languages.pt.menu.main]]
-name = "Cursos"
+name = "Trilhas"
 pre = "#"
 url = "services"
 weight = 2
 
 [[Languages.pt.menu.main]]
-name = "Produtos"
+name = "Cursos"
 pre = "#"
 url = "portfolio"
 weight = 3
@@ -66,13 +67,13 @@ url = "team"
 weight = 4
 
 [[Languages.pt.menu.main]]
-name = "Serviços"
+name = "Blog"
 pre = "#"
-url = "pricing"
+url = "blog"
 weight = 5
 
 [[Languages.pt.menu.main]]
-name = "Blog"
+name = "Material"
 pre = "#"
 url = "blog"
 weight = 6
@@ -103,47 +104,47 @@ url = "services"
 weight = 2
 
 [[Languages.en.menu.main]]
-name = "portfolio"
+name = "Courses"
 pre = "#"
 url = "portfolio"
 weight = 3
 
 [[Languages.en.menu.main]]
-name = "team"
+name = "Team"
 pre = "#"
 url = "team"
 weight = 4
 
 [[Languages.en.menu.main]]
-name = "pricing"
+name = "Blog"
 pre = "#"
-url = "pricing"
+url = "blog"
 weight = 5
 
 [[Languages.en.menu.main]]
-name = "blog"
+name = "Material"
 pre = "#"
 url = "blog"
 weight = 6
 
 [[Languages.en.menu.main]]
-name = "contact"
+name = "Contact"
 pre = "#"
 url = "contact"
 weight = 7
 
 [[Languages.en.menu.main]]
-name = "themefisher"
+name = "Book"
 pre = ""
-url = "https://themefisher.com/"
+url = "https://livro.curso-r.com/"
 weight = 8
 
 ############################# Default Parameters ##########################
 [params]
 logo = "images/logo_col_branco.png"
 # Meta data
-description = "Responsive Multipurpose Parallax Hugo Template"
-author = "Themefisher"
+description = "Explore o universo da Ciência de Dados"
+author = "Curso-R"
 # Google Analytics
 google_analytics_id = "" # Your ID
 # post share
@@ -170,27 +171,27 @@ map_marker = "images/marker.png"
 ############################# social icons ##########################
 [[params.social]]
 icon = "ti-facebook" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+link = "https://www.facebook.com/cursodeR/"
 
 [[params.social]]
 icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+link = "https://twitter.com/curso_r"
 
 [[params.social]]
 icon = "ti-youtube" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+link = "https://www.youtube.com/channel/UCTXuqtCYxPVEehq6fJY9GkA"
 
 [[params.social]]
 icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+link = "https://br.linkedin.com/company/curso-r"
 
 [[params.social]]
-icon = "ti-dribbble" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+icon = "ti-github" # themify icon pack : https://themify.me/themify-icons
+link = "https://github.com/curso-r"
 
 [[params.social]]
-icon = "ti-pinterest" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+icon = "ti-instagram" # themify icon pack : https://themify.me/themify-icons
+link = "https://www.instagram.com/cursoo_r/"
 
 ################################ Portuguese Language ########################
 [Languages.pt]
@@ -199,7 +200,8 @@ languageCode = "pt-br"
 contentDir = "content/portuguese"
 weight = 1
 home = "Home"
-copyright = "Copyright &copy; 2021 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
+copyright = "&copy; Copyright Curso-R 2021. Todos os direitos reservados."
+ref = "Tema por [Themefisher](https://themefisher.com). Site feito em [Hugo](https://gethugothemes.com)."
 
 
 ################################ English Language ########################
@@ -209,5 +211,6 @@ languageCode = "en-us"
 contentDir = "content/english"
 weight = 2
 home = "Home"
-copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
+copyright = "Copyright &copy; Curso-R 2021"
+ref = "Theme by [Themefisher](https://themefisher.com). Site built with [Hugo](https://gethugothemes.com)."
 

@@ -6,16 +6,14 @@ portfolio:
     # portfolio item loop
     - name : Introdução à programação em R
       image : images/cursos/intro-programacao.jpg
-      image_webp : images/cursos/intro-programacao.webp
       categories : ["Programação para Ciência de Dados"]
       content : O ponto de partida para quem nunca programou.
-      link : "http://cursos.curso-r.com/intro-programacao.html"
+      link : "/cursos/intro-programacao/"
       icon : ti-shift-right-alt # themify icon pack : https://themify.me/themify-icons
       
     # portfolio item loop
     - name : R para Ciência de Dados I
       image : images/cursos/r4ds1.jpg
-      image_webp : images/cursos/r4ds1.webp
       categories : ["Programação para Ciência de Dados"]
       content : Comece a usar o R nas suas análises de dados.
       link : "http://cursos.curso-r.com/r4ds1.html"
@@ -24,7 +22,6 @@ portfolio:
     # portfolio item loop
     - name : R para Ciência de Dados II
       image : images/cursos/r4ds2.jpg
-      image_webp : images/cursos/r4ds2.webp
       categories : ["Programação para Ciência de Dados"]
       content : Domine os seus dados e aumente a sua produtividade.
       link : "http://cursos.curso-r.com/r4ds2.html"
@@ -32,8 +29,7 @@ portfolio:
       
     # portfolio item loop
     - name : Relatórios e visualização de dados
-      image : images/cursos/visualizacao.jpeg
-      image_webp : images/cursos/visualizacao.webp
+      image : images/cursos/visualizacao.jpg
       categories : ["Visualização"]
       content : Construa gráficos e relatórios para comunicar seus resultados.
       link : "http://cursos.curso-r.com/visualizacao.html"
@@ -41,8 +37,7 @@ portfolio:
       
     # portfolio item loop
     - name : Regressão linear
-      image : images/cursos/regressao.png
-      image_webp : images/cursos/regressao.webp
+      image : images/cursos/regressao.jpg
       categories : ["Machine Learning"]
       content : Familiarize-se com os principais conceitos por trás da regressão linear.
       link : "http://cursos.curso-r.com/regressao.html"
@@ -51,7 +46,6 @@ portfolio:
     # portfolio item loop
     - name : Introdução ao Machine Learning
       image : images/cursos/iml.jpg
-      image_webp : images/cursos/iml.webp
       categories : ["Machine Learning"]
       content : Aprenda os principais conceitos de Machine Learning utilizando o R como ferramenta.
       link : "http://cursos.curso-r.com/machine-learning.html"
@@ -60,7 +54,6 @@ portfolio:
     # portfolio item loop
     - name : Dashboards
       image : images/cursos/dashboards.jpg
-      image_webp : images/cursos/dashboards.webp
       categories : ["Visualização"]
       content : Comunique seus resultados construindo dashboards incríveis a partir do R.
       link : "http://cursos.curso-r.com/dashboards.html"
@@ -69,7 +62,6 @@ portfolio:
     # portfolio item loop
     - name : Deploy
       image : images/cursos/deploy.png
-      image_webp : images/cursos/deploy.webp
       categories : ["Visualização"]
       content : Aprenda a disponibilizar dashboards e o resultado dos seus modelos na Web.
       link : "http://cursos.curso-r.com/deploy.html"
@@ -77,8 +69,7 @@ portfolio:
       
     # portfolio item loop
     - name : XGBoost
-      image : images/cursos/xgboost.png
-      image_webp : images/cursos/xgboost.webp
+      image : images/cursos/xgboost.jpg
       categories : ["Machine Learning"]
       content : Aprenda a implementar um dos algoritmos de Machine Learning mais utilizados da atualidade.
       link : "http://cursos.curso-r.com/xgboost.html"
@@ -87,7 +78,6 @@ portfolio:
     # portfolio item loop
     - name : Faxina de dados
       image : images/cursos/faxina.jpg
-      image_webp : images/cursos/xgboost.webp
       categories : ["Web scraping"]
       content : Aprenda a arrumar bases bagunçadas com exemplos reais.
       link : "http://cursos.curso-r.com/faxina.html"
@@ -96,7 +86,6 @@ portfolio:
     # portfolio item loop
     - name : Web scraping
       image : images/cursos/web-scraping.jpg
-      image_webp : images/cursos/web-scraping.webp
       categories : ["Web scraping"]
       content : Aprenda a coletar dados da internet de forma autônoma e eficiente utilizando o R.
       link : "http://cursos.curso-r.com/web-scraping.html"
@@ -105,7 +94,6 @@ portfolio:
     # portfolio item loop
     - name : Deep Learning
       image : images/cursos/deep-learning.jpg
-      image_webp : images/cursos/xgboost.webp
       categories : ["Machine Learning"]
       content : Aprenda a ajustar modelos de deep learning utilizando o R.
       link : "http://cursos.curso-r.com/deep-learning.html"
@@ -114,7 +102,6 @@ portfolio:
     # portfolio item loop
     - name : Introdução ao R com C++
       image : images/cursos/rcpp.jpg
-      image_webp : images/cursos/rcpp.webp
       categories : ["Programação para Ciência de Dados"]
       content : Acelere seus scripts integrando o R com o C++.
       link : "http://cursos.curso-r.com/rcpp.html"
@@ -123,7 +110,6 @@ portfolio:
     # portfolio item loop
     - name : Pacotes
       image : images/cursos/pacotes.jpeg
-      image_webp : images/cursos/pacotes.webp
       categories : ["Programação para Ciência de Dados"]
       content : Aprendar a criar os seus próprios pacotes de R.
       link : "http://cursos.curso-r.com/pacotes.html"

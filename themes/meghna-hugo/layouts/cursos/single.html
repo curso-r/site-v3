@@ -1,0 +1,700 @@
+<html>
+<head>
+    <meta charset="utf-8"/>
+        <meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+        <title>{{ .Params.nome }} | Curso-R</title>
+    <link rel="shortcut icon" type="image/png" href="{{ `images/favicon.png`| absURL }}"/>
+    <link href="{{ `css/bootstrap.min.css`| absURL }}" rel="stylesheet" type="text/css">
+    <link href="{{ `plugins/themify-icons/themify-icons.css`| absURL }}" rel="stylesheet" type="text/css">
+    <link href="{{ `css/cursos.css`| absURL }}" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500,700,900&display=swap" rel="stylesheet">
+    <script src="https://assets.pagar.me/checkout/1.1.0/checkout.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src ="https://assets.pagar.me/checkout/1.1.0//easyXDM.js"></script>
+    <script src="{{ `plugins/jquery/jquery.min.js`| absURL }}" type="text/javascript"></script>
+    <script src="{{ `js/bootstrap.min.js`| absURL }}"  type="text/javascript"></script>
+    <script src="{{ `js/function.js`| absURL }}"  type="text/javascript"></script>
+ 
+</head>
+    <body>
+        <div class="reg-all">
+        <!--home-->
+        <div class="row home-info-row" style = "background:  url({{ .Params.imagem | absURL }}) no-repeat right;">
+            <div class="bg-gradient"></div>     
+            <div class="container">
+                <div class="col-xs-12 col-sm-12 col-md-8 col-lg-7">
+                    <div class="local-btn">Curso Online</div>
+                    <h1>{{ .Params.nome }}</h1>
+                    <p class="description"> {{ .Params.desc }} </p>
+                    <div class="date-cont">
+                      <i class="ti-calendar icone"></i>
+                      <span>
+                         {{if eq .Params.aberto true}}
+                            {{ .Params.data }} 
+                         {{else}}
+                            A definir
+                         {{end}}
+                        </span>
+                    </div>
+                    {{if (and (.Params.obs_data) (eq .Params.aberto true)) }}
+                    <div class="date-cont">
+                      <i class="ti-info-alt icone"></i>
+                      <span> {{ .Params.obs_data }} </span>
+                    </div>
+                    {{ end }}
+                    <div class="time-cont">
+                      <i class="ti-time icone"></i>
+                      <span>  {{ .Params.aulas_horas }}</span>
+                    </div>
+                    <form class="desc-info">
+                    <input class="text-input" name="desconto" id="desconto" type="text" placeholder="cupom de desconto" maxlength="16"/>
+                    <button  id = "enviar-cupom" class="text-input-btn" type="button">Aplicar</button>
+                    </form>
+                        <div class="row price-row">
+                            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 price">
+                              <h2 id="valor">{{ .Params.valor }}</h2>
+                            </div>
+                            {{if eq .Params.aberto true}}
+                             <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+                                <button id = "pagamento" class="btn-insc insc-btn">inscreva-se</button>
+                             </div>
+                             </div>
+                         {{else}}
+                            </div>
+                            <p style = "margin-top: 20px;">Não há turmas abertas para este curso no momento :(</p>
+                         {{end}}
+                    <p class="disclaimer">Ao se inscrever no curso, você declara estar de acordo com os nossos <a class="terms" href="#" target="_blank">Termos de uso.</a></p>
+                </div>
+            </div>
+        </div>
+           <!--nav-bar-->
+            <div class="row nav-cont-row sticker sticker-mob">
+                <div class="container">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 nav-cont">
+                        <ul>
+                            <li class="nav-item i-sobre nav-item-active"><a href="#sobre">Sobre</a></li>
+                            <li class="nav-item i-curso"><a href="#cursos">Cursos</a></li>
+                            <li class="nav-item i-como"><a href="#sobre-curso">Sobre o curso</a></li>
+                            <li class="nav-item i-inst"><a href="#professores">Instrutores</a></li>
+                            <li class="nav-item i-faq"><a href="#faq">FAQ</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--FIRST SEC-->
+          <div class="row one-row "id="sobre">
+            <div class="container">
+                <div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+                    <h1 class="title-r"><span>Você sairá deste curso apta(o) a:</span></h1>
+                    
+                    <div class="item-skill">
+                        <ul>
+                          {{ range .Params.habilidades }}
+                          <li>
+                            {{ . }}
+                          </li>
+                          {{ end }}
+                        </ul>
+                    </div>
+                    <h1 class="title-r"><span>Ementa do curso</span></h1>
+                       <ul>
+                          {{ range .Params.ementa }}
+                          <li>
+                            {{ .item }}
+                            <ul>
+                              {{ range .subitens }}
+                              <li>
+                                {{ . }}
+                              </li>
+                              {{ end }}
+                            </ul>
+                          </li>
+                          {{ end }}
+                        </ul>
+               
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+                    <div class="box-r">
+                               <h1 class="red bold text-center">O que vou receber?</h1>
+                            <div class="row box-r-cont">
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                                  <i class = "ti-layout-cta-center icone"></i>
+                                </div>
+                                <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+                                    <h4 class="bold">Certificado do curso</h4>
+                                    <p>Entrega digital após conclusão</p>
+                                </div>
+                            </div>
+                        <div class="row box-r-cont">
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                                  <i class = "ti-world icone"></i>
+                                </div>
+                                <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+                                    <h4 class="bold">Cursos 100% on-line</h4>
+                                    <p>As aulas são ao vivo, mas ficam gravadas e a disposição por 1 ano</p>
+                                </div>
+                            </div>
+                        <div class="row box-r-cont">
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                                  <i class = "ti-dashboard icone"></i>
+                                </div>
+                                <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+                                    <h4 class="bold">Nível {{ .Params.nivel }}</h4>
+                                    {{ if .Params.requisitos}}
+                                      <ul>
+                                        {{ range .Params.requisitos}}
+                                          <li>
+                                            <a href = "{{ .link }}" target = "_blank">{{ .nome }}</a>
+                                          </li>
+                                        {{ end }}
+                                      </ul>
+                                    {{ else }}
+                                        <p>Não exige experiência prévia.</p>
+                                    {{ end }}
+                                </div>
+                            </div>
+                        <div class="row box-r-cont">
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                                  <i class = "ti-text icone"></i>
+                                </div>
+                                <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+                                    <h4 class="bold">Português</h4>
+                                    
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                
+              </div>
+            </div>
+            <!--CURSOS-->
+            <div class="row cursos-row">
+                <div class="container">
+                    
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 curso-all" id="cursos">
+                        <h1 class="text-center title-r"><span>Cursos do programa</span></h1>
+                        <!--CURSO 1-->
+                        <div class="row curso-item">
+                            <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 curso-number">
+                                <h4>curso</h4>
+                                <h1>1</h1>
+                            </div>
+                            <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10 curso-box">
+                                <h1 class="title-r">INTRODUÇÃO À PROGRAMAÇÃO PARA CIÊNCIA DE DADOS</h1>
+                                 <div class="date-cont"><img src="images/calendario.svg" alt="data do curso" /><span> 1, 4, 8, 11 e 18 de fevereiro, segundas e quintas, das 19h00 às 22h00</span></div>
+                    <div class="time-cont"><img src="images/relogio.svg" alt="tempo de curso" /><span>  5 aulas, 15 horas de curso</span></div>
+                                <p>R é uma linguagem de programação criada para a Ciência de Dados. Ela é uma das principais ferramentas utilizadas para manipulação, visualização e modelagem de dados, além de auxiliar na divulgação dos resultados com a criação de relatórios, apresentações e dashboards. O R conta com uma comunidade ativa, que desenvolve novas funcionalidades em ritmo acelerado, deixando a linguagem sempre em sintonia com a metodologias mais recentes.
+                                </p>
+                                <p>
+
+O objetivo deste curso é apresentar os conceitos essenciais de programação em R para Ciência de Dados. Vamos conhecer os fundamentos da linguagem, tais como os principais tipos de variáveis, os operadores aritméticos e lógicos, os controles de fluxo como if, for e while. Também vamos introduzir boas práticas de programação e de importação de bancos de dados, tendo sempre em vista a execução de tarefas típicas dos Cientistas de Dados profissionais. </p>
+                                <button class="btn-drop"data-toggle="collapse"  data-target="#curso-a"><h2>Conteúdo</h2><span>+</span>
+                                  </button>
+                                <div class="red-bar"></div>
+                                <div class="cont-cursos collapse multi-collapse" id="curso-a">
+                                      
+                                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                        <h2>Ambientação ao R e ao RStudio</h2>
+                                        <ul>
+                                        <li>Vantagens de usarmos programação para analisar dados</li>
+                                        <li>O que é e por que usar o RStudio</li>
+                                        <li>Escrevendo e rodando códigos</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                        <h2>Introdução à programação em R</h2>
+                                        <ul>
+                                        <li>Objetos e vetores</li>
+                                        <li>Classes: números, caracteres, lógicos e data frames</li>
+                                        <li>Utilizando e criando funções no R</li>
+                                        <li>Operadores lógicos e aritméticos</li>
+                                        <li>Loopings de programação: for e while</li>
+                                        <li>O operador pipe (%>%)</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                        <h2>Importação de bases para dentro do R</h2>
+                                        <ul>
+                                        <li>Importando arquivos de texto: .csv e .txt</li>
+                                        <li>Importando arquivos excel: .xls e .xlsx</li>
+                                        <li>Conexão com um servidor SQL</li>
+                                        </ul>
+                                    </div>
+                                    <div class="row"></div>
+                                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                        <h2>Programação no dia a dia</h2>
+                                        <ul>
+                                        <li>Exemplos de scripts reais</li>
+                                        <li>Usando e instalando pacotes</li>
+                                        <li>Estruturação de projetos</li>
+                                        <li>Boas práticas de programação em R</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                         <!--CURSO 2-->
+                        <div class="row curso-item">
+                            <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 curso-number">
+                                <h4>curso</h4>
+                                <h1>2</h1>
+                            </div>
+                            <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10 curso-box">
+                                <h1 class="title-r">R PARA CIÊNCIA DE DADOS I</h1>
+                                 <div class="date-cont"><img src="images/calendario.svg" alt="data do curso" /><span> 22 de fevereiro a 15 de março, às segundas e quintas, das 19h00 às 22h00</span></div>
+                                 
+                    <div class="time-cont"><img src="images/relogio.svg" alt="tempo de curso" /><span>  7 aulas, 21 horas de curso</span></div>
+                        
+                                <p>
+O objetivo deste curso é aprofundar e expandir conceitos essenciais de programação em R para Ciência de Dados. A partir de exemplos reais de análise de dados, apresentaremos os principais pacotes para importação, manipulação e visualização de dados. Para motivar ainda mais, ensinaremos também como utilizar o R para criar um dashboard para comunicarmos nossos resultados.</p>
+                                <button class="btn-drop"data-toggle="collapse"  data-target="#curso-b"><h2>Conteúdo</h2><span>+</span>
+                                  </button>
+                                <div class="red-bar"></div>
+                                <div class="cont-cursos collapse multi-collapse" id="curso-b">
+                                    <div class="row"></div>
+                                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                        <h2>Manipulação de bases de dados (o pacote dplyr)</h2>
+                                        <ul>
+                                        <li>Selecionando colunas</li>
+                                        <li>Filtrando e ordenando linhas</li>
+                                        <li>Modificando e criando colunas</li>
+                                        <li>Criando sumarizações</li>
+                                        <li>Juntando duas colunas</li>
+                                        <li>Operações agrupadas</li>
+                                        <li>Interação entre os verbos</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                        <h2>Gráficos (o pacote ggplot2)</h2>
+                                        <ul>
+                                        <li>Introdução a gramática dos gráficos</li>
+                                        <li>Gráficos de pontos (dispersão)</li>
+                                        <li>Gráficos de barras</li>
+                                        <li>Boxplots e histogramas</li>
+                                        <li>Customizando gráficos</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                        <h2>Relatórios e dashboards em R Markdown</h2>
+                                        <ul>
+                                        <li>Introdução ao R Markdown</li>
+                                        <li>Construindo relatórios em HTML, PDF e Word</li>
+                                        <li>Construindo dashboards com o pacote flexdashboard</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                          <!--CURSO 3-->
+                        <div class="row curso-item">
+                            <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 curso-number">
+                                <h4>curso</h4>
+                                <h1>3</h1>
+                            </div>
+                            <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10 curso-box">
+                                <h1 class="title-r">R PARA CIÊNCIA DE DADOS II</h1>
+                                 <div class="date-cont"><img src="images/calendario.svg" alt="data do curso" /><span> 5 a 22 de abril, às segundas e quintas, das 19h00 às 22h00</span></div>
+                    <div class="time-cont"><img src="images/relogio.svg" alt="tempo de curso" /><span>  6 aulas, 18 horas de curso</span></div>
+                                <p>
+
+O objetivo deste curso é aprofundar e expandir os conceitos essenciais de programação em R para Ciência de Dados. A partir de problemas reais de análise de dados, apresentaremos técnicas intermediárias e avançadas de manipulação de dados, construção de gráficos e conceitos de programação funcional. Para motivar ainda mais, faremos ao final do curso uma introdução ao Shiny, possibilitando a criação de dashboards interativos que podem ser disponibizados online.</p>
+
+                                <button class="btn-drop"data-toggle="collapse"  data-target="#curso-c"><h2>Conteúdo</h2><span>+</span>
+                                  </button>
+                                <div class="red-bar"></div>
+                                <div class="cont-cursos collapse multi-collapse" id="curso-c">
+                                      
+                                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                        <h2>Organização de projetos</h2>
+                                        <ul>
+                                        <li>Por que não usar .RData e .Rhistory</li>
+                                        <li>Git e Github</li>
+                                        <li>Funções e dependências</li>
+                                        <li>Pacotes</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                        <h2>Manipulação de dados</h2>
+                                        <ul>
+                                        <li>Explorando mais funções do {dplyr}</li>
+                                        <li>{dplyr} 1.0: across(), where()</li>
+                                        <li>Pivotagem</li>
+                                        <li>Manipulação de textos com o pacote {stringr}</li>
+                                        <li>Manipulação de datas com o pacote {lubridate}</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                        <h2>Visualização de dados</h2>
+                                        <ul>
+                                        <li>Extensões do pacote {ggplot2}</li>
+                                        <li>Construindo mapas com o geom_sf()</li>
+                                        <li>Construindo seu próprio tema no {ggplot2}</li>
+                                        </ul>
+                                    </div>
+                                    <div class="row"></div>
+                                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                        <h2>Programação funcional</h2>
+                                        <ul>
+                                        <li>Listas e list-columns</li>
+                                        <li>Introdução ao pacote {purrr}</li>
+                                        <li>Substituindo for e while pelas funções map_()</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                        <h2>Comunicação</h2>
+                                        <ul>
+                                        <li>Introdução ao Shiny</li>
+                                        <li>A lógica ui/server</li>
+                                        <li>Inputs e outputs</li>
+                                        <li>Hospedando um aplicativo no shinyapps.io</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                          <!--CURSO 4-->
+                        <div class="row curso-item">
+                            <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 curso-number">
+                                <h4>curso</h4>
+                                <h1>4</h1>
+                            </div>
+                            <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10 curso-box">
+                                <h1 class="title-r">PACOTES</h1>
+                                 <div class="date-cont"><img src="images/calendario.svg" alt="data do curso" /><span> 17 e 24 de abril, sábados, das 9h00 às 13h00</span></div>
+                    <div class="time-cont"><img src="images/relogio.svg" alt="tempo de curso" /><span>  2 aulas, 8 horas de curso</span></div>
+                                <p>
+
+O objetivo deste curso é apresentar o melhor formato de entrega de programas escritos em R. Depois de aprendermos a desenvolver códigos para as mais variadas necessidades, vamos aprender a organiza-lo de modo que outras pessoas possam acessa-los de maneira simples e intuitiva, no formato de um pacote. Também vamos aprender as melhores práticas de desenvolvimento de pacotes, como o uso de testes unitários e organização dos arquivos.</p>
+                                <button class="btn-drop"data-toggle="collapse"  data-target="#curso-d"><h2>Conteúdo</h2><span>+</span>
+                                  </button>
+                                <div class="red-bar"></div>
+                                <div class="cont-cursos collapse multi-collapse" id="curso-d">
+                                      
+                                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                        <h2>Fundamento do desenvolvimento de pacotes</h2>
+                                        <ul>
+                                        <li>O arquivo DESCRIPTION</li>
+                                        <li>Estrutura de pastas e arquivos</li>
+                                        <li>Detalhes sobre a instalação de pacotes</li>
+                                        <li>O pacote usethis</li>
+                                        <li>Melhores práticas de desenvolvimento de pacotes</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                        <h2>Testes unitários e consistência de código</h2>
+                                        <ul>
+                                        <li>O pacote testthat</li>
+                                        <li>Tipos de testes</li>
+                                        <li>Passando no devtools::check</li>
+                                        </ul>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!--FINAL CURSOS-->
+                    </div>
+                    
+                </div>
+            </div>
+            <!--INSTRUÇÕES-->
+            <div class="row pre-row" id="sobre-curso">
+                <div class="container">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="t-item">
+                        <img class="p-icon" src="images/como.svg"/><h1>Como será o curso?</h1>
+                             </div>
+                        <div class="red-box">
+                            <ul>
+                                <li>Aulas online, em tempo real, com um(a) professor(a) e um(a) monitor(a).</li>
+                                <li>Diversos exercícios “para casa” para praticar e tirar dúvidas.</li>
+                                <li>Projeto de análise de dados para aplicar o conteúdo aprendido.</li>
+                                <li>Construção de portfólio de um projeto de análise de dados.</li>
+                                <li>Gravação das aulas disponíveis por pelo menos 1 ano.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                          <div class="t-item-b">
+                        <img class="p-icon" src="images/pre.svg"/><h1>Pré-requisitos</h1>
+                        </div>
+                        <div class="red-box">
+                            <ul>
+                                <li>Interesse por Ciência de Dados</li>
+                                <li>Noções de sistemas operacionais (Windows ou Linux/Mac)</li>
+                                <li>Conhecimentos básicos de computação: criação de arquivos e pastas, instalação de programas, navegação na internet.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row prof-row"id="professores">
+                <div class="container">
+                         <h1 class="text-center title-r"><span>Professores</span></h1>
+                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="row semi-prof-row">
+                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                            <img class="prof-img" src="images/fernando.jpeg" />
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 prof-item">
+                            <h1>FERNANDO CORRÊA</h1>
+                            <p>Bacharel e mestrando em Estatística pelo IME-USP. Ex-diretor da Associação Brasileira de Jurimetria. Usa R para tudo, mas tem interesse especial em web scraping, visualização de dados e modelagem bayesiana.</p>
+                            <div class="item-redes">
+                                <a href="https://github.com/azeloc" target="_blank"><img src="images/git.svg" /></a>
+                                <a href="https://twitter.com/azeloc" target="_blank"><img src="images/twitter.svg" /></a>
+                                <a href="https://www.linkedin.com/in/fcorrea/" target="_blank"><img src="images/linkedin.svg" /></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                                                                <div class="row semi-prof-row">
+                                                                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                                                                <img class="prof-img" src="images/bea.jpg" />
+                                                                </div>
+                                                                <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 prof-item">
+                                                                <h1>BEATRIZ MILZ</h1>
+                                                                <p>Doutoranda em Ciência Ambiental no IEE-USP, com pesquisa na área da transparência e acesso à informação sobre a gestão da água. É co-organizadora da comunidade R-Ladies São Paulo, e instrutora da Carpentries. Usa o R no dia-a-dia, e se interessa no uso de R para pesquisa reprodutível.
+</p>
+                                                                <div class="item-redes">
+                                                                <a href="
+https://github.com/beatrizmilz" target="_blank"><img src="images/git.svg" /></a>
+                                                                <a href="
+https://twitter.com/BeaMilz" target="_blank"><img src="images/twitter.svg" /></a>
+                                                                <a href="
+https://www.linkedin.com/in/beatrizmilz/" target="_blank"><img src="images/linkedin.svg" /></a>
+                                                                </div>
+                                                                </div>
+                                                                
+                                                                
+                                                                </div>
+                                                                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="row semi-prof-row">
+                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                            <img class="prof-img" src="images/william.png" />
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 prof-item">
+                            <h1>WILLIAM AMORIM</h1>
+                            <p>Doutor em Estatística pelo IME-USP com projeto depesquisa na área de poluição do ar. Trabalhando diaramente com análise de dados e programação em R. Escritor nas horas vagas.</p>
+                            <div class="item-redes">
+                                <a href="#" target="_blank"><img src="images/git.svg" /></a>
+                                <a href="#" target="_blank"><img src="images/twitter.svg" /></a>
+                                <a href="#" target="_blank"><img src="images/linkedin.svg" /></a>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+                
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="row semi-prof-row">
+                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                            <img class="prof-img" src="images/CAIO.png" />
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 prof-item">
+                            <h1>CAIO LENTE</h1>
+                            <p>Mestrando em Ciência da Computação no IME-USP e cientista de dados na Terranova Consultoria. Programador desde os 15 anos, começou a se apaixonar pelo R em 2016 e agora não fala em outra coisa. Metido a designer, maníaco da organização e metade texano</p>
+                            <div class="item-redes">
+                                <a href="#" target="_blank"><img src="images/git.svg" /></a>
+                                <a href="#" target="_blank"><img src="images/twitter.svg" /></a>
+                                <a href="#" target="_blank"><img src="images/linkedin.svg" /></a>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+                
+                </div>
+            </div>
+            <div class="faq"></div>
+            <div class="row faq-row" id="faq">
+                <h1 class="text-center title-r"><span>Perguntas Frequentes - FAQ</span></h1>
+                <div class="container">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                         <div class="black-faq">
+                            <button class="btn-faq-black" data-toggle="collapse"  data-target="#faq-a">
+                                <h1>Posso me inscrever em um único curso?</h1> <h1 class="plus-black">+</h1>
+                             </button>
+                            </div>
+                         <div class="red-border collapse multi-collapse" id="faq-a">
+                                <p>Sim! Basta acessar a página Curso-R.com.br/cursos e se inscrever. Mas ressaltamos que os preços promocionais dessa página só se aplicam aos pacotes completos.</p>
+                             </div>
+                    </div>
+                    
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                         <div class="black-faq">
+                            <button class="btn-faq-black" data-toggle="collapse"  data-target="#faq-b">
+                                <h1>Terei direito ao certificado?</h1></h1> <h1 class="plus-black">+</h1>
+                             </button>
+                            </div>
+                         <div class="red-border collapse multi-collapse" id="faq-b">
+                                <p>  Sim, você receberá o certificado ao final do curso (sujeito à entrega de atividades solicitadas pelos professores), com a carga horária específica delimitada na página do curso. O certificado é individual e terá o mesmo nome que você utilizou na compra.</p>
+                             </div>
+                    </div>
+                    
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                         <div class="black-faq">
+                            <button class="btn-faq-black" data-toggle="collapse"  data-target="#faq-c">
+                                <h1>As aulas são gravadas?</h1> <h1 class="plus-black">+</h1>
+                             </button>
+                            </div>
+                         <div class="red-border collapse multi-collapse" id="faq-c">
+                                <p>  Sim, as aulas são gravadas e disponibilizadas para os alunos inscritos por pelo menos 1 ano.</p>
+                             </div>
+                    </div>
+                       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                         <div class="black-faq">
+                            <button class="btn-faq-black" data-toggle="collapse"  data-target="#faq-d">
+                                <h1>Como eu sei que minha inscrição foi confirmada?	</h1> <h1 class="plus-black">+</h1>
+                             </button>
+                            </div>
+                         <div class="red-border collapse multi-collapse" id="faq-d">
+                                <p>  Após a confirmação da compra, você receberá um e-mail de nossa equipe com a confirmação de sua inscrição, com as informações para entrar na turma pelo google classroom.
+</p>
+                             </div>
+                    </div>
+                       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                         <div class="black-faq">
+                            <button class="btn-faq-black" data-toggle="collapse"  data-target="#faq-e">
+                                <h1>Fiz minha inscrição,mas não recebi o email de confirmação</h1> <h1 class="plus-black">+</h1>
+                             </button>
+                            </div>
+                         <div class="red-border collapse multi-collapse" id="faq-e">
+                                <p>  Caso você não receba email de confirmação antes do curso começar, primeiramente dê uma olhada na sua caixa de spam. Caso não esteja lá, basta nos enviar um e-mail para contato@Curso-R.com.</p>
+                             </div>
+                    </div>
+                       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                         <div class="black-faq">
+                            <button class="btn-faq-black" data-toggle="collapse"  data-target="#faq-f">
+                                <h1>Quanto custam os cursos da Curso-R?	</h1> <h1 class="plus-black">+</h1>
+                             </button>
+                            </div>
+                         <div class="red-border collapse multi-collapse" id="faq-f">
+                                <p>  Depende do curso, todas as informações necessárias para ingressar em qualquer curso da Curso-R pode ser encontrada na sua respectiva página. As trilhas são pacotes promocionais de cursos com grandes descontos. O preço das trilhas pode ser encontrado também nas suas páginas.</p>
+                             </div>
+                    </div>
+                       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                         <div class="black-faq">
+                            <button class="btn-faq-black" data-toggle="collapse"  data-target="#faq-g">
+                                <h1>Quais as formas de pagamento?</h1> <h1 class="plus-black">+</h1>
+                             </button>
+                            </div>
+                         <div class="red-border collapse multi-collapse" id="faq-g">
+                                <p>Nós trabalhamos com cartão de crédito, boleto e transferência bancária.</p>
+                             </div>
+                    </div>
+                       
+                </div>
+            </div>
+            </div><!--REG-ALL-->
+        <!--Pagar me-->  
+      <script>
+    var dados = {
+        amount: {{ .Params.amount }},
+        buttonText: 'Pagar',
+        buttonClass: 'btn-insc',
+        customerData: 'true',
+        createToken: 'true',
+        paymentMethods: 'credit_card, boleto',
+        maxInstallments: 12,
+        interestRate: 0.70,
+        items: [
+          {
+            id: {{ .Params.id }},
+            title: {{ .Params.nome }},
+            unit_price: {{ .Params.amount }},
+            quantity: 1,
+            tangible: true
+          }
+        ],
+        postbackUrl: 'https://pagarme-checkout.curso-r.com/postback',
+        capture: 'true'
+      }
+  
+  
+    var button = document.querySelector('#pagamento');
+
+    // Abrir o modal ao clicar no botão
+    button.addEventListener('click', function() {
+
+      // inicia a instância do checkout
+      var checkout = new PagarMeCheckout.Checkout({
+        encryption_key: 'ek_live_RALOFQpSyLk9NhCBgZa7JrHSyz3hpp',   
+        success: function(data) {
+          console.log(data);
+          axios.get('https://pagarme-checkout.curso-r.com/captura?token=' + data.token + '&cupom=' + document.querySelector('#desconto').value)
+                .then(function (response) {
+                  // handle success
+                  console.log(response);
+                  if (response.data.payment_method == "boleto") {
+                    url = response.data.boleto_url[0];
+                    window.location.href = url; 
+                  };
+                })
+                .catch(function (error) {
+                  // handle error
+                  console.log(error);
+                })
+        },
+        error: function(err) {
+        	console.log(err);
+        },
+        close: function() {
+        	console.log('The modal has been closed.');
+        }
+      });
+      
+      checkout.open(dados);
+      
+    })
+    
+    var desconto = document.querySelector('#enviar-cupom');
+    
+    desconto.addEventListener('click', function() {
+      
+      var cupom  = document.querySelector('#desconto').value
+      
+      axios.get('https://pagarme-checkout.curso-r.com/cupom?id=' + dados.items[0].id + '&cupom=' + cupom)
+                .then(function (response) {
+                  
+                  // manter essa linha p/ mduar o preço do pagarme
+                  dados.amount = response.data.amount
+                
+                  $('#pagamento').text("Inscreva-se com desconto");
+                  
+                  /* botao de enviar cupom */
+                  let botaoEnviarCupom = $('#enviar-cupom');
+                  botaoEnviarCupom.text("Aplicado!");
+                  botaoEnviarCupom.addClass('cupom-success');
+                  botaoEnviarCupom.removeClass('cupom-failure');
+                  
+                  /* texto do preco */
+                  let amount = (response.data.amount/100).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL', minimumFractionDigits: 0 });
+                  $("#valor").text(amount);
+                })
+                .catch(function (error) {
+                  
+                  /* botao de enviar cupom */
+                  let botaoEnviarCupom = $('#enviar-cupom');
+                  botaoEnviarCupom.text("Inválido");
+                  botaoEnviarCupom.removeClass('cupom-success');
+                  botaoEnviarCupom.addClass('cupom-failure');
+                  
+                  /* texto do preco */
+                  $("#valor span:first").removeClass("preco-antigo");
+                  $("#valor span:last").text("");
+                })
+      
+    })
+      
+      </script>
+    </body>
+</html>
