@@ -129,7 +129,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9a1334', end
     font-weight: 700;
     border-radius: 20px;
     border: 1px solid white;
-    margin-left: 25%;
+    margin-left: 8%;
     transition: .7s;
     color: white;
 }
@@ -355,6 +355,15 @@ a, a:visited, a:hover, a:active {
     display: block;
     width: 250px
 }
+
+.t-item i, .t-item-b i {
+  font-size: 35px;
+  margin-right: 10px;
+  top: 8px;
+  position: relative;
+  color: #CC023C;
+}
+
 .t-item-b{
     margin: 0 auto;
     display: block;
@@ -368,6 +377,12 @@ a, a:visited, a:hover, a:active {
     margin-top: 20px;
     min-height: 220px
 }
+
+.red-box a {
+  color: white;
+  text-decoration: underline;
+}
+
 .red-box li{
     margin: 5px 0
 }
