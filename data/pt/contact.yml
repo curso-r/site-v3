@@ -1,31 +1,27 @@
 ############################## Contact #############################
 contact:
   enable : true
-  title : Contact Us
-  subtitle : Contact Details
-  content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, vero, provident, eum eligendi blanditiis ex explicabo vitae nostrum facilis asperiores dolorem illo officiis ratione vel fugiat dicta laboriosam labore adipisci.
+  title : Nosso contato
+  content : Entre em contato para tirar dúvidas sobre os nossos cursos, solicitar propostas para treinamentos in-company e projetos de análise de dados.  Para dúvidas de R e Ciência de Dados, por favor acesse o [nosos fórum](https://discourse.curso-r.com/).
 
   # Contact details
   contact_list:
     - icon : ti-location-pin # themify icon pack : https://themify.me/themify-icons
-      info : "Khaja Road, Bayzid, Chittagong, Bangladesh"
+      info : " Alameda Santos, 2335, conj 131, 01419-101, São Paulo - SP"
       
     - icon : ti-mobile # themify icon pack : https://themify.me/themify-icons
-      info : "Phone: +880-31-000-000"
-      
-    - icon : ti-printer # themify icon pack : https://themify.me/themify-icons
-      info : "Fax: +880-31-000-000"
+      info : "Whatsapp: "
       
     - icon : ti-email # themify icon pack : https://themify.me/themify-icons
-      info : "Email: hello@meghna.com"
+      info : "Email: contato@curso-r.com"
 
 
   # Contact form
   contact_form:
     enable : true
     form_action : "#" #contact form works with https://formspree.io
-    name : "votre nom"
-    email : "Votre email"
-    subject : "Matière"
-    message : "Message"
-    submit : "Soumettre"
+    name : "nome"
+    email : "e-mail"
+    subject : "assunto"
+    message : "mensagem"
+    submit : "Enviar"
