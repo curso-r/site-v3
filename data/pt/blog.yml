@@ -1,0 +1,18 @@
+############################### team ############################
+blog:
+  enable : true
+  posts:
+    - titulo: XADREZ NO R COM O PACOTE {CHESS}
+      image: images/blog/chess.jpg
+      resumo: Um pacote em R para ler, escrever, criar e explorar jogos de xadrez.
+      link: "https://www.curso-r.com/blog/2020-11-25-chess/"
+    
+    - titulo: PREDIÇÕES XGBOOST DIRETAMENTE PELO SQL
+      image: images/blog/xgboost-sql.jpg
+      resumo: Crie um XGBoost no R e use o SQL gerar as predições com o {tidypredict}.
+      link: "https://www.curso-r.com/blog/2020-08-29-xgboost-sql/"
+      
+    - titulo: QUAL A CAPITAL MAIS DISTANTE DE BRASÍLIA?
+      image: images/blog/mundo-conexoes.jpg
+      resumo: Qual é a capital mais distante de Brasília? Tutorial com  direito a gráficos 3D!
+      link: "https://www.curso-r.com/blog/2020-09-19-map-dist/"

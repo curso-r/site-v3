@@ -4,41 +4,55 @@
 {{ with $data.testimonial.testimonial }}
 {{"<!-- Start Testimonial -->" | safeHTML}}
 <section id="testimonial" class="testimonial overly section bg-2"
-	style='background-image: url("{{ .bg_image_webp | absURL }}")'>
+	style='background-color: #292f36;")'>
 	<!-- this image is for trigger this section fallback background image -->
 	<img src="{{ .bg_image_webp | absURL }}" style="display: none;" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .bg_image | absURL }})'">
 	<div class="container">
 		<div class="row">
 			<div class="col-xl-12">
-				{{"<!-- testimonial wrapper -->" | safeHTML}}
-				<div id="testimonials" class="wow fadeInUp" data-wow-duration="500ms" data-wow-delay="100ms">
-					{{ range .testimonial_item }}
-					{{"<!-- testimonial single -->" | safeHTML}}
-					<div class="item text-center">
-
-						{{"<!-- client photo -->" | safeHTML}}
-						<div class="client-thumb">
-							<img class="img-fluid lozad" data-src="{{ .image_webp | absURL }}" onerror="this.onerror=null;this.src='{{ .image | absURL }}'" alt="{{ .name }}">
-						</div>
-
-						{{"<!-- client info -->" | safeHTML}}
-						<div class="client-info">
-							<div class="client-meta">
-								<h3>{{ .name }}</h3>
-								<span>{{ .date }}</span>
-							</div>
-							<div class="client-comment">
-								<p>{{ .content | markdownify }}</p>
-							</div>
-						</div>
-					</div>
-					{{"<!-- /testimonial single -->" | safeHTML}}
-					{{ end }}
-				</div>
+			  <div class="title text-center wow fadeInUp" data-wow-duration="500ms">
+          <h2>{{ with .title }} {{ index (split . " ") 0 | safeHTML }} {{ end }}<span class="color">
+            {{ with .title }} {{ after (len (index (split . " ") 0)) . | safeHTML }} {{ end }}</span></h2>
+          <div class="border-meghna"></div>
+          <p style = "margin-top: 20px; margin-bottom: 0;">Alguns dos nossos clientes nos últimos anos.</p>
+        </div>
 			</div>
 		</div>
 	</div>
 </section>
+{{"<!-- testimonial wrapper -->" | safeHTML}}
+<section class = "clientes testimonial overly section bg-2">
+  <div class="container">
+		<div class="row">
+			<div class="col-xl-12">
+        <div id="testimonials" class="wow fadeInUp" data-wow-duration="500ms" data-wow-delay="100ms">
+      	{{ range .testimonial_item }}
+      	{{"<!-- testimonial single -->" | safeHTML}}
+      	<div class="item text-center">
+      		{{"<!-- client info -->" | safeHTML}}
+      		<div class="client-info">
+      			<div class="client-comment">
+      				<p>{{ .tipo | markdownify }}</p>
+      			</div>
+      		</div>
+      		{{"<!-- client photo -->" | safeHTML}}
+      		<div class="client-thumb">
+      		  {{ range .clientes }}
+      				<img class="img-fluid lozad" data-src="{{ .image | absURL }}" alt="{{ .name }}">
+          {{ end }}
+          </div>
+      	</div>
+      	{{"<!-- /testimonial single -->" | safeHTML}}
+      	{{ end }}
+        </div>
+      </div>
+	  </div>
+  </div>
+</section>
+<section id="testimonial" class="testimonial overly section bg-2"
+	style='background-color: #292f36; padding: 40px 0;")'>
+</section>
+
 {{"<!-- /testimonial -->" | safeHTML}}
 {{ end }}
 {{ end }}

@@ -1,9 +1,9 @@
 - id: blogTitle
-  translation: Dernier message
+  translation: Nosso blog
 - id: readMore
-  translation: Lire la suite
+  translation: Leia mais
 - id: viewAllPost
-  translation: Voir tous les articles
+  translation: Veja todos os posts
 - id: share
   translation: Partager
 - id: aboutAuthor

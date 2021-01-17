@@ -22,7 +22,8 @@ professores:
 ## O amount é o valor do curso x 100
 ## O id está na planilha do pagar.me
 amount: 40000
-id: 48
+id: 47
+
 
 # Descrição do curso
 nome: Introdução à programação com R

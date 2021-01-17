@@ -85,7 +85,7 @@ team:
       image_webp : images/team/julio.webp
       image : images/team/julio.jpg
       designation : Sócio, professor e desenvolvedor
-      content : Faxineiro de dados. Doutorando em Estatística pelo IME-USP. Secretário-geral da Associação Brasileira de Jurimetria (ABJ). Conselheiro do CONFE. Sócio da Terranova Consultoria. Trabalha com web scraping, arrumação de dados, construção de modelos preditivos, APIs e dashboards em Shiny.
+      content : Faxineiro de dados. Doutorando em Estatística pelo IME-USP. Secretário-geral da Assoc. Brasileira de Jurimetria (ABJ). Conselheiro do CONFE. Trabalha com web scraping, arrumação de dados, construção de modelos preditivos, APIs e dashboards em Shiny.
       social :
         - icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
           link : "https://twitter.com/jtrecenti"

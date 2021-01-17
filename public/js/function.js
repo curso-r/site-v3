@@ -11,9 +11,10 @@
 		}
 	});
 });
+
         //ITEM-NAV CURSO
             $(document).ready(function() {
-	var s = $(".curso-all");
+	var s = $(".pre-row");
 	var x = $(".i-curso");
 	var b = $(".i-sobre");
 	var pos = s.position();					   
@@ -31,7 +32,6 @@
       
   //ITEM-NAV CURSO
             $(document).ready(function() {
-	var s = $(".curso-all");
 	var ss = $(".pre-row");
 	var sss = $(".prof-row");
 	var ssss = $(".faq");
@@ -41,19 +41,10 @@
 	var c = $(".i-inst");
 	var d = $(".i-faq");
 
-	var pos = s.position();					   
 	var poss = ss.position();					   
 	var posss = sss.position();					   
 	var possss = ssss.position();					   
 	$(window).scroll(function() {
-		var windowpos = $(window).scrollTop();
-		if (windowpos >= pos.top & windowpos <=20000) {
-			x.addClass("nav-item-active");
-			b.removeClass("nav-item-active");
-		} else {
-			x.removeClass("nav-item-active");
-            b.addClass("nav-item-active");
-		}
 	var windowpos = $(window).scrollTop();
 		if (windowpos >= poss.top & windowpos <=20000) {
 			b.addClass("nav-item-active");

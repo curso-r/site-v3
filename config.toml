@@ -201,7 +201,7 @@ contentDir = "content/portuguese"
 weight = 1
 home = "Home"
 copyright = "&copy; Copyright Curso-R 2021. Todos os direitos reservados."
-ref = "Tema por [Themefisher](https://themefisher.com). Site feito em [Hugo](https://gethugothemes.com)."
+ref = "Tema por [Themefisher](https://themefisher.com). Site feito em [Hugo](https://gohugo.io/) com o pacote [{blogdown}](https://bookdown.org/yihui/blogdown/)."
 
 
 ################################ English Language ########################
@@ -212,5 +212,5 @@ contentDir = "content/english"
 weight = 2
 home = "Home"
 copyright = "Copyright &copy; Curso-R 2021"
-ref = "Theme by [Themefisher](https://themefisher.com). Site built with [Hugo](https://gethugothemes.com)."
+ref = "Theme by [Themefisher](https://themefisher.com). Site built with [Hugo](https://gethugothemes.com) and the package [{blogdown}](https://bookdown.org/yihui/blogdown/)."
 

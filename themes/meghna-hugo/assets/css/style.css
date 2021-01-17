@@ -1096,7 +1096,7 @@ cta
 ==================================================================*/
 .team-member {
   background-color: #292F36;
-  margin-bottom: 10px;
+  margin-bottom: 40px;
 }
 
 .team-member:hover .mask {
@@ -1173,6 +1173,7 @@ cta
 
 .member-meta {
   padding: 15px;
+  min-height: 340px;
 }
 
 .member-meta h4 {
@@ -1187,7 +1188,7 @@ cta
   Testimonial section
 ==================================================================*/
 .testimonial:before {
-  background: rgba(42, 48, 55, 0.7);
+  background: rgba(42, 48, 55, 0);
 }
 
 .client-info {
@@ -1202,15 +1203,30 @@ cta
 }
 
 .client-comment p {
-  color: #afbac4;
+  color: black;
   font-size: 18px;
 }
 
+.clientes {
+  background-color: white;
+  height: auto;
+  margin-top: -130px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  min-height: 250px;
+  /*background: linear-gradient(to right, #292f36 5%, white 30%, white 80%, #292f36 95%, #292f36 100%);*/
+}
+
+.client-thumb {
+  min-height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .client-thumb img {
-  border-radius: 50%;
-  margin: 0 auto;
-  max-width: 115px;
-  width: 100%;
+  max-width: 150px;
+  margin-left: 40px;
 }
 
 .client-meta {
@@ -1300,6 +1316,7 @@ cta
 
 .post-block .content {
   padding: 20px;
+  min-height: 250px;
 }
 
 .post-block .content h3 {
@@ -1311,6 +1328,11 @@ cta
 
 .note .media-wrapper {
   border-bottom: 1px solid #4e595f;
+}
+
+.media-wrapper img {
+  width: 380px;
+  height: 240px;
 }
 
 .note .excerpt h3 {
@@ -1612,7 +1634,7 @@ input#e-mail,
 }
 
 .social-icon ul li a i {
-  color: #55606a;
+  color: #b8c5da;
   display: inline-block;
   font-size: 32px;
   line-height: 70px;

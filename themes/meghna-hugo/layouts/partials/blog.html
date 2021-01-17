@@ -1,4 +1,7 @@
-{{ if gt site.RegularPages 0}}
+{{ $data := index site.Data site.Language.Lang }}
+
+{{ if $data.blog.blog.enable}}
+{{ with $data.blog.blog}}
 {{"<!-- Start Blog Section -->" | safeHTML}}
 <section id="blog" class="section">
 	<div class="container">
@@ -13,15 +16,28 @@
 			</div>
 			{{"<!-- /section title -->" | safeHTML}}
 
-			{{ range first 3 (where site.RegularPages "Section" "==" "blog")}}
-			{{ .Render "article"}}
+			{{ range .posts}}
+			<article class="col-lg-4 col-md-6 col-12 clearfix wow fadeInUp mb-4" data-wow-duration="500ms">
+        <div class="post-block">
+          <div class="media-wrapper">
+            <img class="img-fluid lozad" src ="{{ .image | absURL }}">
+          </div>
+      
+          <div class="content">
+            <h3><a href="{{ .Permalink }}">{{ .titulo }}</a></h3>
+            <p>{{ .resumo }}</p>
+            <a class="btn btn-transparent" href="{{ .link }}" target = "_blank">{{ i18n "readMore" }}</a>
+          </div>
+        </div>
+      </article>
 			{{ end }}
 
 			<div class="all-post text-center col-lg-12">
-				<a class="btn btn-main" href="{{ `blog` | absLangURL }}">{{ i18n "viewAllPost" }}</a>
+				<a class="btn btn-main" href="https://blog.curso-r.com" target = "_blank">{{ i18n "viewAllPost" }}</a>
 			</div>
 		</div>
 	</div>
 </section>
 {{"<!-- /blog -->" | safeHTML}}
+{{ end }}
 {{ end }}

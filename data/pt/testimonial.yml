@@ -1,26 +1,26 @@
 ################################# Testimonial #########################
 testimonial:
   enable : true
-  bg_image : images/backgrounds/bg-testimonial.jpg
-  bg_image_webp : images/backgrounds/bg-testimonial.webp
+  title: Nossos Clientes
+  bg_image : "images/backgrounds/bg-universe.jpg"
+  bg_image_webp : "images/backgrounds/bg-universe.webp"
   testimonial_item :
     # testimonial item loop
-    - name : Jonathon Andrew
-      image : images/client/client-1.jpg
-      image_webp : images/client/client-1.webp
-      date : Dec 26, 2018
-      content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
+    - tipo : Modelagem preditiva
+      clientes:
+        - image : images/clientes/logo-elo.png
+        - image : images/clientes/tesouro-nacional.png
+        - image : images/clientes/logo-gp.png
       
-    # testimonial item loop
-    - name : Mark Dinn
-      image : images/client/client-2.jpg
-      image_webp : images/client/client-2.webp
-      date : Dec 26, 2018
-      content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
-      
-    # testimonial item loop
-    - name : Lemos Kail
-      image : images/client/client-1.jpg
-      image_webp : images/client/client-1.webp
-      date : Dec 26, 2018
-      content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
+    - tipo : Construção de dashboards em Shiny
+      clientes:
+        - image : images/clientes/logo-ias.png
+        - image : images/clientes/logo-sabesp.png
+        - image : images/clientes/logo_hamilton.png
+        
+    - tipo : Treinamento in-company
+      clientes:
+        - image : images/clientes/logo-spc.jpg
+        - image : images/clientes/logo-mateus.png
+        - image: images/clientes/logo-banco-honda.png
+        - image: images/clientes/logo-john-deere.png
