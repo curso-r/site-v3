@@ -16,7 +16,7 @@ portfolio:
       image : images/cursos/r4ds1.jpg
       categories : ["Programação para Ciência de Dados"]
       content : Comece a usar o R nas suas análises de dados.
-      link : "http://cursos.curso-r.com/r4ds1.html"
+      link : "/cursos/r4ds-1/"
       icon : ti-angle-right # themify icon pack : https://themify.me/themify-icons
       
     # portfolio item loop
@@ -24,7 +24,7 @@ portfolio:
       image : images/cursos/r4ds2.jpg
       categories : ["Programação para Ciência de Dados"]
       content : Domine os seus dados e aumente a sua produtividade.
-      link : "http://cursos.curso-r.com/r4ds2.html"
+      link : "/cursos/r4ds-2/"
       icon : ti-angle-double-right # themify icon pack : https://themify.me/themify-icons
       
     # portfolio item loop
@@ -32,7 +32,7 @@ portfolio:
       image : images/cursos/visualizacao.jpg
       categories : ["Visualização"]
       content : Construa gráficos e relatórios para comunicar seus resultados.
-      link : "http://cursos.curso-r.com/visualizacao.html"
+      link : "/cursos/visualizacao/"
       icon : ti-gallery # themify icon pack : https://themify.me/themify-icons
       
     # portfolio item loop
@@ -40,7 +40,7 @@ portfolio:
       image : images/cursos/regressao.jpg
       categories : ["Machine Learning"]
       content : Familiarize-se com os principais conceitos por trás da regressão linear.
-      link : "http://cursos.curso-r.com/regressao.html"
+      link : "/cursos/regressao-linear/"
       icon : ti-pulse # themify icon pack : https://themify.me/themify-icons
       
     # portfolio item loop
@@ -48,7 +48,7 @@ portfolio:
       image : images/cursos/iml.jpg
       categories : ["Machine Learning"]
       content : Aprenda os principais conceitos de Machine Learning utilizando o R como ferramenta.
-      link : "http://cursos.curso-r.com/machine-learning.html"
+      link : "/cursos/intro-machine-learning/"
       icon : ti-panel # themify icon pack : https://themify.me/themify-icons
       
     # portfolio item loop
@@ -56,7 +56,7 @@ portfolio:
       image : images/cursos/dashboards.jpg
       categories : ["Visualização"]
       content : Comunique seus resultados construindo dashboards incríveis a partir do R.
-      link : "http://cursos.curso-r.com/dashboards.html"
+      link : "/cursos/dashboards/"
       icon : ti-layout # themify icon pack : https://themify.me/themify-icons
       
     # portfolio item loop
@@ -64,7 +64,7 @@ portfolio:
       image : images/cursos/deploy.png
       categories : ["Visualização"]
       content : Aprenda a disponibilizar dashboards e o resultado dos seus modelos na Web.
-      link : "http://cursos.curso-r.com/deploy.html"
+      link : "/cursos/deploy/"
       icon : ti-cloud-up # themify icon pack : https://themify.me/themify-icons
       
     # portfolio item loop
@@ -72,7 +72,7 @@ portfolio:
       image : images/cursos/xgboost.jpg
       categories : ["Machine Learning"]
       content : Aprenda a implementar um dos algoritmos de Machine Learning mais utilizados da atualidade.
-      link : "http://cursos.curso-r.com/xgboost.html"
+      link : "/cursos/xgboost/"
       icon : ti-bolt # themify icon pack : https://themify.me/themify-icons
       
     # portfolio item loop
@@ -80,7 +80,7 @@ portfolio:
       image : images/cursos/faxina.jpg
       categories : ["Web scraping"]
       content : Aprenda a arrumar bases bagunçadas com exemplos reais.
-      link : "http://cursos.curso-r.com/faxina.html"
+      link : "/cursos/faxina/"
       icon : ti-brush # themify icon pack : https://themify.me/themify-icons
       
     # portfolio item loop
@@ -88,7 +88,7 @@ portfolio:
       image : images/cursos/web-scraping.jpg
       categories : ["Web scraping"]
       content : Aprenda a coletar dados da internet de forma autônoma e eficiente utilizando o R.
-      link : "http://cursos.curso-r.com/web-scraping.html"
+      link : "/cursos/web-scraping/"
       icon : ti-world # themify icon pack : https://themify.me/themify-icons
       
     # portfolio item loop
@@ -96,23 +96,25 @@ portfolio:
       image : images/cursos/deep-learning.jpg
       categories : ["Machine Learning"]
       content : Aprenda a ajustar modelos de deep learning utilizando o R.
-      link : "http://cursos.curso-r.com/deep-learning.html"
+      link : "/cursos/deep-learning/"
       icon : ti-layers-alt # themify icon pack : https://themify.me/themify-icons
+    
+    # portfolio item loop
+    - name : Pacotes
+      image : images/cursos/pacotes.jpeg
+      categories : ["Programação para Ciência de Dados"]
+      content : Aprendar a criar os seus próprios pacotes de R.
+      link : "/cursos/pacotes/"
+      icon : ti-package # themify icon pack : https://themify.me/themify-icons
       
     # portfolio item loop
     - name : Introdução ao R com C++
       image : images/cursos/rcpp.jpg
       categories : ["Programação para Ciência de Dados"]
       content : Acelere seus scripts integrando o R com o C++.
-      link : "http://cursos.curso-r.com/rcpp.html"
+      link : "/cursos/rcpp/"
       icon : ti-control-forward # themify icon pack : https://themify.me/themify-icons
       
-    # portfolio item loop
-    - name : Pacotes
-      image : images/cursos/pacotes.jpeg
-      categories : ["Programação para Ciência de Dados"]
-      content : Aprendar a criar os seus próprios pacotes de R.
-      link : "http://cursos.curso-r.com/pacotes.html"
-      icon : ti-package # themify icon pack : https://themify.me/themify-icons
+    
       
       

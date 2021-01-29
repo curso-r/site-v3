@@ -42,6 +42,16 @@ pre {
   color: #afbac4;
 }
 
+.post-single-content > p, .post-single-content > ul, .post-single-content > blockquote {
+  color: white;
+}
+
+.post-single-content > h4 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
 /*=================================================================
   Basic Setup
 ==================================================================*/

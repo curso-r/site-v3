@@ -15,18 +15,18 @@
     <body>
         <div class="reg-all">
         <!--home-->
-        <div class="row home-info-row" style = "background:  url({{ .Params.imagem | absURL }}) no-repeat right;">
-            <div class="bg-gradient"></div>     
+        <div class="row home-info-row" style = "background:  url({{ .Params.imagem | absURL }}); background-size: cover;">
+          <div class="bg-gradient"></div> 
             <div class="container">
                 <div class="col-xs-12 col-sm-12 col-md-8 col-lg-7">
                     <div class="local-btn">Curso Online</div>
                     <h1>{{ .Params.nome }}</h1>
-                    <p class="description"> {{ .Params.desc }} </p>
+                    <p class="description"> {{ .Params.desc | markdownify }} </p>
                     <div class="date-cont">
                       <i class="ti-calendar icone"></i>
                       <span>
                          {{if eq .Params.aberto true}}
-                            {{ .Params.data }} 
+                            {{ .Params.data | }} 
                          {{else}}
                             A definir
                          {{end}}
@@ -59,7 +59,7 @@
                             </div>
                             <p style = "margin-top: 20px; color: #CC023C;">Não há turmas abertas para este curso no momento :(</p>
                          {{end}}
-                    <p class="disclaimer">Ao se inscrever no curso, você declara estar de acordo com os nossos <a class="terms" href="#" target="_blank">Termos de uso.</a></p>
+                    <p class="disclaimer">Ao se inscrever no curso, você declara estar de acordo com os nossos <a class="terms" href="{{ `/termos-de-uso` | absURL  }}" target="_blank">Termos de uso.</a></p>
                 </div>
             </div>
         </div>
@@ -72,7 +72,7 @@
                             <li class="nav-item i-como"><a href="#sobre-curso">Sobre o curso</a></li>
                             <li class="nav-item i-inst"><a href="#professores">Instrutores</a></li>
                             <li class="nav-item i-faq"><a href="#faq">FAQ</a></li>
-                            <li class="nav-item i-faq"><a href="{{ `/cursos` | absURL }}">Todos os cursos</a></li>
+                            <li class="nav-item"><a href="{{ `/cursos` | absURL }}">Todos os cursos</a></li>
                         </ul>
                     </div>
                 </div>
@@ -87,7 +87,7 @@
                         <ul>
                           {{ range .Params.habilidades }}
                           <li>
-                            {{ . }}
+                            {{ . | markdownify}}
                           </li>
                           {{ end }}
                         </ul>
@@ -96,11 +96,11 @@
                        <ul>
                           {{ range .Params.ementa }}
                           <li>
-                            {{ .item }}
+                            {{ .item | markdownify }}
                             <ul>
                               {{ range .subitens }}
                               <li>
-                                {{ . }}
+                                {{ . | markdownify}}
                               </li>
                               {{ end }}
                             </ul>
@@ -118,7 +118,7 @@
                                 </div>
                                 <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
                                     <h4 class="bold">Certificado do curso</h4>
-                                    <p>Entrega digital após conclusão</p>
+                                    <p>Entrega por e-mail após conclusão</p>
                                 </div>
                             </div>
                         <div class="row box-r-cont">
@@ -223,6 +223,21 @@
                    {{ end }}
                 </div>
             </div>
+            {{ if .Params.trabalhos }}
+            <div class="row prof-row">
+                <div class="container">
+                    <h1 class="text-center  title-r"><span>Trabalhos entregues neste curso</span></h1>
+                    <p class = "text-center"> Ao final de cada curso, nossas alunas e alunos entregam um trabalho de conclusão. Veja alguns dos trabalhos entregues neste curso.</p>
+                    {{ range .Params.trabalhos }}
+                    <p class = "text-center" style = "margin-top: 30px;">
+                      <a href = "{{ .link }}" target = "_blank">{{ .nome }}</a>
+                    </p>
+                      
+                    {{ end }}
+                  </ul>
+                </div>
+            </div>
+            {{ end }}
             <div class="faq"></div>
             <div class="row faq-row" id="faq">
                 <h1 class="text-center title-r"><span>Perguntas Frequentes - FAQ</span></h1>
@@ -308,6 +323,12 @@
                        
                 </div>
             </div>
+            
+            <div style = "margin-top: 100px;">
+              {{ partial "footer.html" . }}
+            </div>
+            
+
             </div><!--REG-ALL-->
         <!--Pagar me-->  
       <script>

@@ -41,8 +41,6 @@ team:
       social :
         - icon : ti-world # themify icon pack : https://themify.me/themify-icons
           link : "https://lente.dev/"
-        - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
-          link : "https://www.linkedin.com/in/clente"
         - icon : ti-github # themify icon pack : https://themify.me/themify-icons
           link : "https://github.com/clente"
         
