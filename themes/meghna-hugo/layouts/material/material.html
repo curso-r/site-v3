@@ -1,0 +1,59 @@
+{{ define "main" }}
+
+  {{ partial "navigation.html" . }}
+
+  <section id="material" class = "section">
+    <div class="container">
+      <div class="row justify-content-center">
+			  <div class="col-lg-12">
+          <div class="title text-center wow fadeIn" data-wow-duration="1500ms">
+            <h2 style = "text-transform: none;"> 
+              Tutoriais em
+              <span class="color">Português</span>
+            </h2>
+            <div class="border-meghna"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div id="grid" class="container-fluid">
+        <div class="row">
+          <div class="col-md-12">
+            <ul id="hexGrid">
+              {{ range .Params.stickers }}
+                <li class="hex">
+                  <div class="hexIn">
+                    <a class="hexLink" href="{{ .link }}">
+                      <img src='{{ .hex | absURL }}' alt="{{ .nome }}" />
+                    </a>
+                  </div>
+                </li>
+              {{ end }}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="material-cursos" class = "section section-bg">
+    <div class="container">
+      <div class="row justify-content-center">
+			  <div class="col-lg-12">
+          <div class="title text-center wow fadeIn" data-wow-duration="1500ms">
+            <h2 style = "text-transform: none;"> 
+              Material dos
+              <span class="color">Cursos</span>
+            </h2>
+            <div class="border-meghna"></div>
+          </div>
+          {{ partial "material-cursos.html" . }}
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  {{ partial "blog.html" . }}
+
+{{ end }}

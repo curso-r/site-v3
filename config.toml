@@ -24,6 +24,9 @@ link = "plugins/magnific-popup/magnific-popup.css"
 link = "plugins/slick/slick.css"
 [[params.plugins.css]]
 link = "https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700&display=swap"
+[[params.plugins.css]]
+link = "css/hex.css"
+
 
 # js plugins
 [[params.plugins.js]]
@@ -74,8 +77,8 @@ weight = 5
 
 [[Languages.pt.menu.main]]
 name = "Material"
-pre = "#"
-url = "blog"
+pre = ""
+url = "/material"
 weight = 6
 
 [[Languages.pt.menu.main]]

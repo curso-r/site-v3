@@ -10,6 +10,7 @@ portfolio:
       content : O ponto de partida para quem nunca programou.
       link : "/cursos/intro-programacao/"
       icon : ti-shift-right-alt # themify icon pack : https://themify.me/themify-icons
+      material: "https://github.com/curso-r/main-intro-programacao"
       
     # portfolio item loop
     - name : R para Ciência de Dados I
@@ -18,6 +19,7 @@ portfolio:
       content : Comece a usar o R nas suas análises de dados.
       link : "/cursos/r4ds-1/"
       icon : ti-angle-right # themify icon pack : https://themify.me/themify-icons
+      material: "https://github.com/curso-r/main-r4ds-1"
       
     # portfolio item loop
     - name : R para Ciência de Dados II
@@ -26,6 +28,7 @@ portfolio:
       content : Domine os seus dados e aumente a sua produtividade.
       link : "/cursos/r4ds-2/"
       icon : ti-angle-double-right # themify icon pack : https://themify.me/themify-icons
+      material: "https://github.com/curso-r/main-r4ds-2"
       
     # portfolio item loop
     - name : Relatórios e visualização de dados
@@ -34,6 +37,7 @@ portfolio:
       content : Construa gráficos e relatórios para comunicar seus resultados.
       link : "/cursos/visualizacao/"
       icon : ti-gallery # themify icon pack : https://themify.me/themify-icons
+      material: "https://github.com/curso-r/main-visualizacao"
       
     # portfolio item loop
     - name : Regressão linear
@@ -42,6 +46,7 @@ portfolio:
       content : Familiarize-se com os principais conceitos por trás da regressão linear.
       link : "/cursos/regressao-linear/"
       icon : ti-pulse # themify icon pack : https://themify.me/themify-icons
+      material: "https://github.com/curso-r/main-regressao-linear"
       
     # portfolio item loop
     - name : Introdução ao Machine Learning
@@ -50,6 +55,7 @@ portfolio:
       content : Aprenda os principais conceitos de Machine Learning utilizando o R como ferramenta.
       link : "/cursos/intro-machine-learning/"
       icon : ti-panel # themify icon pack : https://themify.me/themify-icons
+      material: "https://github.com/curso-r/main-intro-ml"
       
     # portfolio item loop
     - name : Dashboards
@@ -58,6 +64,7 @@ portfolio:
       content : Comunique seus resultados construindo dashboards incríveis a partir do R.
       link : "/cursos/dashboards/"
       icon : ti-layout # themify icon pack : https://themify.me/themify-icons
+      material: "https://github.com/curso-r/main-dashboards"
       
     # portfolio item loop
     - name : Deploy
@@ -66,6 +73,7 @@ portfolio:
       content : Aprenda a disponibilizar dashboards e o resultado dos seus modelos na Web.
       link : "/cursos/deploy/"
       icon : ti-cloud-up # themify icon pack : https://themify.me/themify-icons
+      material: "https://github.com/curso-r/main-deploy"
       
     # portfolio item loop
     - name : XGBoost
@@ -74,6 +82,7 @@ portfolio:
       content : Aprenda a implementar um dos algoritmos de Machine Learning mais utilizados da atualidade.
       link : "/cursos/xgboost/"
       icon : ti-bolt # themify icon pack : https://themify.me/themify-icons
+      material: "https://github.com/curso-r/main-xgboost"
       
     # portfolio item loop
     - name : Faxina de dados
@@ -82,6 +91,7 @@ portfolio:
       content : Aprenda a arrumar bases bagunçadas com exemplos reais.
       link : "/cursos/faxina/"
       icon : ti-brush # themify icon pack : https://themify.me/themify-icons
+      material: "https://github.com/curso-r/main-faxina"
       
     # portfolio item loop
     - name : Web scraping
@@ -90,6 +100,7 @@ portfolio:
       content : Aprenda a coletar dados da internet de forma autônoma e eficiente utilizando o R.
       link : "/cursos/web-scraping/"
       icon : ti-world # themify icon pack : https://themify.me/themify-icons
+      material: "https://github.com/curso-r/main-web-scraping"
       
     # portfolio item loop
     - name : Deep Learning
@@ -98,6 +109,7 @@ portfolio:
       content : Aprenda a ajustar modelos de deep learning utilizando o R.
       link : "/cursos/deep-learning/"
       icon : ti-layers-alt # themify icon pack : https://themify.me/themify-icons
+      material: "https://github.com/curso-r/main-deep-learning"
     
     # portfolio item loop
     - name : Pacotes
@@ -106,6 +118,7 @@ portfolio:
       content : Aprendar a criar os seus próprios pacotes de R.
       link : "/cursos/pacotes/"
       icon : ti-package # themify icon pack : https://themify.me/themify-icons
+      material: "https://github.com/curso-r/main-pacotes"
       
     # portfolio item loop
     - name : Introdução ao R com C++
@@ -114,6 +127,7 @@ portfolio:
       content : Acelere seus scripts integrando o R com o C++.
       link : "/cursos/rcpp/"
       icon : ti-control-forward # themify icon pack : https://themify.me/themify-icons
+      material: "https://github.com/curso-r/main-rcpp"
       
     
       

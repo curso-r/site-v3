@@ -1,0 +1,30 @@
+---
+stickers:
+  - nome: RStudio
+    hex: images/stickers/RStudio.png
+    link: "https://livro.curso-r.com/2-rstudio.html"
+  - nome: R base
+    hex: images/stickers/r-base.png
+    link: "https://livro.curso-r.com/3-r-base.html"
+  - nome: tidyverse
+    hex: images/stickers/tidyverse.png
+    link: "https://livro.curso-r.com/4-2-tidyverse.html"
+  - nome: readr
+    hex: images/stickers/readr.png
+    link: "https://livro.curso-r.com/5-2-readr.html"
+  - nome: readxl
+    hex: images/stickers/readxl.png
+    link: "https://livro.curso-r.com/5-3-readxl.html"
+  - nome: magrittr
+    hex:  images/stickers/magrittr.png
+    link: "https://livro.curso-r.com/6-pipe.html"
+  - nome: tibble
+    hex:  images/stickers/tibble.png
+    link: "https://livro.curso-r.com/7-1-tibbles.html"
+  - nome: dplyr
+    hex:  images/stickers/dplyr.png
+    link: "https://livro.curso-r.com/7-2-dplyr.html"
+  - nome: tidyr
+    hex:  images/stickers/tidyr.png
+    link: "https://livro.curso-r.com/7-3-tidyr.html"
+---
