@@ -10,7 +10,7 @@ summaryLength = "15"
 # disqus short name
 disqusShortname = "curso-r-com"
 # disable language
-disableLanguages = []
+disableLanguages = ["en"]
 
 ############################# Plugins ##########################
 # css plugins
