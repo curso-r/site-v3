@@ -82,16 +82,18 @@ url = "/material"
 weight = 6
 
 [[Languages.pt.menu.main]]
-name = "Contato"
-pre = "#"
-url = "contact"
+name = "Produtos"
+pre = ""
+url = "/produtos"
 weight = 7
 
 [[Languages.pt.menu.main]]
-name = "Livro"
-pre = ""
-url = "https://livro.curso-r.com/"
+name = "Contato"
+pre = "#"
+url = "contact"
 weight = 8
+
+
 
 ################### English Navigation ########################
 [[Languages.en.menu.main]]

@@ -1,4 +1,15 @@
 ---
+livros:
+  - nome: Ciência de Dados em R
+    img: images/produtos/hex-livro.png
+    link: "https://livro.curso-r.com/"
+    desc: "Explore todas as etapas de uma análise de dados, utilizando o R como ferramenta."
+  - nome: Zen do R
+    img: images/produtos/zen-do-r.png
+    link: "https://curso-r.github.io/zen-do-r/index.html"
+    desc: "Melhore a organização de seus projetos de análise de dados em R."
+  
+
 stickers:
   - nome: RStudio
     hex: images/stickers/RStudio.png
@@ -27,4 +38,5 @@ stickers:
   - nome: tidyr
     hex:  images/stickers/tidyr.png
     link: "https://livro.curso-r.com/7-3-tidyr.html"
+  
 ---
