@@ -28,13 +28,17 @@ pacotes:
     img: images/produtos/kuber.png
     link: "https://curso-r.github.io/kuber/"
     desc: "Utilizando Kubernetes, Docker e Google SDK para paralelizar códigos na nuvem."
-  - nome: wavesurfer
+  - nome: shinyhttr
     img: images/produtos/hex-shinyhttr.png
     link: "https://github.com/curso-r/shinyhttr"
     desc: "Permite que o httr::progress converse com o barra de progresso do shinyWidgets."
   - nome: bltm
     img: images/produtos/bltm.png
     link: "https://curso-r.github.io/bltm/"
-    desc: "Ajusta modelo dinâmico Bayesiano com limiares nos parâmetros (Bayesian Latent Threshold Model) ."
+    desc: "Ajusta modelo dinâmico Bayesiano com limiares nos parâmetros (Bayesian Latent
+  - nome: torchaudio
+    img: images/produtos/hex-torchaudio.png
+    link: "https://curso-r.github.io/torchaudio/"
+    desc: "Interface para R do pytorch/audio."
   
 ---
