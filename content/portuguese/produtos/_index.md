@@ -35,7 +35,7 @@ pacotes:
   - nome: bltm
     img: images/produtos/bltm.png
     link: "https://curso-r.github.io/bltm/"
-    desc: "Ajusta modelo dinâmico Bayesiano com limiares nos parâmetros (Bayesian Latent
+    desc: "Ajusta modelo dinâmico Bayesiano com limiares nos parâmetros (Bayesian Latent Threshold Model)"
   - nome: torchaudio
     img: images/produtos/hex-torchaudio.png
     link: "https://curso-r.github.io/torchaudio/"
