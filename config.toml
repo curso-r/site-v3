@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
 baseURL = "/"
-title = "Curso-R"
+title = "Curso-R | Descomplicando a Ciência de Dados"
 theme = "meghna-hugo"
 defaultContentLanguage = "pt"
 # post pagination
@@ -148,7 +148,7 @@ weight = 8
 [params]
 logo = "images/logo_col_branco.png"
 # Meta data
-description = "Explore o universo da Ciência de Dados"
+description = "A Curso-R é uma empresa de cursos de programação em R e consultoria em ciência de dados. Nossa missão é descomplicar a ciência de dados para a comunidade."
 author = "Curso-R"
 # Google Analytics
 google_analytics_id = "" # Your ID
