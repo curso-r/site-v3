@@ -2,143 +2,143 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Curso-R</title>
-    <link>https://www.curso-r.com/</link>
+    <link>/</link>
     <description>Recent content on Curso-R</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <copyright>&amp;copy; Copyright Curso-R 2021. Todos os direitos reservados.</copyright><atom:link href="https://www.curso-r.com/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>&amp;copy; Copyright Curso-R 2021. Todos os direitos reservados.</copyright><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://www.curso-r.com/cursos/dashboards/</link>
+      <link>/cursos/dashboards/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.curso-r.com/cursos/dashboards/</guid>
+      <guid>/cursos/dashboards/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://www.curso-r.com/cursos/deep-learning/</link>
+      <link>/cursos/deep-learning/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.curso-r.com/cursos/deep-learning/</guid>
+      <guid>/cursos/deep-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://www.curso-r.com/cursos/deploy/</link>
+      <link>/cursos/deploy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.curso-r.com/cursos/deploy/</guid>
+      <guid>/cursos/deploy/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://www.curso-r.com/cursos/faxina/</link>
+      <link>/cursos/faxina/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.curso-r.com/cursos/faxina/</guid>
+      <guid>/cursos/faxina/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://www.curso-r.com/cursos/intro-machine-learning/</link>
+      <link>/cursos/intro-machine-learning/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.curso-r.com/cursos/intro-machine-learning/</guid>
+      <guid>/cursos/intro-machine-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://www.curso-r.com/cursos/intro-programacao/</link>
+      <link>/cursos/intro-programacao/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.curso-r.com/cursos/intro-programacao/</guid>
+      <guid>/cursos/intro-programacao/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://www.curso-r.com/cursos/pacotes/</link>
+      <link>/cursos/pacotes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.curso-r.com/cursos/pacotes/</guid>
+      <guid>/cursos/pacotes/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://www.curso-r.com/cursos/r4ds-1/</link>
+      <link>/cursos/r4ds-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.curso-r.com/cursos/r4ds-1/</guid>
+      <guid>/cursos/r4ds-1/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://www.curso-r.com/cursos/r4ds-2/</link>
+      <link>/cursos/r4ds-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.curso-r.com/cursos/r4ds-2/</guid>
+      <guid>/cursos/r4ds-2/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://www.curso-r.com/cursos/rcpp/</link>
+      <link>/cursos/rcpp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.curso-r.com/cursos/rcpp/</guid>
+      <guid>/cursos/rcpp/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://www.curso-r.com/cursos/regressao-linear/</link>
+      <link>/cursos/regressao-linear/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.curso-r.com/cursos/regressao-linear/</guid>
+      <guid>/cursos/regressao-linear/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://www.curso-r.com/cursos/visualizacao/</link>
+      <link>/cursos/visualizacao/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.curso-r.com/cursos/visualizacao/</guid>
+      <guid>/cursos/visualizacao/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://www.curso-r.com/cursos/web-scraping/</link>
+      <link>/cursos/web-scraping/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.curso-r.com/cursos/web-scraping/</guid>
+      <guid>/cursos/web-scraping/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://www.curso-r.com/cursos/xgboost/</link>
+      <link>/cursos/xgboost/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.curso-r.com/cursos/xgboost/</guid>
+      <guid>/cursos/xgboost/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Termos de Uso</title>
-      <link>https://www.curso-r.com/termos-de-uso/</link>
+      <link>/termos-de-uso/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.curso-r.com/termos-de-uso/</guid>
+      <guid>/termos-de-uso/</guid>
       <description>Última atualização: 27 de agosto de 2020.
  O site Curso-R (o &amp;ldquo;Site&amp;rdquo;), os cursos oferecidos (os &amp;ldquo;Serviços&amp;rdquo;) e o material e conteúdo fornecido pelo Site em conexão com os Serviços são de propriedade, operados e mantidos pela R6 Estatística e Treinamentos Ltda, localizada na Alameda Santos, 2335, CEP: 01419-101, Cerqueira César, São Paulo, SP (&amp;ldquo;nós&amp;rdquo;, &amp;ldquo;nosso&amp;rdquo;, &amp;ldquo;nossa&amp;rdquo;, a &amp;ldquo;Empresa&amp;rdquo; ou &amp;ldquo;R6&amp;rdquo;).</description>
     </item>

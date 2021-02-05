@@ -5,8 +5,8 @@ banner:
   bg_image : "images/backgrounds/hero-area.jpg"
   icon : "" # themify icon pack : https://themify.me/themify-icons
   logo: "../images/logo_col_branco.png"
-  title : "Explore o universo da Ciência de Dados"
-  content : "A missão da Curso-R é descomplicar a Ciência de Dados. Fazemos isso oferecendo cursos ministrados por especialistas e uma extensa variedade de conteúdo open source."
+  title : "Descomplicando a Ciência de Dados"
+  content : "Fazemos isso oferecendo cursos ministrados por especialistas e uma extensa variedade de conteúdo open source. Explore o universo da Ciência de Dados."
   button:
     enable : true
     label : "Inicie a sua jornada"

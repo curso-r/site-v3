@@ -3,87 +3,87 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.curso-r.com/cursos/dashboards/</loc>
+    <loc>/cursos/dashboards/</loc>
   </url>
   
   <url>
-    <loc>https://www.curso-r.com/cursos/deep-learning/</loc>
+    <loc>/cursos/deep-learning/</loc>
   </url>
   
   <url>
-    <loc>https://www.curso-r.com/cursos/deploy/</loc>
+    <loc>/cursos/deploy/</loc>
   </url>
   
   <url>
-    <loc>https://www.curso-r.com/cursos/faxina/</loc>
+    <loc>/cursos/faxina/</loc>
   </url>
   
   <url>
-    <loc>https://www.curso-r.com/cursos/intro-machine-learning/</loc>
+    <loc>/cursos/intro-machine-learning/</loc>
   </url>
   
   <url>
-    <loc>https://www.curso-r.com/cursos/intro-programacao/</loc>
+    <loc>/cursos/intro-programacao/</loc>
   </url>
   
   <url>
-    <loc>https://www.curso-r.com/cursos/pacotes/</loc>
+    <loc>/cursos/pacotes/</loc>
   </url>
   
   <url>
-    <loc>https://www.curso-r.com/cursos/r4ds-1/</loc>
+    <loc>/cursos/r4ds-1/</loc>
   </url>
   
   <url>
-    <loc>https://www.curso-r.com/cursos/r4ds-2/</loc>
+    <loc>/cursos/r4ds-2/</loc>
   </url>
   
   <url>
-    <loc>https://www.curso-r.com/cursos/rcpp/</loc>
+    <loc>/cursos/rcpp/</loc>
   </url>
   
   <url>
-    <loc>https://www.curso-r.com/cursos/regressao-linear/</loc>
+    <loc>/cursos/regressao-linear/</loc>
   </url>
   
   <url>
-    <loc>https://www.curso-r.com/cursos/visualizacao/</loc>
+    <loc>/cursos/visualizacao/</loc>
   </url>
   
   <url>
-    <loc>https://www.curso-r.com/cursos/web-scraping/</loc>
+    <loc>/cursos/web-scraping/</loc>
   </url>
   
   <url>
-    <loc>https://www.curso-r.com/cursos/xgboost/</loc>
+    <loc>/cursos/xgboost/</loc>
   </url>
   
   <url>
-    <loc>https://www.curso-r.com/material/</loc>
+    <loc>/material/</loc>
   </url>
   
   <url>
-    <loc>https://www.curso-r.com/produtos/</loc>
+    <loc>/produtos/</loc>
   </url>
   
   <url>
-    <loc>https://www.curso-r.com/categories/</loc>
+    <loc>/categories/</loc>
   </url>
   
   <url>
-    <loc>https://www.curso-r.com/</loc>
+    <loc>/</loc>
   </url>
   
   <url>
-    <loc>https://www.curso-r.com/cursos/</loc>
+    <loc>/cursos/</loc>
   </url>
   
   <url>
-    <loc>https://www.curso-r.com/tags/</loc>
+    <loc>/tags/</loc>
   </url>
   
   <url>
-    <loc>https://www.curso-r.com/termos-de-uso/</loc>
+    <loc>/termos-de-uso/</loc>
   </url>
   
 </urlset>
