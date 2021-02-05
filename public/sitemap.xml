@@ -1,18 +1,89 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
-  <sitemap>
-    <loc>https://www.curso-r.com/pt/sitemap.xml</loc>
-    
-      <lastmod>2018-09-12T14:51:12+06:00</lastmod>
-    
-  </sitemap>
+  <url>
+    <loc>https://www.curso-r.com/cursos/dashboards/</loc>
+  </url>
   
-  <sitemap>
-    <loc>https://www.curso-r.com/en/sitemap.xml</loc>
-    
-      <lastmod>2018-09-12T14:51:12+06:00</lastmod>
-    
-  </sitemap>
+  <url>
+    <loc>https://www.curso-r.com/cursos/deep-learning/</loc>
+  </url>
   
-</sitemapindex>
+  <url>
+    <loc>https://www.curso-r.com/cursos/deploy/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.curso-r.com/cursos/faxina/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.curso-r.com/cursos/intro-machine-learning/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.curso-r.com/cursos/intro-programacao/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.curso-r.com/cursos/pacotes/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.curso-r.com/cursos/r4ds-1/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.curso-r.com/cursos/r4ds-2/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.curso-r.com/cursos/rcpp/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.curso-r.com/cursos/regressao-linear/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.curso-r.com/cursos/visualizacao/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.curso-r.com/cursos/web-scraping/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.curso-r.com/cursos/xgboost/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.curso-r.com/material/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.curso-r.com/produtos/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.curso-r.com/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.curso-r.com/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.curso-r.com/cursos/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.curso-r.com/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.curso-r.com/termos-de-uso/</loc>
+  </url>
+  
+</urlset>

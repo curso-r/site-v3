@@ -6,87 +6,50 @@
     <description>Recent content on Curso-R</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <copyright>&amp;copy; Copyright Curso-R 2021. Todos os direitos reservados.</copyright>
-    <lastBuildDate>Wed, 12 Sep 2018 14:51:12 +0600</lastBuildDate><atom:link href="https://www.curso-r.com/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>&amp;copy; Copyright Curso-R 2021. Todos os direitos reservados.</copyright><atom:link href="https://www.curso-r.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Are You Doing the Right Way</title>
-      <link>https://www.curso-r.com/blog/simple-blog-post-8/</link>
-      <pubDate>Wed, 12 Sep 2018 14:51:12 +0600</pubDate>
+      <title></title>
+      <link>https://www.curso-r.com/cursos/dashboards/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.curso-r.com/blog/simple-blog-post-8/</guid>
-      <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</description>
+      <guid>https://www.curso-r.com/cursos/dashboards/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>How To Setup Meghna Hugo</title>
-      <link>https://www.curso-r.com/blog/installation/</link>
-      <pubDate>Wed, 12 Sep 2018 14:51:12 +0600</pubDate>
+      <title></title>
+      <link>https://www.curso-r.com/cursos/deep-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.curso-r.com/blog/installation/</guid>
-      <description>Install this template by following those simple steps: STEP-1 : Hugo installation Check this link below for install hugo on your computer.</description>
+      <guid>https://www.curso-r.com/cursos/deep-learning/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Simple Blog Post</title>
-      <link>https://www.curso-r.com/blog/simple-blog-post-1/</link>
-      <pubDate>Wed, 12 Sep 2018 12:52:36 +0600</pubDate>
+      <title></title>
+      <link>https://www.curso-r.com/cursos/deploy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.curso-r.com/blog/simple-blog-post-1/</guid>
-      <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</description>
+      <guid>https://www.curso-r.com/cursos/deploy/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Simple Blog Post</title>
-      <link>https://www.curso-r.com/blog/simple-blog-post-2/</link>
-      <pubDate>Wed, 12 Sep 2018 12:52:36 +0600</pubDate>
+      <title></title>
+      <link>https://www.curso-r.com/cursos/faxina/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.curso-r.com/blog/simple-blog-post-2/</guid>
-      <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</description>
+      <guid>https://www.curso-r.com/cursos/faxina/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Simple Blog Post</title>
-      <link>https://www.curso-r.com/blog/simple-blog-post-3/</link>
-      <pubDate>Wed, 12 Sep 2018 12:52:36 +0600</pubDate>
+      <title></title>
+      <link>https://www.curso-r.com/cursos/intro-machine-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.curso-r.com/blog/simple-blog-post-3/</guid>
-      <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</description>
-    </item>
-    
-    <item>
-      <title>Simple Blog Post</title>
-      <link>https://www.curso-r.com/blog/simple-blog-post-4/</link>
-      <pubDate>Wed, 12 Sep 2018 12:52:36 +0600</pubDate>
-      
-      <guid>https://www.curso-r.com/blog/simple-blog-post-4/</guid>
-      <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</description>
-    </item>
-    
-    <item>
-      <title>Simple Blog Post</title>
-      <link>https://www.curso-r.com/blog/simple-blog-post-5/</link>
-      <pubDate>Wed, 12 Sep 2018 12:52:36 +0600</pubDate>
-      
-      <guid>https://www.curso-r.com/blog/simple-blog-post-5/</guid>
-      <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</description>
-    </item>
-    
-    <item>
-      <title>Simple Blog Post</title>
-      <link>https://www.curso-r.com/blog/simple-blog-post-6/</link>
-      <pubDate>Wed, 12 Sep 2018 12:52:36 +0600</pubDate>
-      
-      <guid>https://www.curso-r.com/blog/simple-blog-post-6/</guid>
-      <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</description>
-    </item>
-    
-    <item>
-      <title>Simple Blog Post</title>
-      <link>https://www.curso-r.com/blog/simple-blog-post-7/</link>
-      <pubDate>Wed, 12 Sep 2018 12:52:36 +0600</pubDate>
-      
-      <guid>https://www.curso-r.com/blog/simple-blog-post-7/</guid>
-      <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</description>
+      <guid>https://www.curso-r.com/cursos/intro-machine-learning/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -99,21 +62,85 @@
     </item>
     
     <item>
-      <title>John Doe</title>
-      <link>https://www.curso-r.com/author/john-doe/</link>
+      <title></title>
+      <link>https://www.curso-r.com/cursos/pacotes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.curso-r.com/author/john-doe/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue. Duis auctor lacus id vehicula gravida.</description>
+      <guid>https://www.curso-r.com/cursos/pacotes/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Mark Dinn</title>
-      <link>https://www.curso-r.com/author/mark-dinn/</link>
+      <title></title>
+      <link>https://www.curso-r.com/cursos/r4ds-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.curso-r.com/author/mark-dinn/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue. Duis auctor lacus id vehicula gravida.</description>
+      <guid>https://www.curso-r.com/cursos/r4ds-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.curso-r.com/cursos/r4ds-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.curso-r.com/cursos/r4ds-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.curso-r.com/cursos/rcpp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.curso-r.com/cursos/rcpp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.curso-r.com/cursos/regressao-linear/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.curso-r.com/cursos/regressao-linear/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.curso-r.com/cursos/visualizacao/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.curso-r.com/cursos/visualizacao/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.curso-r.com/cursos/web-scraping/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.curso-r.com/cursos/web-scraping/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.curso-r.com/cursos/xgboost/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.curso-r.com/cursos/xgboost/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Termos de Uso</title>
+      <link>https://www.curso-r.com/termos-de-uso/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.curso-r.com/termos-de-uso/</guid>
+      <description>Última atualização: 27 de agosto de 2020.
+ O site Curso-R (o &amp;ldquo;Site&amp;rdquo;), os cursos oferecidos (os &amp;ldquo;Serviços&amp;rdquo;) e o material e conteúdo fornecido pelo Site em conexão com os Serviços são de propriedade, operados e mantidos pela R6 Estatística e Treinamentos Ltda, localizada na Alameda Santos, 2335, CEP: 01419-101, Cerqueira César, São Paulo, SP (&amp;ldquo;nós&amp;rdquo;, &amp;ldquo;nosso&amp;rdquo;, &amp;ldquo;nossa&amp;rdquo;, a &amp;ldquo;Empresa&amp;rdquo; ou &amp;ldquo;R6&amp;rdquo;).</description>
     </item>
     
   </channel>

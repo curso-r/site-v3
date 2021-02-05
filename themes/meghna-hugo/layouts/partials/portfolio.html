@@ -1,5 +1,7 @@
 {{ $data := index site.Data site.Language.Lang }}
 
+{{ $cursos := where .Site.Pages "Type" "cursos"}}
+
 {{ if $data.portfolio.portfolio.enable }}
 {{ with $data.portfolio.portfolio }}
 {{"<!-- Portfolio Section -->" | safeHTML}}
@@ -48,6 +50,8 @@
 						<i class="{{ .icon }}"></i>
 					</div>
 					<h3>{{ .name | markdownify }}</h3>
+					{{ $curso := index (where $cursos ".Params.nome" .name) 0 }}
+					<h6>{{ $curso.Params.data }}</h6>
 					<div class="caption">
 						<a class="search-icon" href="{{ .link | safeURL }}">
 							Inscreva-se

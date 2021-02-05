@@ -901,6 +901,11 @@ cta
 /*=================================================================
   Portfolio section
 ==================================================================*/
+
+.portfolio-block h6 {
+  font-weight: bold;
+}
+
 .portfolio-filter {
   margin-bottom: 40px;
   text-align: center;

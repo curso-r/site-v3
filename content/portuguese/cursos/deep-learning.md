@@ -23,7 +23,7 @@ amount: 65000
 id: 43
 
 # Descrição do curso
-nome: Deep learning
+nome: Deep Learning
 
 imagem: images/cursos/deep-learning-large.jpg
 

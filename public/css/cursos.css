@@ -15,6 +15,7 @@
     margin: 0;
     overflow-x: hidden
 }
+
 .home-info-row{
     padding: 40px 0;
     color: white;
@@ -28,7 +29,7 @@ background: -webkit-gradient(to right, black 60%, rgba(0,0,0,0.75) 80%, rgba(0,0
 background: -webkit-linear-gradient(to right, black 60%, rgba(0,0,0,0.75) 80%, rgba(0,0,0,0.2) 100%);
 background: -o-linear-gradient(to right, black 60%, rgba(0,0,0,0.75) 80%, rgba(0,0,0,0.2) 100%);
 background: -ms-linear-gradient(to right, black 60%, rgba(0,0,0,0.75) 80%, rgba(0,0,0,0.2) 100%);
-background: linear-gradient(to right, black 60%, rgba(0,0,0,0.75) 80%, rgba(0,0,0,0.2) 100%);
+background: linear-gradient(to right, black 30%, rgba(0,0,0,0.75) 80%, rgba(0,0,0,0.2) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9a1334', endColorstr='#9a1334', GradientType=1 );
     height: 100%;
     width: 100%;
@@ -534,4 +535,107 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9a1334', end
     }
 }
 
+/*=================================================================
+  Footer section
+==================================================================*/
+.social-icon {
+  padding: 60px 0 35px;
+}
+
+.social-icon ul {
+  text-align: center;
+}
+
+.social-icon ul li {
+  margin-bottom: 4px;
+}
+
+.social-icon ul li a {
+  background-color: #26292e;
+  border: 1px solid transparent;
+  display: block;
+  height: 70px;
+  width: 70px;
+  transition: all 400ms ease-out 0s;
+}
+
+.social-icon ul li a:hover {
+  background: #57cbcc;
+}
+
+.social-icon ul li a:hover i {
+  color: #fff;
+  opacity: 1;
+}
+
+.social-icon ul li a i {
+  color: #b8c5da;
+  display: inline-block;
+  font-size: 32px;
+  line-height: 70px;
+  margin: 0;
+  opacity: 0.3;
+  transition: all 400ms ease-out 0s;
+}
+
+.copyright {
+  padding: 20px 0;
+  color: #fff;
+}
+
+.copyright img {
+  margin-bottom: 15px;
+}
+
+.copyright p {
+  margin-top: 10px;
+}
+
+#scrollUp {
+  border: 1px solid #4e595f;
+  bottom: 15px;
+  color: #fff;
+  display: none;
+  padding: 8px 12px;
+  position: fixed;
+  right: 20px;
+  z-index: 600;
+}
+
+#scrollUp:hover {
+  background-color: #57cbcc;
+  border: 1px solid #57cbcc;
+}
+
+/*=================================================================
+ section
+==================================================================*/
+
+.section {
+  padding: 100px 0;
+}
+
+.section-bg {
+  background: black;
+}
+
+@media (max-width: 480px) {
+  .section {
+    padding: 50px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 80px 0;
+  }
+}
+
+.section-sm {
+  padding: 70px 0;
+}
+
+.section-xs {
+  padding: 50px 0;
+}
 

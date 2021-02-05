@@ -1,0 +1,569 @@
+<html>
+<head>
+    <meta charset="utf-8"/>
+        <meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+        <title>Regressão linear | Curso-R</title>
+    <link rel="shortcut icon" type="image/png" href="https://www.curso-r.com/images/favicon.png"/>
+    <link href="https://www.curso-r.com/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="https://www.curso-r.com/plugins/themify-icons/themify-icons.css" rel="stylesheet" type="text/css">
+    <link href="https://www.curso-r.com/css/cursos.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500,700,900&display=swap" rel="stylesheet">
+    <script src="https://assets.pagar.me/checkout/1.1.0/checkout.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src ="https://assets.pagar.me/checkout/1.1.0//easyXDM.js"></script>
+</head>
+    <body>
+        <div class="reg-all">
+        
+        <div class="row home-info-row" style = "background:  url(https://www.curso-r.com/images/cursos/regressao-large.jpg); background-size: cover;">
+          <div class="bg-gradient"></div> 
+            <div class="container">
+                <div class="col-xs-12 col-sm-12 col-md-8 col-lg-7">
+                    <div class="local-btn">Curso Online</div>
+                    <h1>Regressão linear</h1>
+                    <p class="description"> O objetivo deste curso é apresentar os principais conceitos por trás da regressão linear, discutindo quando é razoável aplicar essa técnica e como ajustá-la utilizando o R. Também vamos abordar interpretação de parâmetros, testes de hipóteses e técnicas para avaliar se nossos modelos estão bem ajustados. </p>
+                    <div class="date-cont">
+                      <i class="ti-calendar icone"></i>
+                      <span>
+                         
+                            13 de março a 27 de março, aos sábados, das 9h00 às 12h00 
+                         
+                        </span>
+                    </div>
+                    
+                    <div class="time-cont">
+                      <i class="ti-time icone"></i>
+                      <span>  3 aulas, 9 horas de curso</span>
+                    </div>
+                    <form class="desc-info">
+                    <input class="text-input" name="desconto" id="desconto" type="text" placeholder="cupom de desconto" maxlength="16"/>
+                    <button  id = "enviar-cupom" class="text-input-btn" type="button">Aplicar</button>
+                    </form>
+                        <div class="row price-row">
+                            <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 price">
+                              <h2 id="valor" style = "margin-top: 10px;">R$400,00</h2>
+                            </div>
+                            
+                             <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+                                <button id = "pagamento" class="btn-insc insc-btn">inscreva-se</button>
+                             </div>
+                             </div>
+                         
+                    <p class="disclaimer">Ao se inscrever no curso, você declara estar de acordo com os nossos <a class="terms" href="https://www.curso-r.com/termos-de-uso" target="_blank">Termos de uso.</a></p>
+                </div>
+            </div>
+        </div>
+           
+            <div class="row nav-cont-row sticker sticker-mob">
+                <div class="container">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 nav-cont">
+                        <ul>
+                            <li class="nav-item i-sobre nav-item-active"><a href="#sobre">Sobre</a></li>
+                            <li class="nav-item i-como"><a href="#sobre-curso">Sobre o curso</a></li>
+                            <li class="nav-item i-inst"><a href="#professores">Instrutores</a></li>
+                            <li class="nav-item i-faq"><a href="#faq">FAQ</a></li>
+                            <li class="nav-item"><a href="https://www.curso-r.com/cursos">Todos os cursos</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+          <div class="row one-row "id="sobre">
+            <div class="container">
+                <div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+                    <h1 class="title-r"><span>Você sairá deste curso apta(o) a:</span></h1>
+                    
+                    <div class="item-skill">
+                        <ul>
+                          
+                          <li>
+                            Implementar modelos de regressão linear no R.
+                          </li>
+                          
+                          <li>
+                            Interpretar e testar hipóteses sobre os parâmetros da regressão.
+                          </li>
+                          
+                          <li>
+                            Avaliar a qualidade e validade dos modelos ajustados.
+                          </li>
+                          
+                        </ul>
+                    </div>
+                    <h1 class="title-r"><span>Ementa do curso</span></h1>
+                       <ul>
+                          
+                          <li>
+                            Introdução
+                            <ul>
+                              
+                              <li>
+                                O que é e quando usar regressão linear
+                              </li>
+                              
+                              <li>
+                                O que são parâmetros e como interpretá-los
+                              </li>
+                              
+                            </ul>
+                          </li>
+                          
+                          <li>
+                            Ajuste
+                            <ul>
+                              
+                              <li>
+                                Implementação de modelos de regressão linear no R
+                              </li>
+                              
+                              <li>
+                                Transformações nas variáveis
+                              </li>
+                              
+                              <li>
+                                Interações de variáveis
+                              </li>
+                              
+                            </ul>
+                          </li>
+                          
+                          <li>
+                            Testando hipóteses
+                            <ul>
+                              
+                              <li>
+                                Construindo intervalos de confiança
+                              </li>
+                              
+                              <li>
+                                Construindo testes de hipóteses
+                              </li>
+                              
+                              <li>
+                                O valor p
+                              </li>
+                              
+                            </ul>
+                          </li>
+                          
+                          <li>
+                            Diagnóstico
+                            <ul>
+                              
+                              <li>
+                                Avaliando as suposições do modelo
+                              </li>
+                              
+                              <li>
+                                Avaliando <em>outliers</em>
+                              </li>
+                              
+                              <li>
+                                Avaliando a qualidade do ajuste
+                              </li>
+                              
+                            </ul>
+                          </li>
+                          
+                        </ul>
+               
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+                    <div class="box-r">
+                               <h1 class="red bold text-center">O que vou receber?</h1>
+                            <div class="row box-r-cont">
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                                  <i class = "ti-layout-cta-center icone"></i>
+                                </div>
+                                <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+                                    <h4 class="bold">Certificado do curso</h4>
+                                    <p>Entrega por e-mail após conclusão</p>
+                                </div>
+                            </div>
+                        <div class="row box-r-cont">
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                                  <i class = "ti-world icone"></i>
+                                </div>
+                                <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+                                    <h4 class="bold">Cursos 100% on-line</h4>
+                                    <p>As aulas são ao vivo, mas ficam gravadas e a disposição por 1 ano</p>
+                                </div>
+                            </div>
+                        <div class="row box-r-cont">
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                                  <i class = "ti-dashboard icone"></i>
+                                </div>
+                                <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+                                    <h4 class="bold">Nível básico</h4>
+                                    
+                                      <p style = "margin-bottom: 0;">Conhecimento prévio recomendado:</p>
+                                      <ul>
+                                        
+                                          <li>
+                                            <a href = "https://www.curso-r.com/cursos/intro-programacao/" target = "_blank">Introdução à programação em R</a>
+                                          </li>
+                                        
+                                      </ul>
+                                    
+                                </div>
+                            </div>
+                        <div class="row box-r-cont">
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                                  <i class = "ti-text icone"></i>
+                                </div>
+                                <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+                                    <h4 class="bold">Português</h4>
+                                    
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                
+              </div>
+            </div>
+            
+            <div class="row pre-row" id="sobre-curso">
+                <div class="container">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="t-item">
+                          <i class = "ti-comments"></i>
+                          <h1>Como será o curso?</h1>
+                        </div>
+                        <div class="red-box">
+                            <ul>
+                              
+                                <li> Aulas online, em tempo real, com um(a) professor(a) e um(a) monitor(a).</li>
+                              
+                                <li> Diversos exercícios “para casa” para praticar e tirar dúvidas.</li>
+                              
+                                <li> Projeto de análise de dados para aplicar o conteúdo aprendido.</li>
+                              
+                                <li> Gravação das aulas disponíveis por pelo menos 1 ano.</li>
+                              
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                          <div class="t-item-b">
+                            <i class = "ti-alert"></i>
+                            <h1>Pré-requisitos</h1>
+                        </div>
+                        <div class="red-box">
+                            <ul>
+                                
+                                  <li> O conteúdo do curso <a href = "https://www.curso-r.com/cursos/intro-programacao/" target = "_blank">Introdução à programação em R</a>. </li>
+                                
+                                
+                                  <li> Interesse por Ciência de Dados. </li>
+                                
+                                  <li> Uma conta de e-mail Google para acessar o Google Classroom. </li>
+                                
+                                  <li> Últimas versões do R e do RStudio instaladas. </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row prof-row"id="professores">
+                <div class="container">
+                  <h1 class="text-center title-r"><span>Professores</span></h1>
+                  
+                  
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                      <div class="row semi-prof-row">
+                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                          <img class="prof-img" src="https://www.curso-r.com/images/team/athos.jpeg" />
+                        </div>
+                         <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 prof-item">
+                           <h1> Athos Damiani </h1>
+                           <p> Bacharel em Estatística pelo IME-USP e mestrando em IA pela Poli-USP. Trabalhou com modelos preditivos, web scraping, visualização e dashboards para ABJ, IBOPE, ClearSale, EDP e Itaú. Se interessa por tudo ligado ao R e à Estatística.</p>
+                           <div class="item-redes">
+                            
+                              <a href="https://www.facebook.com/athos.damiani" target = "_blank"><i class="ti-facebook icone"></i></a>
+                            
+                              <a href="https://twitter.com/athos_damiani" target = "_blank"><i class="ti-twitter-alt icone"></i></a>
+                            
+                              <a href="https://www.linkedin.com/in/athosdamiani/" target = "_blank"><i class="ti-linkedin icone"></i></a>
+                            
+                              <a href="https://github.com/Athospd" target = "_blank"><i class="ti-github icone"></i></a>
+                            
+                           </div>
+                         </div>
+                       </div>
+                     </div>
+                   
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                      <div class="row semi-prof-row">
+                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                          <img class="prof-img" src="https://www.curso-r.com/images/team/william.jpeg" />
+                        </div>
+                         <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 prof-item">
+                           <h1> William Amorim </h1>
+                           <p> Doutor em Estatística pelo IME-USP. Trabalhando diaramente com análise de dados e programação em R. Especialista em criação de dashboards em Shiny.</p>
+                           <div class="item-redes">
+                            
+                              <a href="https://github.com/williamorim" target = "_blank"><i class="ti-github icone"></i></a>
+                            
+                              <a href="https://wamorim.com/" target = "_blank"><i class="ti-world icone"></i></a>
+                            
+                           </div>
+                         </div>
+                       </div>
+                     </div>
+                   
+                </div>
+            </div>
+            
+            <div class="faq"></div>
+            <div class="row faq-row" id="faq">
+                <h1 class="text-center title-r"><span>Perguntas Frequentes - FAQ</span></h1>
+                <div class="container">
+                    
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                         <div class="black-faq">
+                            <button class="btn-faq-black" data-toggle="collapse"  data-target="#faq-b">
+                                <h1>Terei direito ao certificado?</h1> <h1 class="plus-black">+</h1>
+                             </button>
+                            </div>
+                         <div class="red-border collapse multi-collapse" id="faq-b">
+                                <p>  Sim, você receberá o certificado ao final do curso (sujeito à entrega de atividades solicitadas pelos professores), com a carga horária específica delimitada na página do curso. O certificado é individual e terá o mesmo nome que você utilizou na compra.</p>
+                             </div>
+                    </div>
+                    
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                         <div class="black-faq">
+                            <button class="btn-faq-black" data-toggle="collapse"  data-target="#faq-c">
+                                <h1>As aulas são gravadas?</h1> <h1 class="plus-black">+</h1>
+                             </button>
+                            </div>
+                         <div class="red-border collapse multi-collapse" id="faq-c">
+                                <p>  Sim, as aulas são gravadas e disponibilizadas para os alunos inscritos por pelo menos 1 ano.</p>
+                             </div>
+                    </div>
+                       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                         <div class="black-faq">
+                            <button class="btn-faq-black" data-toggle="collapse"  data-target="#faq-d">
+                                <h1>Como eu sei que minha inscrição foi confirmada?	</h1> <h1 class="plus-black">+</h1>
+                             </button>
+                            </div>
+                         <div class="red-border collapse multi-collapse" id="faq-d">
+                                <p>  Após a confirmação da compra, você receberá um e-mail de nossa equipe com a confirmação de sua inscrição, com as informações para entrar na turma pelo google classroom.
+</p>
+                             </div>
+                    </div>
+                       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                         <div class="black-faq">
+                            <button class="btn-faq-black" data-toggle="collapse"  data-target="#faq-e">
+                                <h1>Fiz minha inscrição, mas não recebi o email de confirmação</h1> <h1 class="plus-black">+</h1>
+                             </button>
+                            </div>
+                         <div class="red-border collapse multi-collapse" id="faq-e">
+                                <p>  Caso você não receba email de confirmação antes do curso começar, primeiramente dê uma olhada na sua caixa de spam. Caso não esteja lá, basta nos enviar um e-mail para contato@Curso-R.com.</p>
+                             </div>
+                    </div>
+                       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                         <div class="black-faq">
+                            <button class="btn-faq-black" data-toggle="collapse"  data-target="#faq-f">
+                                <h1>Quanto custam os cursos da Curso-R?	</h1> <h1 class="plus-black">+</h1>
+                             </button>
+                            </div>
+                         <div class="red-border collapse multi-collapse" id="faq-f">
+                                <p>  Depende do curso, todas as informações necessárias para ingressar em qualquer curso da Curso-R pode ser encontrada na sua respectiva página. As trilhas são pacotes promocionais de cursos com grandes descontos. O preço das trilhas pode ser encontrado também nas suas páginas.</p>
+                             </div>
+                    </div>
+                       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                         <div class="black-faq">
+                            <button class="btn-faq-black" data-toggle="collapse"  data-target="#faq-g">
+                                <h1>Quais as formas de pagamento?</h1> <h1 class="plus-black">+</h1>
+                             </button>
+                            </div>
+                         <div class="red-border collapse multi-collapse" id="faq-g">
+                                <p>Nós trabalhamos com cartão de crédito, boleto e transferência bancária.</p>
+                             </div>
+                    </div>
+                    
+                    
+                    
+                    
+                       
+                </div>
+            </div>
+            
+            <div style = "margin-top: 100px;">
+              <!-- end Contact Area -->
+<footer id="footer" class="section-bg">
+	<div class="container">
+		<div class="row wow fadeInUp" data-wow-duration="500ms">
+			<div class="col-xl-12">
+
+				<!-- Footer Social Links -->
+				<div class="social-icon">
+					<ul class="list-inline">
+						
+						<li class="list-inline-item"><a href="https://www.facebook.com/cursodeR/"><i class="ti-facebook"></i></a></li>
+						
+						<li class="list-inline-item"><a href="https://twitter.com/curso_r"><i class="ti-twitter-alt"></i></a></li>
+						
+						<li class="list-inline-item"><a href="https://www.youtube.com/channel/UCTXuqtCYxPVEehq6fJY9GkA"><i class="ti-youtube"></i></a></li>
+						
+						<li class="list-inline-item"><a href="https://br.linkedin.com/company/curso-r"><i class="ti-linkedin"></i></a></li>
+						
+						<li class="list-inline-item"><a href="https://github.com/curso-r"><i class="ti-github"></i></a></li>
+						
+						<li class="list-inline-item"><a href="https://www.instagram.com/cursoo_r/"><i class="ti-instagram"></i></a></li>
+						
+					</ul>
+				</div>
+
+				<!-- copyright -->
+				<div class="copyright text-center">
+					<a href="https://www.curso-r.com/">
+						<img src="https://www.curso-r.com/images/logo_col_branco.png" alt="Curso-R" height="42" />
+					</a>
+					<br>
+					<p>© Copyright Curso-R 2021. Todos os direitos reservados.</p>
+					<p>Tema por <a href="https://themefisher.com">Themefisher</a>. Site feito em <a href="https://gohugo.io/">Hugo</a> com o pacote <a href="https://bookdown.org/yihui/blogdown/">{blogdown}</a>.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- /footer -->
+
+<!-- Google Map API -->
+
+
+<!-- JS Plugins -->
+
+<script src="https://www.curso-r.com/plugins/jquery/jquery.min.js"></script>
+
+<script src="https://www.curso-r.com/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://www.curso-r.com/plugins/slick/slick.min.js"></script>
+
+<script src="https://www.curso-r.com/plugins/shuffle/shuffle.min.js"></script>
+
+<script src="https://www.curso-r.com/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+<script src="https://www.curso-r.com/plugins/lazy-load/lozad.min.js"></script>
+
+<script src="https://www.curso-r.com/plugins/google-map/map.js"></script>
+
+
+<!-- Main Script -->
+
+<script src="https://www.curso-r.com/js/script.min.a04247499d1b47349e9b15e536b4303bff63b1b6b8b5b74605302e956ed68179703fe8d52b0c3b0d9022d056576c679f.js" integrity="sha384-oEJHSZ0bRzSemxXlNrQwO/9jsba4tbdGBTAulW7WgXlwP&#43;jVKww7DZAi0FZXbGef"></script>
+
+
+
+            </div>
+            
+
+            </div>
+          
+      <script>
+    var dados = {
+        amount:  40000 ,
+        buttonText: 'Pagar',
+        buttonClass: 'btn-insc',
+        customerData: 'true',
+        createToken: 'true',
+        paymentMethods: 'credit_card, boleto',
+        maxInstallments: 12,
+        interestRate: 0.70,
+        items: [
+          {
+            id:  52 ,
+            title: "Regressão linear",
+            unit_price:  40000 ,
+            quantity: 1,
+            tangible: true
+          }
+        ],
+        postbackUrl: 'https://pagarme-checkout.curso-r.com/postback',
+        capture: 'true'
+      }
+  
+  
+    var button = document.querySelector('#pagamento');
+
+    
+    button.addEventListener('click', function() {
+
+      
+      var checkout = new PagarMeCheckout.Checkout({
+        encryption_key: 'ek_live_RALOFQpSyLk9NhCBgZa7JrHSyz3hpp',   
+        success: function(data) {
+          console.log(data);
+          axios.get('https://pagarme-checkout.curso-r.com/captura?token=' + data.token + '&cupom=' + document.querySelector('#desconto').value)
+                .then(function (response) {
+                  
+                  console.log(response);
+                  if (response.data.payment_method == "boleto") {
+                    url = response.data.boleto_url[0];
+                    window.location.href = url; 
+                  };
+                })
+                .catch(function (error) {
+                  
+                  console.log(error);
+                })
+        },
+        error: function(err) {
+        	console.log(err);
+        },
+        close: function() {
+        	console.log('The modal has been closed.');
+        }
+      });
+      
+      checkout.open(dados);
+      
+    })
+    
+    var desconto = document.querySelector('#enviar-cupom');
+    
+    desconto.addEventListener('click', function() {
+      
+      var cupom  = document.querySelector('#desconto').value
+      
+      axios.get('https://pagarme-checkout.curso-r.com/cupom?id=' + dados.items[0].id + '&cupom=' + cupom)
+                .then(function (response) {
+                  
+                  
+                  dados.amount = response.data.amount
+                
+                  $('#pagamento').text("Inscreva-se com desconto");
+                  
+                   
+                  let botaoEnviarCupom = $('#enviar-cupom');
+                  botaoEnviarCupom.text("Aplicado!");
+                  botaoEnviarCupom.addClass('cupom-success');
+                  botaoEnviarCupom.removeClass('cupom-failure');
+                  
+                   
+                  let amount = (response.data.amount/100).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL', minimumFractionDigits: 0 });
+                  $("#valor").text(amount);
+                })
+                .catch(function (error) {
+                  
+                   
+                  let botaoEnviarCupom = $('#enviar-cupom');
+                  botaoEnviarCupom.text("Inválido");
+                  botaoEnviarCupom.removeClass('cupom-success');
+                  botaoEnviarCupom.addClass('cupom-failure');
+                  
+                   
+                  $("#valor span:first").removeClass("preco-antigo");
+                  $("#valor span:last").text("");
+                })
+      
+    })
+      </script>
+      <script src="https://www.curso-r.com/js/jquery-3.4.1.min.js" type="text/javascript"></script>
+      <script src="https://www.curso-r.com/js/bootstrap.min.js"  type="text/javascript"></script>
+      <script src="https://www.curso-r.com/js/function.js"  type="text/javascript"></script>
+    </body>
+</html>
