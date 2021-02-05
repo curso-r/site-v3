@@ -74,6 +74,10 @@ pre_requisitos:
   - Uma conta de e-mail Google para acessar o Google Classroom.
   - Últimas versões do R e do RStudio instaladas.
 
+trabalhos:
+  - nome: "Blog dos Trabalhos de Regressão Linear com R"
+    link: "https://curso-r.github.io/trabalhos-regressao-linear/"
+    
 ## id (1, 2, 3, ...), pergunta e resposta
 faq:
   
