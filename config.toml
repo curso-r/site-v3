@@ -1,5 +1,5 @@
 ################################# Default configuration ###################
-baseURL = "https://www.curso-r.com/"
+baseURL = "/"
 title = "Curso-R"
 theme = "meghna-hugo"
 defaultContentLanguage = "pt"
