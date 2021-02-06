@@ -2,3 +2,4 @@
 /blog/* https://blog.curso-r.com/posts/:splat
 /material/* https://livro.curso-r.com/
 /material/ggplot https://livro.curso-r.com/8-graficos.html
+/material/manipulacao https://livro.curso-r.com/7-manipulacao.html
