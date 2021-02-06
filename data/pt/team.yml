@@ -43,7 +43,7 @@ team:
           link : "https://twitter.com/clente_"
         - icon : ti-github # themify icon pack : https://themify.me/themify-icons
           link : "https://github.com/clente"
-          - icon : ti-world # themify icon pack : https://themify.me/themify-icons
+        - icon : ti-world # themify icon pack : https://themify.me/themify-icons
           link : "https://lente.dev/"
         
     # team member loop
