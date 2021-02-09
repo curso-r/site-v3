@@ -39,10 +39,12 @@ team:
       designation : Sócio, professor e desenvolvedor
       content : Mestrando em Ciência da Computação no IME-USP e cientista de dados na Terranova Consultoria. Programador desde os 15 anos, começou a se apaixonar pelo R em 2016 e agora não fala em outra coisa. Metido a designer, maníaco da organização e metade texano.
       social :
-        - icon : ti-world # themify icon pack : https://themify.me/themify-icons
-          link : "https://lente.dev/"
+        - icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
+          link : "https://twitter.com/clente_"
         - icon : ti-github # themify icon pack : https://themify.me/themify-icons
           link : "https://github.com/clente"
+        - icon : ti-world # themify icon pack : https://themify.me/themify-icons
+          link : "https://lente.dev/"
         
     # team member loop
     - name : Daniel Falbel
