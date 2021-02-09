@@ -1,14 +1,12 @@
 ---
 # Dados da próxima turma
-data: 1º de fevereiro a 18 de fevereiro, às segundas e quintas, das 19h00 às 22h00
+data: 7 de junho a 24 de junho, às segundas e quintas, das 19h00 às 22h00
 
-obs_data: não haverá aula na segunda de carnaval
-
-aulas_horas: 5 aulas, 15 horas de curso
+aulas_horas: 6 aulas, 18 horas de curso
 
 local: online
 
-valor: R$400,00
+valor: R$450,00
 
 aberto: true
 
@@ -21,8 +19,8 @@ professores:
 
 ## O amount é o valor do curso x 100
 ## O id está na planilha do pagar.me
-amount: 40000
-id: 47
+amount: 45000
+id: 53
 
 
 # Descrição do curso

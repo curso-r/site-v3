@@ -1,2 +1,3 @@
+/blog https://blog.curso-r.com
 /blog/* https://blog.curso-r.com/posts/:splat
 /material/* https://livro.curso-r.com/
