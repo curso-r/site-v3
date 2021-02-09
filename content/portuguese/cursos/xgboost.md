@@ -13,7 +13,7 @@ aberto: true
 ## Ver arquivo data/pt/team.yml
 professores:
   - Athos Damiani
-  - Daniel Falbel
+  - Fernando Corrêa
 
 # Coisas do pagar.me
 
