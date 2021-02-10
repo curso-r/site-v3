@@ -57,6 +57,16 @@
 	<link rel="icon" href="/images/favicon.png" type="image/x-icon">
 
 	
+	<!-- Global Site Tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-87272102-2"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-87272102-2');
+	</script>
+	
 
 </head>
 
@@ -225,9 +235,9 @@
 <section class="section section-bg about-2 padding-0" id="feature">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-lg-6 padding-0" style="background-image: url('/images/about/code-and-coffee.webp'); background-size: cover; background-position: top center; background-repeat: no-repeat; min-height: 400px;">
+			<div class="col-lg-6 padding-0" style="background-image: url('/images/about/computador-azul.png'); background-size: cover; background-position: top center; background-repeat: no-repeat; min-height: 400px;">
 				
-				<img src="/images/about/code-and-coffee.webp" style="display: none;" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url(\/images\/about\/ccode-and-coffee.jpg)'">
+				<img src="/images/about/computador-azul.png" style="display: none;" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url(\/images\/about\/computador-azul.png)'">
 			</div>
 			<div class="col-lg-6">
 				<div class="content-block">
@@ -1018,9 +1028,11 @@
             <div class="mask">
               <ul class="list-inline">
                 
-                <li class="list-inline-item"><a href="https://lente.dev/" target = "_blank"><i class="ti-world"></i></a></li>
+                <li class="list-inline-item"><a href="https://twitter.com/clente_" target = "_blank"><i class="ti-twitter-alt"></i></a></li>
                 
                 <li class="list-inline-item"><a href="https://github.com/clente" target = "_blank"><i class="ti-github"></i></a></li>
+                
+                <li class="list-inline-item"><a href="https://lente.dev/" target = "_blank"><i class="ti-world"></i></a></li>
                 
               </ul>
             </div>
@@ -1401,7 +1413,7 @@
 			
 			
 			<div class="col-lg-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
-				<form id="contact-form" class="form-meghna" method="post" action="" role="form" name="contact" netlify>
+				<form id="contact-form" class="form-meghna" method="post" action="/form-sent" role="form" name="contact" netlify>
 					<div class="form-group">
 						<input type="text" placeholder="nome" class="form-control" name="name" id="name">
 					</div>

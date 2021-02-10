@@ -6,8 +6,11 @@
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <h2>Página não encontrada</h2>
-				<a class="btn btn-main" href="{{ site.BaseURL | relLangURL }}"><strong>Página principal</strong></a>
+        <h2>{{ .Title }}</h2>
+        <p> {{ .Params.msg }}</p>
+      </div> 
+      <div class="col-12 text-center">
+        <img src = "/{{ .Params.image }}" style = "margin-top: 20px; width: 100%; max-width: 450px;">
       </div>
     </div>
   </div>
