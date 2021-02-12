@@ -1,3 +1,4 @@
+/blog/ https://blog.curso-r.com
 /blog https://blog.curso-r.com
 /blog/* https://blog.curso-r.com/posts/:splat
 /material/api https://livro.curso-r.com/
