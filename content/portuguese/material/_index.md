@@ -26,6 +26,9 @@ stickers:
   - nome: readxl
     hex: images/stickers/readxl.png
     link: "https://livro.curso-r.com/5-3-readxl.html"
+  - nome: haven
+    hex: images/stickers/haven.png
+    link: https://livro.curso-r.com/5-4-haven.html
   - nome: magrittr
     hex:  images/stickers/magrittr.png
     link: "https://livro.curso-r.com/6-pipe.html"
@@ -38,5 +41,8 @@ stickers:
   - nome: tidyr
     hex:  images/stickers/tidyr.png
     link: "https://livro.curso-r.com/7-3-tidyr.html"
+  - nome: ggplot2
+    hex: images/stickers/ggplot2.png
+    link: "https://livro.curso-r.com/8-graficos.html"
   
 ---

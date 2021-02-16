@@ -22,3 +22,10 @@ novos_links <- paste0(
 
 novos_links
 
+
+# materiais ---------------------------------------------------------------
+
+fs::dir_ls("../site-v2/content/material/") %>% 
+  basename() %>% 
+  paste0("/material/", .) %>% 
+  cat(sep = "\n")

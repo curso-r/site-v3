@@ -151,7 +151,7 @@ logo = "images/logo_col_branco.png"
 description = "A Curso-R é uma empresa de cursos de programação em R e consultoria em ciência de dados. Nossa missão é descomplicar a ciência de dados para a comunidade."
 author = "Curso-R"
 # Google Analytics
-google_analytics_id = "" # Your ID
+google_analytics_id = "UA-87272102-2" # Your ID
 # post share
 post_share = true
 

@@ -19,7 +19,7 @@ contact:
   # Contact form
   contact_form:
     enable : true
-    form_action : "" #contact form works with https://formspree.io
+    form_action : "/form-sent" #contact form works with https://formspree.io
     name : "nome"
     email : "e-mail"
     subject : "assunto"
