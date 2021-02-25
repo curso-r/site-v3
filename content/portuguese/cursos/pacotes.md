@@ -42,25 +42,25 @@ habilidades:
   - Implementar rotinas de teste constante dos seus códigos.
 
 ementa:
-  - item: Fundamentos de desenvolvimento de pacotes em R
+  - item: "**Fundamentos de desenvolvimento de pacotes em R**"
     subitens:
     - Git e GitHub
     - O arquivo `DESCRIPTION`
     - Estrutura de pastas e arquivos
     - O pacote `{usethis}`
     - Melhores práticas de desenvolvimento de pacotes
-  - item: Documentação
+  - item: "**Documentação**"
     subitens:
     - Criando bons nomes
     - Documentação de funções
     - Documentação de bases de dados
     - Acentos, encoding e variáveis globais
-  - item: Testes unitários e consistência de código
+  - item: "**Testes unitários e consistência de código**"
     subitens:
     - O pacote `{testthat}`
     - Tipos de testes
     - Passando no `devtools::check()`
-  - item: Disponibilizando seu pacote
+  - item: "**Disponibilizando seu pacote**"
     subitens:
     - Disponibilizando em um repositório
     - Criando um `{pkgdown}`

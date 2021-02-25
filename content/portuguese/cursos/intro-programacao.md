@@ -42,12 +42,12 @@ habilidades:
   - Aprender outras linguagens de programação com maior facilidade.
 
 ementa: 
-  - item: Ambientação ao R e ao RStudio
+  - item: "**Ambientação ao R e ao RStudio**"
     subitens: 
     - Vantagens de usarmos programação para analisar dados
     - O que é e por que usar o RStudio
     - Escrevendo e rodando códigos
-  - item: Introdução à programação em R
+  - item: "**Introdução à programação em R**"
     subitens: 
     - Objetos e vetores
     - "Classes: números, caracteres, lógicos e data frames"
@@ -57,7 +57,7 @@ ementa:
     - Operadores lógicos e aritméticos
     - "Loopings de programação: for e while"
     - O operador pipe (%>%)
-  - item: Programação no dia a dia
+  - item: "**Programação no dia a dia**"
     subitens:
     - Exemplos de scripts reais
     - Usando e instalando pacotes

@@ -42,35 +42,35 @@ habilidades:
   - Produzir relatórios estatísticos automáticos e reprodutíveis.
 
 ementa: 
-  - item: Ambientação ao R e ao RStudio
+  - item: "**Ambientação ao R e ao RStudio**"
     subitens: 
     - Vantagens de usarmos programação para analisar dados
     - O que é e por que usar o RStudio
     - Escrevendo e rodando códigos
-  - item: Introdução à programação em R
+  - item: "**Introdução à programação em R**"
     subitens: 
     - Objetos e vetores
     - "Classes: números, caracteres, lógicos e data frames"
     - Funções e pacotes
     - O operador pipe (%>%)
-  - item: Importação de bases para dentro do R
+  - item: "**Importação de bases para dentro do R**"
     subitens:
     - "Importando arquivos de texto: `.csv` e `.txt`"
     - "Importando arquivos excel: `.xls` e `.xlsx`"
-  - item: Manipulação de bases de dados (o pacote `dplyr`)
+  - item: "**Manipulação de bases de dados (o pacote `dplyr`)**"
     subitens:
     - Selecionando colunas 
     - Filtrando e ordenando linhas
     - Modificando e criando colunas 
     - Criando sumarizações
     - Juntando duas bases
-  - item: Gráficos (o pacote `ggplot2`)
+  - item: "**Gráficos (o pacote `ggplot2`)**"
     subitens:
     - Gráficos de pontos (dispersão)
     - Gráficos de barras
     - Boxplots e histogramas
     - Customizando gráficos
-  - item: Relatórios em R Markdown
+  - item: "**Relatórios em R Markdown**"
     subitens:
     - Introdução ao `R Markdown`
     - Construindo relatórios em HTML, PDF e Word  

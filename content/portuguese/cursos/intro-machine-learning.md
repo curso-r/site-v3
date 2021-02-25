@@ -43,21 +43,21 @@ habilidades:
   - Identificar quando aplicar técnica de *machine learning* no seu negócio.
 
 ementa:
-  - item: O que é Machine Learning
+  - item: "**O que é Machine Learning**"
     subitens:
     - História
     - O que é modelagem preditiva
     - Definições e Nomenclaturas
     - Por que e quando usar
     - Métricas e Funções de Custo
-  - item: Conceitos Centrais
+  - item: "**Conceitos Centrais**"
     subitens:
     - Overfitting
     - Hiperparâmetros
     - Bases de Treino/Teste/Validação
     - Cross-Validation
     - Relação Viés-Variância
-  - item: Modelos de Regressão
+  - item: "**Modelos de Regressão**"
     subitens:
     - Regressão Linar
     - RMSE, MAPE, R2.
@@ -65,7 +65,7 @@ ementa:
     - Estimadores e estimativas
     - Regularização LASSO
     - Principais cuidados com os dados
-  - item: Modelos de Classificação
+  - item: "**Modelos de Classificação**"
     subitens:
     - Regressão Logística
     - Binary Cross-entropy (Deviance)
@@ -73,14 +73,14 @@ ementa:
     - Matriz de Confusão
     - Curva ROC
     - Acurácia, recall, precisão, F1, AUROC.
-  - item: Modelos de Árvores
+  - item: "**Modelos de Árvores**"
     subitens:
     - Árvores de decisão
     - GINI e Entropia
     - Ganho de Informação
     - Random Forest
     - Gradient Boosting (XGBoost)
-  - item: Tidymodels
+  - item: "**Tidymodels**"
     subitens:
     - O que é
     - Como usar no R
