@@ -1,6 +1,6 @@
 ---
 # Dados da próxima turma
-data: 21 de junho a 7 de julho, às segundas e quintas, das 19h00 às 22h00
+data: 21 de junho a 8 de julho, às segundas e quintas, das 19h00 às 22h00
 
 aulas_horas: 6 aulas, 18 horas de curso
 
@@ -45,33 +45,33 @@ habilidades:
   - Identificar a forma mais eficiente de implementar soluções para raspar sites complexos.
 
 ementa:
-  - item: Introdução
+  - item: "**Introdução**"
     subitens:
     - O que é e quando fazer web scraping
     - O ciclo do web scraping
     - Utilizando o Inspetor do navegador
-  - item: Utilizando APIs
+  - item: "**Utilizando APIs**"
     subitens:
     - Acessando dados de APIs
     - APIs escondidas em sites
     - APIs com autenticação simples
     - Acessar APIs com OAuth2
-  - item: Baixando dados em HTML ou XML
+  - item: "**Baixando dados em HTML ou XML**"
     subitens:
     - Imitando a requisição do inspetor
     - O pacote httr
     - Requisições GET e POST
-  - item: Construindo um parser
+  - item: "**Construindo um parser**"
     subitens:
     - O pacote xml2
     - Introdução ao XPath
     - Estruturando os dados brutos
-  - item: Aprimorando seu algoritmo
+  - item: "**Aprimorando seu algoritmo**"
     subitens:
     - Como iterar algoritmos no R
     - Tratamento de erros
     - Paralelização
-  - item: Raspagem de páginas complexas
+  - item: "**Raspagem de páginas complexas**"
     subitens:
     - View states
     - Páginas dinâmicas com Selenium

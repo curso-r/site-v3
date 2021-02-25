@@ -46,7 +46,7 @@ habilidades:
   - Garantir que seus relatórios são reprodutíveis.
 
 ementa: 
-  - item: "Visualização de dados: ggplot2 pronto para publicação"
+  - item: "**Visualização de dados: ggplot2 pronto para publicação**"
     subitens: 
     - Boas práticas para construção de gráficos
     - Customização dos elementos gráficos
@@ -54,12 +54,12 @@ ementa:
     - Construindo mapas com o `geom_sf()`
     - Extensões do pacote `{ggplot2}`
     - Construindo seu próprio tema no `{ggplot2}`
-  - item: R Markdown e seus outputs
+  - item: "**R Markdown e seus outputs**"
     subitens: 
     - Customização de relatórios em Word
     - CSS básico para Rmarkdown
     - Customização de relatórios em PPT
-  - item: Canivete suíço de visualização
+  - item: "**Canivete suíço de visualização**"
     subitens:
     - "Dashboards estáticos: O pacote `{flexdashboard}`"
     - "Apresentações impressionantes: O pacote `{xaringan}`"

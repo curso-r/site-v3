@@ -43,16 +43,16 @@ habilidades:
 - Ajustar modelos de deep learning utilizando o R.
 
 ementa:
-- item: Introdução
+- item: "**Introdução**"
   subitens:
   - O que é e quando utilizar Deep Learning
   - O que são redes neurais profundas
-- item: Ajuste
+- item: "**Ajuste**"
   subitens:
   - Ajustando modelos de deep learning no R
   - O pacote `keras`
   - Técnicas de regularização
-- item: Arquiteturas
+- item: "**Arquiteturas**"
   subitens:
   - Redes neurais recorrentes (RNN)
   - Redes neurais convolucionais (CNN)

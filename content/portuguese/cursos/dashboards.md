@@ -45,28 +45,28 @@ habilidades:
   - Usar o pacote `auth0` para criar dashboards com autenticação;
 
 ementa:
-  - item: Introdução ao Shiny
+  - item: "**Introdução ao Shiny**"
     subitens:
     - Dashboards estáticos e dinâmicos
     - O que é o Shiny?
     - UI e server
     - Inputs e Outputs
-  - item: Reatividade
+  - item: "**Reatividade**"
     subitens:
     - Valores reativos e funções reativas
     - Construindo UIs reativas
     - Construindo filtros hierárquicos
-  - item: Layout
+  - item: "**Layout**"
     subitens:
     - Costumizando a aparência do dashboard
     - O pacote `shinydasboard`
     - O pacote `bs4Dash`
-  - item: htmlwidgets
+  - item: "**htmlwidgets**"
     subitens:
     - Tabelas com `reactable`
     - Gráficos com `plotly`
     - Mapas com `leaflet`
-  - item: Deploy
+  - item: "**Deploy**"
     subitens:
     - Hospedando um app no `shinyapps.io`
     - Como colocar senha no seu dashboard com o `auth0`

@@ -7,19 +7,19 @@ service:
     - name : Programação para Ciência de Dados
       content : A caixa de ferremantas essencial para cientista de dados.
       bgimage: images/trilhas/programacao.jpg
-      link: https://trilhas.curso-r.com/programacao
+      link: /trilhas/programacao
       
     - name : Visualização
       content : Impressione com apresentações, relatórios e dashboards incríveis.
       bgimage: images/trilhas/visualizacao.jpg
-      link: https://trilhas.curso-r.com/visualizacao
+      link: /trilhas/visualizacao
       
     - name : Machine Learning
       content : Inicie sua carreira em modelagem estatística e Machine Learning.
       bgimage: images/trilhas/machine-learning.jpg
-      link: https://trilhas.curso-r.com/modelagem.html
+      link: /trilhas/modelagem
       
     - name : Web scraping
       content : Adicione ao seu repertório essa importante habilidade do cientista de dados moderno.
       bgimage: images/trilhas/web-scraping.jpg
-      link: https://trilhas.curso-r.com/ws.html
+      link: /trilhas/ws

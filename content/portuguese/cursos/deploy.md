@@ -46,21 +46,21 @@ habilidades:
 - Disponibilizar uma API e um shiny na internet.
 
 ementa:
-  - item: Introdução
+  - item: "**Introdução**"
     subitens:
     - O que é deploy (implantação)
-  - item: APIs
+  - item: "**APIs**"
     subitens:
     - O que é uma API
     - O pacote `{plumber}`
-  - item: Containers 
+  - item: "**Containers**" 
     subitens:
     - O que é uma máquina virtual
     - O que é `docker`
     - Como empacotar um dashboard
     - O pacote `{golem}`
     - Como automatizar um deploy com `docker`
-  - item: GitHub Actions
+  - item: "**GitHub Actions**"
     
 como_sera: 
   - Aulas online, em tempo real, com um(a) professor(a) e um(a) monitor(a).

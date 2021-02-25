@@ -44,12 +44,12 @@ habilidades:
   - Substituir loopings em for e while pelas maravilhosas funções do pacote purrr.
 
 ementa: 
-  - item: Organização de projetos
+  - item: "**Organização de projetos**"
     subitens: 
     - Por que não usar `.RData` e `.Rhistory`
     - Git e Github
     - Funções e dependências
-  - item: Manipulação de dados
+  - item: "**Manipulação de dados**"
     subitens: 
     - "`{dplyr} 1.0`: `across()`, `where()`"
     - "Mais verbos de manipulação: o pacote `tidyr`"
@@ -57,7 +57,7 @@ ementa:
     - Manipulação de textos com o pacote `{stringr}`
     - Manipulação de datas com o pacote `{lubridate}`
     - Manipulação de fatores com o pacote `{forcats}`
-  - item: Programação funcional
+  - item: "**Programação funcional**"
     subitens:
     - Listas e list-columns
     - Introdução ao pacote `{purrr}`

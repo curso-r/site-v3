@@ -43,21 +43,21 @@ habilidades:
   - Avaliar a qualidade e validade dos modelos ajustados.
 
 ementa: 
-  - item: Introdução
+  - item: "**Introdução**"
     subitens: 
     - O que é e quando usar regressão linear
     - O que são parâmetros e como interpretá-los
-  - item: Ajuste
+  - item: "**Ajuste**"
     subitens: 
     - Implementação de modelos de regressão linear no R
     - Transformações nas variáveis
     - Interações de variáveis
-  - item: Testando hipóteses
+  - item: "**Testando hipóteses**"
     subitens:
     - Construindo intervalos de confiança
     - Construindo testes de hipóteses
     - O valor p
-  - item: Diagnóstico
+  - item: "**Diagnóstico**"
     subitens:
     - Avaliando as suposições do modelo
     - Avaliando *outliers*
