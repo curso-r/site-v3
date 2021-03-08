@@ -1,6 +1,6 @@
 ---
 # Dados da próxima turma
-data: 22 de fevereiro a 15 de março, às segundas e quintas, das 19h00 às 22h00
+data: 28 de junho a 19 de julho, às segundas e quintas, das 19h00 às 22h00
 
 aulas_horas: 7 aulas, 21 horas de curso
 
@@ -20,7 +20,7 @@ professores:
 ## O amount é o valor do curso x 100
 ## O id está na planilha do pagar.me
 amount: 60000
-id: 36
+id: 54
 
 
 # Descrição do curso
