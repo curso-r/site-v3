@@ -41,6 +41,15 @@ stickers:
   - nome: tidyr
     hex:  images/stickers/tidyr.png
     link: "https://livro.curso-r.com/7-3-tidyr.html"
+  - nome: stringr
+    hex:  images/stickers/stringr.png
+    link: https://livro.curso-r.com/7-4-o-pacote-stringr.html
+  - nome: lubridate
+    hex:  images/stickers/lubridate.png
+    link: https://livro.curso-r.com/7-5-o-pacote-lubridate.html
+  - nome: forcats
+    hex:  images/stickers/forcats.png
+    link: https://livro.curso-r.com/7-6-forcats.html
   - nome: ggplot2
     hex: images/stickers/ggplot2.png
     link: "https://livro.curso-r.com/8-graficos.html"
