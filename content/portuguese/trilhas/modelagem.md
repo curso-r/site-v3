@@ -1,28 +1,29 @@
 ---
 # Dados da próxima turma
-data: 13 de março à 29 de julho, com aulas às segundas, quintas e sábados
+data: 31 de julho a 16 de dezembro, com aulas às segundas, quintas e sábados
 
 aulas_horas: 20 aulas, 60 horas de curso
 
 local: online
 
-valor_antigo: R$2200,00
-valor: R$1980,00
+valor_antigo: R$2300,00
+valor: R$2070,00
 
 aberto: true
 
 ## Ver arquivo data/pt/team.yml
 professores:
-  - Athos Damiani
   - Daniel Falbel
   - Fernando Corrêa
+  - Julio Trecenti
+  - William Amorim
 
 # Coisas do pagar.me
 
 ## O amount é o valor do curso x 100
 ## O id está na planilha do pagar.me
-amount: 198000
-id: 49
+amount: 207000
+id: 62
 
 
 # Descrição da trilha
@@ -36,7 +37,7 @@ nivel: intermediário
 
 ## nome e link
 cursos_recomendados:
-  - nome:  R para Ciência de Dados 1
+  - nome:  R para Ciência de Dados I
     link: "https://www.curso-r.com/cursos/r4ds-1/"
 
 habilidades:
@@ -74,19 +75,19 @@ faq:
 cursos:
   - abrev: "regressao-linear"
     nome: Regressão linear
-    data:  13, 20 e 27 de março, três sábados, das 9h00 às 12h00
+    data:  31 de julho, 7 e 14 de agosto, três sábados, das 9h00 às 12h00
     horas_aula: 3 aulas, 9 horas de curso
   - abrev: "intro-machine-learning"
     nome: Introdução ao Machine Learning
-    data: 26 de abril a 20 de maio, às segundas e quintas, das 19h00 às 22h00
+    data: 30 de agosto a 27 de setembro, às segundas e quintas, das 19h00 às 22h00
     horas_aula: 8 aulas, 24 horas de curso
   - abrev: xgboost
     nome: XGBoost
-    data: 12, 19 e 26 de junho, três sábados, das 9h00 às 12h00
+    data: 6, 13 e 20 de novembro, três sábados, das 9h00 às 12h00
     horas_aula: 3 aulas, 9 horas de curso
   - abrev: "deep-learning"
     nome: Deep Learning
-    data:  12 a 29 de julho, às segundas e quintas, das 19h00 às 22h00
+    data:  29 de novembro a 16 de dezembro, às segundas e quintas, das 19h00 às 22h00
     horas_aula: 6 aulas, 18 horas de curso
   
 ---
