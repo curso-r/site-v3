@@ -87,11 +87,11 @@ cursos:
     horas_aula: 4 aulas, 12 horas de curso
   - abrev: dashboards
     nome: Dashboards
-    data: 24 de maio a 17 de junho, às segundas e quintas, das 19h00 às 22h00
+    data: 30 de setembro a 25 de outubro, às segundas e quintas, das 19h00 às 22h00
     horas_aula: 7 aulas, 21 horas de curso
   - abrev: deploy
     nome: Deploy
-    data: 17 de julho e 24 de julho, dois sábados, das 9h00 às 13h00
+    data: 27 de novembro e 04 de dezembro, dois sábados, das 9h00 às 13h00
     horas_aula: 2 aulas, 8 horas de curso
   
 ---
