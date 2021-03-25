@@ -1,13 +1,13 @@
 ---
 # Dados da próxima turma
-data: 18 de março à 24 de julho, com aulas às segundas, quintas e sábados
+data: 22 de julho à 04 de dezembro, com aulas às segundas, quintas e sábados
 
 aulas_horas: 13 aulas, 41 horas de curso
 
 local: online
 
-valor_antigo: R$1500,00
-valor: R$1350,00
+valor_antigo: R$1650,00
+valor: R$1485,00
 
 aberto: true
 
@@ -23,8 +23,8 @@ professores:
 
 ## O amount é o valor do curso x 100
 ## O id está na planilha do pagar.me
-amount: 135000
-id: 51
+amount: 148500
+id: 66
 
 
 # Descrição da trilha
@@ -83,7 +83,7 @@ faq:
 cursos:
   - abrev: visualizacao
     nome: Relatórios e visualização de dados
-    data: 18 de março a 29 de março, às segundas e quintas, das 19h00 às 22h00
+    data: 22 de julho a 05 de agosto, às segundas e quintas, das 19h00 às 22h00
     horas_aula: 4 aulas, 12 horas de curso
   - abrev: dashboards
     nome: Dashboards
