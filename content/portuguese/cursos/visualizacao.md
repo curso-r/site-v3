@@ -1,12 +1,12 @@
 ---
 # Dados da próxima turma
-data: 18 de março a 29 de março, às segundas e quintas, das 19h00 às 22h00
+data: 22 de julho a 05 de agosto, às segundas e quintas, das 19h00 às 22h00
 
 aulas_horas: 4 aulas, 12 horas de curso
 
 local: online
 
-valor: R$450,00
+valor: R$500,00
 
 aberto: true
 
@@ -19,8 +19,8 @@ professores:
 
 ## O amount é o valor do curso x 100
 ## O id está na planilha do pagar.me
-amount: 45000
-id: 45
+amount: 50000
+id: 63
 
 
 # Descrição do curso
