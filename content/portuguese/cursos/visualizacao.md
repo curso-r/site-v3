@@ -2,7 +2,7 @@
 # Dados da próxima turma
 data: 22 de julho a 05 de agosto, às segundas e quintas, das 19h00 às 22h00
 
-aulas_horas: 4 aulas, 12 horas de curso
+aulas_horas: 5 aulas, 15 horas de curso
 
 local: online
 
