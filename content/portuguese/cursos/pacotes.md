@@ -1,6 +1,6 @@
 ---
 # Dados da próxima turma
-data: 17 e 24 de abril, sábados, das 9h00 às 13h00
+data: 21 e 28 de agosto, sábados, das 9h00 às 13h00
 
 aulas_horas: 2 aulas, 8 horas de curso
 
@@ -20,7 +20,7 @@ professores:
 ## O amount é o valor do curso x 100
 ## O id está na planilha do pagar.me
 amount: 40000
-id: 44
+id: 56
 
 # Descrição do curso
 nome: Pacotes
