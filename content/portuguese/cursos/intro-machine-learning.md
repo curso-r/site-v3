@@ -1,26 +1,26 @@
 ---
 # Dados da próxima turma
-data: 26 de abril a 20 de maio, às segundas e quintas, das 19h00 às 22h00
+data: 30 de agosto a 27 de setembro, às segundas e quintas, das 19h00 às 22h00
 
 aulas_horas: 8 aulas, 24 horas de curso
 
 local: online
 
-valor: R$650,00
+valor: R$700,00
 
 aberto: true
 
 ## Ver arquivo data/pt/team.yml
 professores:
-  - Athos Damiani
+  - Daniel Falbel
   - Fernando Corrêa
 
 # Coisas do pagar.me
 
 ## O amount é o valor do curso x 100
 ## O id está na planilha do pagar.me
-amount: 65000
-id: 38
+amount: 70000
+id: 59
 
 
 # Descrição do curso
