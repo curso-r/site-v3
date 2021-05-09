@@ -101,8 +101,12 @@ team:
       designation : Sócio, professor e cientista de dados
       content : Doutor em Estatística pelo IME-USP. Trabalhando diaramente com análise de dados e programação em R. Especialista em criação de dashboards em Shiny.
       social :
-        - icon : ti-github # themify icon pack : https://themify.me/themify-icons
+        - icon : ti-twitter-alt
+          link : "https://twitter.com/wamorim_"
+        - icon : ti-linkedin 
+          link : "https://www.linkedin.com/in/william-amorim-796798210/"
+        - icon : ti-github
           link : "https://github.com/williamorim"
-        - icon : ti-world # themify icon pack : https://themify.me/themify-icons
+        - icon : ti-world
           link : "https://wamorim.com/"
       
