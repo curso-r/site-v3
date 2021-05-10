@@ -1,6 +1,6 @@
 ---
 # Dados da próxima turma
-data: 07 de junho à 26 de agosto, às segundas e quintas, das 19h00 às 20h00 + duas aulas especiais de 4h nos dias 21 e 28 de agosto
+data: 07 de junho à 26 de agosto, às segundas e quintas, das 19h00 às 22h00 + duas aulas especiais de 4h nos dias 21 e 28 de agosto
 
 aulas_horas: 21 aulas, 65 horas de curso
 
