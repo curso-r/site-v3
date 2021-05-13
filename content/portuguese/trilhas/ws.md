@@ -6,8 +6,8 @@ aulas_horas: 9 aulas, 30 horas de curso
 
 local: online
 
-valor_antigo: R$950,00
-valor: R$855,00
+valor_antigo: R$1050,00
+valor: R$945,00
 
 aberto: true
 
@@ -21,8 +21,8 @@ professores:
 
 ## O amount é o valor do curso x 100
 ## O id está na planilha do pagar.me
-amount: 85500
-id: 50
+amount: 94500
+id: 69
 
 
 # Descrição da trilha
@@ -70,11 +70,11 @@ faq:
 cursos:
   - abrev: faxina
     nome: Faxina de dados
-    data: 08 e 15 e 22 de maio, três sábados, das 9h00 às 13h00
+    data: 18 de setembro, 25 de setembro e 02 de outubro, três sábados, das 9h00 às 13h00
     horas_aula: 3 aulas, 12 horas de curso
   - abrev: "web-scraping"
     nome: Web scraping
-    data: 21 de junho a 08 de julho, às segundas e quintas, das 19h00 às 22h00
+    data: 4 de novembro a 25 de novembro, às segundas e quintas, das 19h00 às 22h00
     horas_aula: 6 aulas, 18 horas de curso
   
 ---
