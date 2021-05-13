@@ -19,8 +19,8 @@ professores:
 
 ## O amount é o valor do curso x 100
 ## O id está na planilha do pagar.me
-amount: 40000
-id: 46
+amount: 45000
+id: 67
 
 
 # Descrição do curso
