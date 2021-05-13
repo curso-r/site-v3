@@ -1,6 +1,6 @@
 ---
 # Dados da próxima turma
-data: 08 de maio à 07 de julho, com aulas às segundas, quintas e sábados
+data: 18 de setembro à 25 de novembro, com aulas às segundas, quintas e sábados
 
 aulas_horas: 9 aulas, 30 horas de curso
 
