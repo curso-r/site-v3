@@ -1,12 +1,12 @@
 ---
 # Dados da próxima turma
-data: 8 de maio a 22 de maio, 3 sábados, das 9h00 às 13h00
+data: 18 de setembro a 02 de outubro, 3 sábados, das 9h00 às 13h00
 
 aulas_horas: 3 aulas, 12 horas de curso
 
 local: online
 
-valor: R$400,00
+valor: R$450,00
 
 aberto: true
 
