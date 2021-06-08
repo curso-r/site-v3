@@ -344,7 +344,7 @@
         items: [
           {
             id: {{ .Params.id }},
-            title: {{ .Params.nome }}+"|"+document.querySelector('#desconto').value,
+            title: {{ .Params.nome }},
             unit_price: {{ .Params.amount }},
             quantity: 1,
             tangible: true
@@ -359,6 +359,8 @@
 
     // Abrir o modal ao clicar no botão
     button.addEventListener('click', function() {
+      
+      dados.items[0].title = dados.items[0].title+"|"+document.querySelector('#desconto').value
 
       // inicia a instância do checkout
       var checkout = new PagarMeCheckout.Checkout({
