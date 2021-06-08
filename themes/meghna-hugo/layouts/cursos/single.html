@@ -337,7 +337,6 @@
         buttonText: 'Pagar',
         buttonClass: 'btn-insc',
         customerData: 'true',
-        desconto: document.querySelector('#desconto').value,
         createToken: 'true',
         paymentMethods: 'credit_card, boleto',
         maxInstallments: 12,
@@ -345,7 +344,7 @@
         items: [
           {
             id: {{ .Params.id }},
-            title: {{ .Params.nome }},
+            title: {{ .Params.nome }}+"|"+document.querySelector('#desconto').value,
             unit_price: {{ .Params.amount }},
             quantity: 1,
             tangible: true
