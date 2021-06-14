@@ -1,14 +1,14 @@
 ---
 # Dados da próxima turma
-data: 24 de maio a 17 de junho, às segundas e quintas, das 19h00 às 22h00 
+data: 30 de setembro a 25 de outubro, às segundas e quintas, das 19h00 às 22h00 
 
-obs_data: não haverá aula no feriado
+obs_data: não haverá aula no dia 11 de outubro
 
 aulas_horas: 7 aulas, 21 horas de curso
 
 local: online
 
-valor: R$600,00
+valor: R$650,00
 
 aberto: true
 
@@ -21,8 +21,8 @@ professores:
 
 ## O amount é o valor do curso x 100
 ## O id está na planilha do pagar.me
-amount: 60000
-id: 39
+amount: 65000
+id: 64
 
 
 # Descrição do curso
