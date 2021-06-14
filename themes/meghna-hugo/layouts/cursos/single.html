@@ -337,7 +337,6 @@
         buttonText: 'Pagar',
         buttonClass: 'btn-insc',
         customerData: 'true',
-        desconto: document.querySelector('#desconto').value,
         createToken: 'true',
         paymentMethods: 'credit_card, boleto',
         maxInstallments: 12,
@@ -360,6 +359,8 @@
 
     // Abrir o modal ao clicar no botão
     button.addEventListener('click', function() {
+      
+      dados.items[0].title = dados.items[0].title+"|"+document.querySelector('#desconto').value
 
       // inicia a instância do checkout
       var checkout = new PagarMeCheckout.Checkout({
