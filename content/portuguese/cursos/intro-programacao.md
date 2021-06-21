@@ -1,6 +1,6 @@
 ---
 # Dados da próxima turma
-data: 7 de junho a 24 de junho, às segundas e quintas, das 19h00 às 22h00
+data: A definir
 
 aulas_horas: 6 aulas, 18 horas de curso
 
@@ -20,7 +20,7 @@ professores:
 ## O amount é o valor do curso x 100
 ## O id está na planilha do pagar.me
 amount: 45000
-id: 53
+id: 
 
 
 # Descrição do curso
