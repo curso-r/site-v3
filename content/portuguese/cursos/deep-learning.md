@@ -20,7 +20,7 @@ professores:
 ## O amount é o valor do curso x 100
 ## O id está na planilha do pagar.me
 amount: 65000
-id: 43
+id: 41
 
 # Descrição do curso
 nome: Deep Learning
