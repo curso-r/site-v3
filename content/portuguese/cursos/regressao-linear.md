@@ -12,8 +12,8 @@ aberto: true
 
 ## Ver arquivo data/pt/team.yml
 professores:
+  - Athos Damiani
   - Fernando Corrêa
-  - William Amorim
 
 # Coisas do pagar.me
 
