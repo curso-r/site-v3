@@ -9,7 +9,7 @@ local: online
 valor_antigo: R$2000,00
 valor: R$1800,00
 
-aberto: true
+aberto: false
 
 ## Ver arquivo data/pt/team.yml
 professores:
@@ -23,7 +23,7 @@ professores:
 ## O amount é o valor do curso x 100
 ## O id está na planilha do pagar.me
 amount: 180000
-id: 57
+id: 
 
 
 # Descrição da trilha
