@@ -15,7 +15,7 @@ aberto: true
 professores:
   - Daniel Falbel
   - Fernando Corrêa
-  - Julio Trecenti
+  - Athos Damiani
   - William Amorim
 
 # Coisas do pagar.me
