@@ -1,6 +1,6 @@
 ---
 # Dados da próxima turma
-data: 28 de junho a 19 de julho, às segundas e quintas, das 19h00 às 22h00
+data:
 
 aulas_horas: 7 aulas, 21 horas de curso
 
