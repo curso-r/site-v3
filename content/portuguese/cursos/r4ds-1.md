@@ -1,6 +1,6 @@
 ---
 # Dados da próxima turma
-data:
+data: A definir
 
 aulas_horas: 7 aulas, 21 horas de curso
 
