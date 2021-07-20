@@ -1,12 +1,12 @@
 ---
 # Dados da próxima turma
-data: 12 de junho a 26 de junho, três sábados, das 9h00 às 12h00
+data: 06 de novembro a 20 de novembro, três sábados, das 9h00 às 12h00
 
 aulas_horas: 3 aulas, 9 horas de curso
 
 local: online
 
-valor: R$450,00
+valor: R$500,00
 
 aberto: true
 
