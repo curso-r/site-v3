@@ -1,12 +1,12 @@
 ---
 # Dados da próxima turma
-data: 17 de julho e 24 de julho, dois sábados, das 9h00 às 13h00
+data: 27 de novembro e 04 de dezembro, sábados, das 9h00 às 13h00
 
 aulas_horas: 2 aulas, 8 horas de curso
 
 local: online
 
-valor: R$450,00
+valor: R$500,00
 
 aberto: true
 
@@ -20,7 +20,7 @@ professores:
 ## O amount é o valor do curso x 100
 ## O id está na planilha do pagar.me
 amount: 45000
-id: 42
+id: 65
 
 
 # Descrição do curso
