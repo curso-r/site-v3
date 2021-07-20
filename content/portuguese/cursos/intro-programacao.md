@@ -1,6 +1,6 @@
 ---
 # Dados da próxima turma
-data: A definir
+data: 9 a 27 de setembro, às segundas e quintas, das 19h00 às 22h00
 
 aulas_horas: 6 aulas, 18 horas de curso
 
@@ -13,14 +13,14 @@ aberto: true
 ## Ver arquivo data/pt/team.yml
 professores:
   - Fernando Corrêa
-  - Beatriz Milz
+  - William Amorim
 
 # Coisas do pagar.me
 
 ## O amount é o valor do curso x 100
 ## O id está na planilha do pagar.me
 amount: 45000
-id: 
+id: 70
 
 
 # Descrição do curso

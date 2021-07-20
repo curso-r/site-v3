@@ -1,6 +1,6 @@
 ---
 # Dados da próxima turma
-data:
+data: 4 a 28 de outubro, às segundas e quintas, das 19h00 às 22h00
 
 aulas_horas: 7 aulas, 21 horas de curso
 
@@ -8,7 +8,7 @@ local: online
 
 valor: R$600,00
 
-aberto: false
+aberto: true
 
 ## Ver arquivo data/pt/team.yml
 professores:
@@ -20,7 +20,7 @@ professores:
 ## O amount é o valor do curso x 100
 ## O id está na planilha do pagar.me
 amount: 60000
-id: 54
+id: 71
 
 
 # Descrição do curso

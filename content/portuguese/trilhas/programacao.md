@@ -1,15 +1,15 @@
 ---
 # Dados da próxima turma
-data: 07 de junho à 26 de agosto, às segundas e quintas, das 19h00 às 22h00 + duas aulas especiais de 4h nos dias 21 e 28 de agosto
+data: 09 de setembro à 13 de dezembro. Todas as aulas acontecem às segundas e quintas, das 19h00 às 22h00
 
-aulas_horas: 21 aulas, 65 horas de curso
+aulas_horas: 22 aulas, 66 horas de curso
 
 local: online
 
 valor_antigo: R$2000,00
 valor: R$1800,00
 
-aberto: false
+aberto: true
 
 ## Ver arquivo data/pt/team.yml
 professores:
@@ -23,7 +23,7 @@ professores:
 ## O amount é o valor do curso x 100
 ## O id está na planilha do pagar.me
 amount: 180000
-id: 
+id: 74
 
 
 # Descrição da trilha
@@ -73,20 +73,20 @@ faq:
 cursos:
   - abrev: intro-programacao
     nome: Introdução à programação com R
-    data: 7 de junho a 24 de junho, às segundas e quintas, das 19h00 às 22h00
+    data: 9 a 27 de setembro, às segundas e quintas, das 19h00 às 22h00
     horas_aula: 6 aulas, 18 horas de curso
   - abrev: r4ds-1
     nome: R para Ciência de Dados I
-    data: 28 de junho a 19 de julho, às segundas e quintas, das 19h00 às 22h00
+    data: 4 a 28 de outubro, às segundas e quintas, das 19h00 às 22h00
     horas_aula: 7 aulas, 21 horas de curso
   - abrev: r4ds-2
     nome: R para Ciência de Dados II
-    data: 9 a 26 de agosto, às segundas e quintas, das 19h00 às 22h00
+    data: 4 a 25 de novembro, às segundas e quintas, das 19h00 às 22h00
     horas_aula: 6 aulas, 18 horas de curso
   - abrev: pacotes
     nome: Pacotes
-    data: 21 e 28 de agosto, aos sábados, das 9h00 às 13h00
-    horas_aula: 2 aulas, 8 horas de curso
+    data: 9 a 13 de dezembro, às segundas e quintas, das 19h00 às 22h00
+    horas_aula: 3 aulas, 9 horas de curso
   
 ---
 
