@@ -2,6 +2,8 @@
 # Dados da próxima turma
 data: 4 a 28 de outubro, às segundas e quintas, das 19h00 às 22h00
 
+obs_data: não haverá aula no dia 11 de outubro
+
 aulas_horas: 7 aulas, 21 horas de curso
 
 local: online
