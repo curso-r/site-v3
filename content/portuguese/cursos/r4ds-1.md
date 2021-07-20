@@ -14,8 +14,8 @@ aberto: true
 
 ## Ver arquivo data/pt/team.yml
 professores:
-  - Fernando Correa
-  - William Amorim
+  - Beatriz Milz
+  - Fernando Corrêa
 
 # Coisas do pagar.me
 
