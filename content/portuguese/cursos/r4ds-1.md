@@ -1,7 +1,6 @@
 ---
 # Dados da próxima turma
 data: 4 a 28 de outubro, às segundas e quintas, das 19h00 às 22h00
-=======
 
 aulas_horas: 7 aulas, 21 horas de curso
 
