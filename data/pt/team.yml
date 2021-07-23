@@ -99,7 +99,7 @@ team:
       image_webp : images/team/william.webp
       image : images/team/william.jpeg
       designation : Sócio, professor e cientista de dados
-      content : Doutor em Estatística pelo IME-USP. Trabalhando diaramente com análise de dados e programação em R. Especialista em criação de dashboards em Shiny.
+      content : Doutor em Estatística pelo IME-USP. Trabalhando diariamente com análise de dados e programação em R. Especialista em criação de dashboards em Shiny.
       social :
         - icon : ti-twitter-alt
           link : "https://twitter.com/wamorim_"
