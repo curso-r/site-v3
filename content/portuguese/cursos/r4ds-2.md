@@ -2,7 +2,7 @@
 # Dados da próxima turma
 data: 9 de agosto a 26 de agosto, às segundas e quintas, das 19h00 às 22h00
 
-obs_data: não haverá aula no dia 15 de novembro
+obs_data: # não haverá aula no dia 15 de novembro
 
 aulas_horas: 6 aulas, 18 horas de curso
 
