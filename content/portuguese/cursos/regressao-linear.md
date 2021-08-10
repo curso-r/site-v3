@@ -1,6 +1,6 @@
 ---
 # Dados da próxima turma
-data: 31 de julho, 7 e 14 de agosto, três sábados, das 9h00 às 12h00
+data: A definir
 
 aulas_horas: 3 aulas, 9 horas de curso
 
@@ -8,7 +8,7 @@ local: online
 
 valor: R$450,00
 
-aberto: true
+aberto: false
 
 ## Ver arquivo data/pt/team.yml
 professores:
@@ -20,7 +20,7 @@ professores:
 ## O amount é o valor do curso x 100
 ## O id está na planilha do pagar.me
 amount: 45000
-id: 58
+id: 
 
 
 # Descrição do curso
