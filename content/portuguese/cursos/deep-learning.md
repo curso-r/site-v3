@@ -1,6 +1,6 @@
 ---
 # Dados da próxima turma
-data: 12 de julho a 29 de julho, às segundas e quintas, das 19h00 às 22h00
+data: 29 de novembro a 16 de dezembro, às segundas e quintas, das 19h00 às 22h00
 
 aulas_horas: 6 aulas, 18 horas de curso
 
@@ -20,7 +20,7 @@ professores:
 ## O amount é o valor do curso x 100
 ## O id está na planilha do pagar.me
 amount: 65000
-id: 41
+id: 61
 
 # Descrição do curso
 nome: Deep Learning
