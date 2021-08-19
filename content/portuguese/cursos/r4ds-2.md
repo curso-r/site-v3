@@ -1,6 +1,6 @@
 ---
 # Dados da próxima turma
-data: 9 de agosto a 26 de agosto, às segundas e quintas, das 19h00 às 22h00
+data: A definir
 
 obs_data: # não haverá aula no dia 15 de novembro
 
@@ -10,7 +10,7 @@ local: online
 
 valor: R$550,00
 
-aberto: true
+aberto: false
 
 ## Ver arquivo data/pt/team.yml
 professores:
