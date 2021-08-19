@@ -1,6 +1,6 @@
 ---
 # Dados da próxima turma
-data: 22 de julho à 04 de dezembro, com aulas às segundas, quintas e sábados
+data: A definir
 
 aulas_horas: 13 aulas, 41 horas de curso
 
@@ -9,7 +9,7 @@ local: online
 valor_antigo: R$1650,00
 valor: R$1485,00
 
-aberto: true
+aberto: false
 
 ## Ver arquivo data/pt/team.yml
 professores:
