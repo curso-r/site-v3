@@ -1,6 +1,6 @@
 ---
 # Dados da próxima turma
-data: 22 de julho a 05 de agosto, às segundas e quintas, das 19h00 às 22h00
+data: A definir
 
 aulas_horas: 5 aulas, 15 horas de curso
 
@@ -8,7 +8,7 @@ local: online
 
 valor: R$500,00
 
-aberto: true
+aberto: false
 
 ## Ver arquivo data/pt/team.yml
 professores:
