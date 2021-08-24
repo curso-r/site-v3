@@ -85,7 +85,7 @@ cursos:
     horas_aula: 6 aulas, 18 horas de curso
   - abrev: pacotes
     nome: Pacotes
-    data: 9 a 13 de dezembro, às segundas e quintas, das 19h00 às 22h00
+    data: 6 a 13 de dezembro, às segundas e quintas, das 19h00 às 22h00
     horas_aula: 3 aulas, 9 horas de curso
   
 ---
