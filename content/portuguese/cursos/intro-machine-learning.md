@@ -1,6 +1,6 @@
 ---
 # Dados da próxima turma
-data: 30 de agosto a 27 de setembro, às segundas e quintas, das 19h00 às 22h00
+data: A definir
 
 aulas_horas: 8 aulas, 24 horas de curso
 
