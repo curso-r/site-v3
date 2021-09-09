@@ -8,7 +8,7 @@ local: online
 
 valor: R$700,00
 
-aberto: true
+aberto: false
 
 ## Ver arquivo data/pt/team.yml
 professores:
