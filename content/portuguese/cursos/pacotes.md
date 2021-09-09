@@ -1,8 +1,8 @@
 ---
 # Dados da próxima turma
-data: 21 e 28 de agosto, sábados, das 9h00 às 13h00
+data: 06 a 13 de dezembro, segundas e quintas, das 19h00 às 22h00
 
-aulas_horas: 2 aulas, 8 horas de curso
+aulas_horas: 3 aulas, 9 horas de curso
 
 local: online
 
@@ -20,7 +20,7 @@ professores:
 ## O amount é o valor do curso x 100
 ## O id está na planilha do pagar.me
 amount: 40000
-id: 56
+id: 73
 
 # Descrição do curso
 nome: Pacotes
