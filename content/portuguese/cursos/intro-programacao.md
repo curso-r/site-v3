@@ -1,6 +1,6 @@
 ---
 # Dados da próxima turma
-data: 9 a 27 de setembro, às segundas e quintas, das 19h00 às 22h00
+data: A definir
 
 aulas_horas: 6 aulas, 18 horas de curso
 
@@ -8,7 +8,7 @@ local: online
 
 valor: R$450,00
 
-aberto: true
+aberto: FALSE
 
 ## Ver arquivo data/pt/team.yml
 professores:
