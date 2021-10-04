@@ -12,7 +12,7 @@ aberto: true
 
 ## Ver arquivo data/pt/team.yml
 professores:
-  - Caio Lente
+  - Fernando Corrêa
   - Julio Trecenti
 
 # Coisas do pagar.me
