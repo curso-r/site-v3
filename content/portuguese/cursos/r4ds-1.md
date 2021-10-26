@@ -1,6 +1,6 @@
 ---
 # Dados da próxima turma
-data: 4 a 28 de outubro, às segundas e quintas, das 19h00 às 22h00
+data: A definir
 
 obs_data: não haverá aula no dia 11 de outubro
 
@@ -10,7 +10,7 @@ local: online
 
 valor: R$600,00
 
-aberto: true
+aberto: false
 
 ## Ver arquivo data/pt/team.yml
 professores:
