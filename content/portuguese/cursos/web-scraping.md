@@ -20,7 +20,7 @@ professores:
 ## O amount é o valor do curso x 100
 ## O id está na planilha do pagar.me
 amount: 60000
-id: 69
+id: 68
 
 # Descrição do curso
 nome: Web scraping
