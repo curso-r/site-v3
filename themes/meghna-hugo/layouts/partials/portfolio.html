@@ -51,7 +51,6 @@
 					</div>
 					<h3>{{ .name | markdownify }}</h3>
 					{{ $curso := index (where $cursos ".Params.nome" .name) 0 }}
-					<h6>{{ $curso.Params.data }}</h6>
 					<div class="caption">
 						<a class="search-icon" href="{{ .link | safeURL }}">
 							Inscreva-se

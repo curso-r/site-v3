@@ -52,48 +52,52 @@ url = "about"
 weight = 1
 
 [[Languages.pt.menu.main]]
+name = "Loja"
+pre = ""
+url = "https://loja.curso-r.com"
+weight = 2
+
+[[Languages.pt.menu.main]]
 name = "Trilhas"
 pre = "#"
 url = "services"
-weight = 2
+weight = 3
 
 [[Languages.pt.menu.main]]
 name = "Cursos"
 pre = "#"
 url = "portfolio"
-weight = 3
+weight = 4
 
 [[Languages.pt.menu.main]]
 name = "Equipe"
 pre = "#"
 url = "team"
-weight = 4
+weight = 5
 
 [[Languages.pt.menu.main]]
 name = "Blog"
 pre = "#"
 url = "blog"
-weight = 5
+weight = 6
 
 [[Languages.pt.menu.main]]
 name = "Material"
 pre = ""
 url = "/material"
-weight = 6
+weight = 7
 
 [[Languages.pt.menu.main]]
 name = "Produtos"
 pre = ""
 url = "/produtos"
-weight = 7
+weight = 8
 
 [[Languages.pt.menu.main]]
 name = "Contato"
 pre = "#"
 url = "contact"
-weight = 8
-
-
+weight = 9
 
 ################### English Navigation ########################
 [[Languages.en.menu.main]]
@@ -103,46 +107,52 @@ url = "about"
 weight = 1
 
 [[Languages.en.menu.main]]
+name = "store"
+pre = "#"
+url = "store"
+weight = 2
+
+[[Languages.en.menu.main]]
 name = "services"
 pre = "#"
 url = "services"
-weight = 2
+weight = 3
 
 [[Languages.en.menu.main]]
 name = "Courses"
 pre = "#"
 url = "portfolio"
-weight = 3
+weight = 4
 
 [[Languages.en.menu.main]]
 name = "Team"
 pre = "#"
 url = "team"
-weight = 4
+weight = 5
 
 [[Languages.en.menu.main]]
 name = "Blog"
 pre = "#"
 url = "blog"
-weight = 5
+weight = 6
 
 [[Languages.en.menu.main]]
 name = "Material"
 pre = "#"
 url = "blog"
-weight = 6
+weight = 7
 
 [[Languages.en.menu.main]]
 name = "Contact"
 pre = "#"
 url = "contact"
-weight = 7
+weight = 8
 
 [[Languages.en.menu.main]]
 name = "Book"
 pre = ""
 url = "https://livro.curso-r.com/"
-weight = 8
+weight = 9
 
 ############################# Default Parameters ##########################
 [params]

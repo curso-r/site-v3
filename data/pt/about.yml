@@ -6,7 +6,7 @@ about:
   - icon : ti-book # themify icon pack : https://themify.me/themify-icons
     title : Cursos
     content : Formamos profissionais nas mais diversas tarefas da Ciência de Dados. Escolha uma trilha e inicie essa nova jornada com a gente.
-    link : /cursos/
+    link : "https://loja.curso-r.com"
 
   - icon : ti-bar-chart # themify icon pack : https://themify.me/themify-icons
     title : Consultoria
