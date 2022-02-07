@@ -135,7 +135,7 @@ portfolio:
       content : Aprenda a coletar dados da internet de forma autônoma e eficiente utilizando o R.
       link : "https://loja.curso-r.com/web-scraping.html"
       icon : ti-world # themify icon pack : https://themify.me/themify-icons
-      material: "https://curso-r.github.io/main-faxina/"
+      material: "https://curso-r.github.io/main-web-scraping/"
     
       
     # portfolio item loop
