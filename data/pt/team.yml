@@ -97,7 +97,7 @@ team:
      # team member loop
     - name : William Amorim
       image_webp : images/team/william.webp
-      image : images/team/william.jpeg
+      image : images/team/william.jpg
       designation : Sócio, professor e cientista de dados
       content : Doutor em Estatística pelo IME-USP. Trabalhando diariamente com análise de dados e programação em R. Especialista em criação de dashboards em Shiny.
       social :
