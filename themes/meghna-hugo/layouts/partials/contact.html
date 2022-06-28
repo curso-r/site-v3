@@ -20,6 +20,8 @@
 			<div class="contact-info col-lg-6 wow fadeInUp" data-wow-duration="500ms">
 				<h3>{{ .subtitle | markdownify }}</h3>
 				<p> {{ .content | markdownify }} </p>
+				
+				<p style = "color: white;"> {{ .warning | markdownify }} </p>
 
 				{{ if .contact_form.enable }}
 				<div class="contact-details">
