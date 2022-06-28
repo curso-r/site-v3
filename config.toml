@@ -88,9 +88,9 @@ url = "/material"
 weight = 7
 
 [[Languages.pt.menu.main]]
-name = "Produtos"
+name = "Pacotes"
 pre = ""
-url = "/produtos"
+url = "/pacotes"
 weight = 8
 
 [[Languages.pt.menu.main]]
