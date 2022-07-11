@@ -17,4 +17,8 @@
 /material/stringr https://livro.curso-r.com/
 /material/webscraping https://livro.curso-r.com/
 /material/* https://livro.curso-r.com/
+<<<<<<< HEAD
 /trilhas/* https://loja.curso-r.com/trilhas-de-formac-o.html
+=======
+/cursos/* https://loja.curso-r.com/
+>>>>>>> b4d072a1cec3d0083974fe8bcb8bb88207061993
