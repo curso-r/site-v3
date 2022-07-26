@@ -2,10 +2,10 @@
 feature:
   enable : true
   image : images/about/computador-azul.png
-  image_webp : images/about/computador-azul.png
+  image_webp : images/about/computador-azul.webp
   title : Por que programar?
   content : "A programação é uma habilidade essencial para a pessoa cientista de dados. Listamos os principais motivos para você aprender a programar (em R)."
-  feature_item : 
+  feature_item :
       # feature item loop
     - title : O código é texto
       icon : ti-text # themify icon pack : https://themify.me/themify-icons
@@ -19,7 +19,7 @@ feature:
     - title : O código é aberto
       icon : ti-unlock # themify icon pack : https://themify.me/themify-icons
       content : Mais do que gratuito, ser aberto significa ser uma comunidade. Tenha acesso às últimas versões das melhores ferramentas e contate as pessoas criadoras para contribuir e tirar dúvidas.
-      
+
       # feature item loop
     - title : O R é a linguagem criada para Ciência de Dados
       icon : ti-check # themify icon pack : https://themify.me/themify-icons
