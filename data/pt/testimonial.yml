@@ -2,25 +2,25 @@
 testimonial:
   enable : true
   title: Nossos Clientes
-  bg_image : "images/backgrounds/bg-universe.jpg"
+  bg_image : "images/backgrounds/bg-universe.webp"
   bg_image_webp : "images/backgrounds/bg-universe.webp"
   testimonial_item :
     # testimonial item loop
     - tipo : Modelagem preditiva
       clientes:
-        - image : images/clientes/logo-elo.png
-        - image : images/clientes/tesouro-nacional.png
-        - image : images/clientes/logo-gp.png
+        - image : images/clientes/logo-elo.webp
+        - image : images/clientes/tesouro-nacional.webp
+        - image : images/clientes/logo-gp.webp
       
     - tipo : Construção de dashboards em Shiny
       clientes:
-        - image : images/clientes/logo-ias.png
-        - image : images/clientes/logo-sabesp.png
-        - image : images/clientes/logo_hamilton.png
+        - image : images/clientes/logo-ias.webp
+        - image : images/clientes/logo-sabesp.webp
+        - image : images/clientes/logo_hamilton.webp
         
     - tipo : Treinamento in-company
       clientes:
-        - image : images/clientes/logo-spc.jpg
-        - image : images/clientes/logo-mateus.png
-        - image: images/clientes/logo-banco-honda.png
-        - image: images/clientes/logo-john-deere.png
+        - image : images/clientes/logo-spc.webp
+        - image : images/clientes/logo-mateus.webp
+        - image: images/clientes/logo-banco-honda.webp
+        - image: images/clientes/logo-john-deere.webp

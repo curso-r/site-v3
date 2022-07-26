@@ -1,7 +1,7 @@
 ############################# feature ###################################
 feature:
   enable : true
-  image : images/about/computador-azul.png
+  image : images/about/computador-azul.webp
   image_webp : images/about/computador-azul.webp
   title : Por que programar?
   content : "A programação é uma habilidade essencial para a pessoa cientista de dados. Listamos os principais motivos para você aprender a programar (em R)."

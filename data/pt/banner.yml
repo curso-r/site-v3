@@ -2,9 +2,9 @@
 banner:
   enable : true
   bg_image_webp : "images/backgrounds/hero-area.webp"
-  bg_image : "images/backgrounds/hero-area.jpg"
+  bg_image : "images/backgrounds/hero-area.webp"
   icon : "" # themify icon pack : https://themify.me/themify-icons
-  logo: "../images/logo_col_branco.png"
+  logo: "../images/logo_col_branco.webp"
   title : "Descomplicando a Ciência de Dados"
   content : "Fazemos isso oferecendo cursos ministrados por especialistas e uma extensa variedade de conteúdo open source. Explore o universo da Ciência de Dados."
   button:
