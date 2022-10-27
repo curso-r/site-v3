@@ -45,6 +45,8 @@ link = "plugins/magnific-popup/jquery.magnific-popup.min.js"
 link = "plugins/lazy-load/lozad.min.js"
 [[params.plugins.js]]
 link = "plugins/google-map/map.js"
+[[params.plugins.js]]
+link = "https://platform.illow.io/banner.js?siteId=962b4071-1b48-4756-8b80-68101acc70df"
 
 ################### Portuguese Navigation ########################
 [[Languages.pt.menu.main]]
