@@ -1,0 +1,46 @@
+{{ define "main" }}
+
+  {{ partial "navigation.html" . }}
+  
+  <section id="produtos" class = "section">
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+			  <div class="col-lg-12">
+          <div class="title text-center wow fadeIn" data-wow-duration="1500ms">
+            <h2 style = "text-transform: none;"> 
+              Link<span class="color">tree</span>
+            </h2>
+            <div class="border-meghna"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-5 offset-lg-1">
+  				{{ range site.Params.social }}
+  				<div class="linktree">
+  				  <a href="{{ .link | safeURL }}" target = "_blank">
+  				    <span>
+  				      <i class="{{ .icon }}"></i> 
+  				      {{ .name }}
+  				    </span>
+  				  </a>
+  				</div>
+  			  {{ end }}
+  			 </div>
+  			 <div class="col-lg-5">
+  			 {{ range site.Params.links }}
+           <div class="linktree">
+             <a href="{{ .link | safeURL }}" target = "_blank">
+               <span>
+                 <i class="{{ .icon }}"></i> 
+                 {{ .name }}
+               </span>
+             </a>
+           </div>
+         {{ end }}
+  			 </div>
+      </div>
+    </div>
+  </section>
+  
+{{ end }}

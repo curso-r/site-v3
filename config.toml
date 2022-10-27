@@ -26,6 +26,8 @@ link = "plugins/slick/slick.css"
 link = "https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700&display=swap"
 [[params.plugins.css]]
 link = "css/hex.css"
+[[params.plugins.css]]
+link = "css/linktree.css"
 
 
 # js plugins
@@ -185,28 +187,62 @@ map_marker = "images/marker.png"
 
 ############################# social icons ##########################
 [[params.social]]
-icon = "ti-facebook" # themify icon pack : https://themify.me/themify-icons
-link = "https://www.facebook.com/cursodeR/"
+icon = "ti-youtube" # themify icon pack : https://themify.me/themify-icons
+link = "https://www.youtube.com/channel/UCTXuqtCYxPVEehq6fJY9GkA"
+name = "YouTube"
 
 [[params.social]]
 icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
 link = "https://twitter.com/curso_r"
-
-[[params.social]]
-icon = "ti-youtube" # themify icon pack : https://themify.me/themify-icons
-link = "https://www.youtube.com/channel/UCTXuqtCYxPVEehq6fJY9GkA"
-
-[[params.social]]
-icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
-link = "https://br.linkedin.com/company/curso-r"
-
-[[params.social]]
-icon = "ti-github" # themify icon pack : https://themify.me/themify-icons
-link = "https://github.com/curso-r"
+name = "Twitter"
 
 [[params.social]]
 icon = "ti-instagram" # themify icon pack : https://themify.me/themify-icons
 link = "https://www.instagram.com/cursoo_r/"
+name = "Instagram"
+
+[[params.social]]
+icon = "ti-facebook" # themify icon pack : https://themify.me/themify-icons
+link = "https://www.facebook.com/cursodeR/"
+name = "Facebook"
+
+[[params.social]]
+icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
+link = "https://br.linkedin.com/company/curso-r"
+name = "Linkedin"
+
+[[params.social]]
+icon = "ti-github" # themify icon pack : https://themify.me/themify-icons
+link = "https://github.com/curso-r"
+name = "Github"
+
+
+
+############################# links ############## ##########################
+[[params.links]]
+icon = "ti-shopping-cart" # themify icon pack : https://themify.me/themify-icons
+link = "https://loja.curso-r.com/"
+name = "Loja"
+
+[[params.links]]
+icon = "ti-write" # themify icon pack : https://themify.me/themify-icons
+link = "https://blog.curso-r.com/"
+name = "Blog"
+
+[[params.links]]
+icon = "ti-comment" # themify icon pack : https://themify.me/themify-icons
+link = "https://discourse.curso-r.com/"
+name = "Fórum de dúvidas"
+
+[[params.links]]
+icon = "ti-book" # themify icon pack : https://themify.me/themify-icons
+link = "https://livro.curso-r.com/"
+name = "R para Ciência de Dados"
+
+[[params.links]]
+icon = "ti-book" # themify icon pack : https://themify.me/themify-icons
+link = "https://programando-em-shiny.curso-r.com/"
+name = "Programando em Shiny"
 
 ################################ Portuguese Language ########################
 [Languages.pt]
