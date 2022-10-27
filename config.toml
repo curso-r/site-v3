@@ -158,7 +158,7 @@ weight = 9
 
 ############################# Default Parameters ##########################
 [params]
-logo = "images/logo_col_branco.png"
+logo = "images/logo_col_branco.webp"
 # Meta data
 description = "A Curso-R é uma empresa de cursos de programação em R e consultoria em ciência de dados. Nossa missão é descomplicar a ciência de dados para a comunidade."
 author = "Curso-R"
@@ -170,7 +170,7 @@ post_share = true
 # preloader
 [params.preloader]
 enable = false
-preloader = "images/logo_col_branco.png"
+preloader = "images/logo_col_branco.webp"
 
 # cookies
 [params.cookies]
@@ -183,7 +183,7 @@ enable = false
 gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
 map_latitude = "51.5223477"
 map_longitude = "-0.1622023"
-map_marker = "images/marker.png"
+map_marker = "images/marker.webp"
 
 ############################# social icons ##########################
 [[params.social]]
