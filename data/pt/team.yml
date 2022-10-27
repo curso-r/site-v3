@@ -7,8 +7,8 @@ team:
     - name : Athos Damiani
       image_webp : images/team/athos.webp
       image : images/team/athos.webp
-      designation : Sócio, professor e cientista de dados
-      content : Bacharel em Estatística pelo IME-USP e mestrando em IA pela Poli-USP. Trabalhou com modelos preditivos, web scraping, visualização e dashboards para ABJ, IBOPE, ClearSale, EDP e Itaú. Se interessa por tudo ligado ao R e à Estatística.
+      designation : Sócio e professor
+      content : Bacharel em Estatística pelo IME-USP. Trabalhou com modelos preditivos, web scraping, visualização e dashboards para ABJ, IBOPE, ClearSale, EDP, Itaú e Nubank. Se interessa por tudo ligado ao R e à Estatística.
       social :
         - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
           link : "https://www.facebook.com/athos.damiani"
@@ -22,7 +22,7 @@ team:
     - name : Beatriz Milz
       image_webp : images/team/bea.webp
       image : images/team/bea.webp
-      designation : Professora
+      designation : Professora e cientista de dados
       content : Doutoranda em Ciência Ambiental no IEE-USP. É co-organizadora da comunidade R-Ladies São Paulo, e instrutora da Carpentries. Usa o R no dia-a-dia, e se interessa no uso de R para pesquisa reprodutível.
       social :
         - icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
@@ -84,7 +84,7 @@ team:
     - name : Julio Trecenti
       image_webp : images/team/julio.webp
       image : images/team/julio.webp
-      designation : Sócio, professor e desenvolvedor
+      designation : Sócio e professor
       content : Faxineiro de dados. Doutorando em Estatística pelo IME-USP. Secretário-geral da Associação Brasileira de Jurimetria (ABJ). Trabalha com web scraping, arrumação de dados, construção de modelos preditivos, APIs e dashboards em Shiny.
       social :
         - icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
