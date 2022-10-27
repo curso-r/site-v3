@@ -1,7 +1,7 @@
 ############################# call to action ##############################
 discourse:
   enable : true
-  bg_image : "images/backgrounds/bg-universe.jpg"
+  bg_image : "images/backgrounds/bg-universe.webp"
   title : "Dúvidas sobre R e Ciência de Dados?"
   content : "A Comunidade Curso-R está se tornando o maior fórum brasileiro de dúvidas sobre R e análise de dados."
   button:

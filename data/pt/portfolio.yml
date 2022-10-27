@@ -5,7 +5,7 @@ portfolio:
   portfolio_item :
     # portfolio item loop
     - name : Introdução à programação com R
-      image : images/cursos/intro-programacao.jpg
+      image : images/cursos/intro-programacao.webp
       categories : ["Programação para Ciência de Dados"]
       content : O ponto de partida para quem nunca programou.
       link : "https://loja.curso-r.com/introduc-o-a-programac-o-com-r.html"
@@ -14,7 +14,7 @@ portfolio:
       
     # portfolio item loop
     - name : R para Ciência de Dados I
-      image : images/cursos/r4ds1.jpg
+      image : images/cursos/r4ds1.webp
       categories : ["Programação para Ciência de Dados"]
       content : Comece a usar o R nas suas análises de dados.
       link : "https://loja.curso-r.com/r-para-ciencia-de-dados-i.html"
@@ -23,7 +23,7 @@ portfolio:
       
     # portfolio item loop
     - name : R para Ciência de Dados II
-      image : images/cursos/r4ds2.jpg
+      image : images/cursos/r4ds2.webp
       categories : ["Programação para Ciência de Dados"]
       content : Domine os seus dados e aumente a sua produtividade.
       link : "https://loja.curso-r.com/r-para-ciencia-de-dados-ii.html"
@@ -32,7 +32,7 @@ portfolio:
       
     # portfolio item loop
     - name : Python para usuários de R
-      image : images/cursos/python-r.jpg
+      image : images/cursos/python-r.webp
       categories : ["Programação para Ciência de Dados"]
       content : A melhor linguagem é a união das duas.
       link : "https://loja.curso-r.com/python-para-ciencia-de-dados-i.html"
@@ -41,7 +41,7 @@ portfolio:
       
     # portfolio item loop
     - name : Pacotes
-      image : images/cursos/pacotes.jpeg
+      image : images/cursos/pacotes.webp
       categories : ["Programação para Ciência de Dados"]
       content : Aprendar a criar os seus próprios pacotes de R.
       link : "https://loja.curso-r.com/pacotes.html"
@@ -50,7 +50,7 @@ portfolio:
       
     # portfolio item loop
     - name : Visualização de dados
-      image : images/cursos/visualizacao.jpg
+      image : images/cursos/visualizacao.webp
       categories : ["Visualização"]
       content : Construa gráficos e mapas para explorar os seus dados.
       link : "https://loja.curso-r.com/visualizac-o-de-dados.html"
@@ -58,7 +58,7 @@ portfolio:
       material: "https://curso-r.github.io/main-visualizacao/"
       
     - name : Relatórios e apresentações automáticas
-      image : images/cursos/relatorios.jpg
+      image : images/cursos/relatorios.webp
       categories : ["Visualização"]
       content : Construa e automatize relatórios e apresentações para comunicar suas análises.
       link : "https://loja.curso-r.com/relatorios-e-apresentacoes-automaticas.html"
@@ -67,7 +67,7 @@ portfolio:
       
     # portfolio item loop
     - name : Dashboards em Shiny I
-      image : images/cursos/dashboards.jpg
+      image : images/cursos/dashboards.webp
       categories : ["Visualização"]
       content : Comunique seus resultados construindo dashboards incríveis a partir do R.
       link : "https://loja.curso-r.com/construindo-dashboards-i.html"
@@ -76,7 +76,7 @@ portfolio:
     
     # portfolio item loop  
     - name : Dashboards em Shiny II
-      image : images/cursos/dashboards2.jpg
+      image : images/cursos/dashboards2.webp
       categories : ["Visualização"]
       content : Construa dashboards ainda mais complexos e bonitos utilizando o Shiny.
       link : "https://loja.curso-r.com/construindo-dashboards-ii.html"
@@ -85,7 +85,7 @@ portfolio:
       
     # portfolio item loop
     - name : Deploy
-      image : images/cursos/deploy.png
+      image : images/cursos/deploy.webp
       categories : ["Visualização"]
       content : Aprenda a disponibilizar dashboards e o resultado dos seus modelos na Web.
       link : "https://loja.curso-r.com/deploy-colocando-seu-trabalho-em-produc-o.html"
@@ -94,7 +94,7 @@ portfolio:
     
     # portfolio item loop
     - name : Modelos lineares
-      image : images/cursos/regressao.jpg
+      image : images/cursos/regressao.webp
       categories : ["Machine Learning"]
       content : Familiarize-se com os principais conceitos por trás da regressão linear e logística.
       link : "https://loja.curso-r.com/modelos-lineares.html"
@@ -103,7 +103,7 @@ portfolio:
       
     # portfolio item loop
     - name : Introdução ao Machine Learning
-      image : images/cursos/iml.jpg
+      image : images/cursos/iml.webp
       categories : ["Machine Learning"]
       content : Aprenda os principais conceitos de Machine Learning utilizando o R como ferramenta.
       link : "https://loja.curso-r.com/introduc-o-ao-machine-learning.html"
@@ -112,7 +112,7 @@ portfolio:
     
     # portfolio item loop
     - name : Modelagem de Séries Temporais
-      image : images/cursos/series.jpg
+      image : images/cursos/series.webp
       categories : ["Machine Learning"]
       content : Aprenda métodos de previsão de séries temporais utilizando o R.
       link : "https://loja.curso-r.com/modelagem-de-series-temporais.html"
@@ -121,7 +121,7 @@ portfolio:
       
     # portfolio item loop
     - name : Modelagem Não Supervisionada
-      image : images/cursos/nao-supervisionado.jpg
+      image : images/cursos/nao-supervisionado.webp
       categories : ["Machine Learning"]
       content : Aprenda as principais técnicas de modelagem não supervisionada.
       link : "https://loja.curso-r.com/modelagem-n-o-supervisionada.html"
@@ -130,7 +130,7 @@ portfolio:
       
     # portfolio item loop
     - name : Web scraping
-      image : images/cursos/web-scraping.jpg
+      image : images/cursos/web-scraping.webp
       categories : ["Web scraping"]
       content : Aprenda a coletar dados da internet de forma autônoma e eficiente utilizando o R.
       link : "https://loja.curso-r.com/web-scraping.html"
@@ -140,7 +140,7 @@ portfolio:
       
     # portfolio item loop
     #- name : Introdução ao R com C++
-    #  image : images/cursos/rcpp.jpg
+    #  image : images/cursos/rcpp.webp
     #  categories : ["Programação para Ciência de Dados"]
     #  content : Acelere seus scripts integrando o R com o C++.
     #  link : "/cursos/rcpp/"

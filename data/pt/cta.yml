@@ -1,7 +1,7 @@
 ############################# call to action ##############################
 cta:
   enable : true
-  bg_image : "images/backgrounds/bg-universe.jpg"
+  bg_image : "images/backgrounds/bg-universe.webp"
   title : "Cursos personalizados para a sua empresa"
   content : "Monte um treinamento que melhor se adeque às demandas da sua equipe."
   button:

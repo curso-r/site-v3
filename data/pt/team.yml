@@ -6,7 +6,7 @@ team:
     # team member loop
     - name : Athos Damiani
       image_webp : images/team/athos.webp
-      image : images/team/athos.jpeg
+      image : images/team/athos.webp
       designation : Sócio, professor e cientista de dados
       content : Bacharel em Estatística pelo IME-USP e mestrando em IA pela Poli-USP. Trabalhou com modelos preditivos, web scraping, visualização e dashboards para ABJ, IBOPE, ClearSale, EDP e Itaú. Se interessa por tudo ligado ao R e à Estatística.
       social :
@@ -21,7 +21,7 @@ team:
           
     - name : Beatriz Milz
       image_webp : images/team/bea.webp
-      image : images/team/bea.jpg
+      image : images/team/bea.webp
       designation : Professora
       content : Doutoranda em Ciência Ambiental no IEE-USP. É co-organizadora da comunidade R-Ladies São Paulo, e instrutora da Carpentries. Usa o R no dia-a-dia, e se interessa no uso de R para pesquisa reprodutível.
       social :
@@ -35,7 +35,7 @@ team:
     # team member loop
     - name : Caio Lente
       image_webp : images/team/caio.webp
-      image : images/team/caio.jpg
+      image : images/team/caio.webp
       designation : Sócio, professor e desenvolvedor
       content : Mestrando em Ciência da Computação no IME-USP e cientista de dados na Terranova Consultoria. Programador desde os 15 anos, começou a se apaixonar pelo R em 2016 e agora não fala em outra coisa. Metido a designer, maníaco da organização e metade texano.
       social :
@@ -49,7 +49,7 @@ team:
     # team member loop
     - name : Daniel Falbel
       image_webp : images/team/daniel.webp
-      image : images/team/daniel.jpeg
+      image : images/team/daniel.webp
       designation : Sócio, professor e desenvolvedor
       content : Bacharel em Estatística pelo IME. Engenheiro de software na RStudio. Trabalha diariamente com R há mais de 6 anos. É interessado por tudo que tem a ver com R, Machine Learning e Estatística.
       social :
@@ -67,7 +67,7 @@ team:
     # team member loop
     - name : Fernando Corrêa
       image_webp : images/team/fernando.webp
-      image : images/team/fernando.jpeg
+      image : images/team/fernando.webp
       designation : Sócio, professor e cientista de dados
       content : Bacharel e mestrando em Estatística pelo IME-USP. Diretor-técnico na Associação Brasileira de Jurimetria. Usa R para tudo, mas tem interesse especial em web scraping, visualização de dados e modelagem bayesiana.
       social :
@@ -83,7 +83,7 @@ team:
      # team member loop
     - name : Julio Trecenti
       image_webp : images/team/julio.webp
-      image : images/team/julio.jpg
+      image : images/team/julio.webp
       designation : Sócio, professor e desenvolvedor
       content : Faxineiro de dados. Doutorando em Estatística pelo IME-USP. Secretário-geral da Associação Brasileira de Jurimetria (ABJ). Trabalha com web scraping, arrumação de dados, construção de modelos preditivos, APIs e dashboards em Shiny.
       social :
@@ -97,7 +97,7 @@ team:
      # team member loop
     - name : William Amorim
       image_webp : images/team/william.webp
-      image : images/team/william.jpg
+      image : images/team/william.webp
       designation : Sócio, professor e cientista de dados
       content : Doutor em Estatística pelo IME-USP. Trabalhando diariamente com análise de dados e programação em R. Especialista em criação de dashboards em Shiny.
       social :
