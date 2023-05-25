@@ -18,7 +18,7 @@ team:
           link : "https://www.linkedin.com/in/athosdamiani/"
         - icon : ti-github # themify icon pack : https://themify.me/themify-icons
           link : "https://github.com/Athospd"
-          
+
     - name : Beatriz Milz
       image_webp : images/team/bea.webp
       image : images/team/bea.webp
@@ -31,13 +31,13 @@ team:
           link : "https://www.linkedin.com/in/beatrizmilz/"
         - icon : ti-github # themify icon pack : https://themify.me/themify-icons
           link : "https://github.com/beatrizmilz"
-        
+
     # team member loop
     - name : Caio Lente
       image_webp : images/team/caio.webp
       image : images/team/caio.webp
       designation : Sócio, professor e desenvolvedor
-      content : Mestrando em Ciência da Computação no IME-USP e cientista de dados na Terranova Consultoria. Programador desde os 15 anos, começou a se apaixonar pelo R em 2016 e agora não fala em outra coisa. Metido a designer, maníaco da organização e metade texano.
+      content : Mestre em Ciência da Computação pelo IME-USP e cientista de dados na Terranova Consultoria. Programador desde os 15 anos, começou a se apaixonar pelo R em 2016 e agora não fala em outra coisa.
       social :
         - icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
           link : "https://twitter.com/ctlente"
@@ -45,7 +45,7 @@ team:
           link : "https://github.com/clente"
         - icon : ti-world # themify icon pack : https://themify.me/themify-icons
           link : "https://lente.dev/"
-        
+
     # team member loop
     - name : Daniel Falbel
       image_webp : images/team/daniel.webp
@@ -63,7 +63,7 @@ team:
           link : "https://github.com/dfalbel"
         - icon : ti-world # themify icon pack : https://themify.me/themify-icons
           link : "https://blogs.rstudio.com/tensorflow/"
-        
+
     # team member loop
     - name : Fernando Corrêa
       image_webp : images/team/fernando.webp
@@ -79,7 +79,7 @@ team:
           link : "https://www.linkedin.com/in/fernando-corr%c3%aaa-4ba299139/"
         - icon : ti-github # themify icon pack : https://themify.me/themify-icons
           link : "https://github.com/azeloc"
-          
+
      # team member loop
     - name : Julio Trecenti
       image_webp : images/team/julio.webp
@@ -93,7 +93,7 @@ team:
           link : "https://www.linkedin.com/in/jtrecenti/"
         - icon : ti-github # themify icon pack : https://themify.me/themify-icons
           link : "https://github.com/jtrecenti"
-          
+
      # team member loop
     - name : William Amorim
       image_webp : images/team/william.webp
@@ -103,10 +103,10 @@ team:
       social :
         - icon : ti-twitter-alt
           link : "https://twitter.com/wamorim_"
-        - icon : ti-linkedin 
+        - icon : ti-linkedin
           link : "https://www.linkedin.com/in/william-amorim-796798210/"
         - icon : ti-github
           link : "https://github.com/williamorim"
         - icon : ti-world
           link : "https://wamorim.com/"
-      
+
