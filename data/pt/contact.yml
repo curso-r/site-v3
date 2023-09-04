@@ -8,7 +8,7 @@ contact:
   # Contact details
   contact_list:
     - icon : ti-location-pin # themify icon pack : https://themify.me/themify-icons
-      info : " Alameda Santos, 2335, conj 131, 01419-101, São Paulo - SP"
+      info : " Avenida Paulista, 302 , 01310-000, São Paulo - SP"
       
     - icon : ti-email # themify icon pack : https://themify.me/themify-icons
       info : "Email: contato@curso-r.com"
