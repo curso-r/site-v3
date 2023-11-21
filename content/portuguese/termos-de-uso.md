@@ -3,9 +3,9 @@ title: "Termos de Uso"
 type: "termos-de-uso"
 ---
 
-> Última atualização: 27 de agosto de 2020.
+> Última atualização: 21 de novembro de 2023.
 
-O site Curso-R (o "Site"), os cursos oferecidos (os "Serviços") e o material e conteúdo fornecido pelo Site em conexão com os Serviços são de propriedade, operados e mantidos pela R6 Estatística e Treinamentos Ltda, localizada na Alameda Santos, 2335, CEP: 01419-101, Cerqueira César, São Paulo, SP ("nós", "nosso", "nossa", a "Empresa" ou "R6").
+O site Curso-R (o "Site"), os cursos oferecidos (os "Serviços") e o material e conteúdo fornecido pelo Site em conexão com os Serviços são de propriedade, operados e mantidos pela R6 Estatística e Treinamentos Ltda, localizada na Av. Paulista, 302 - Bela Vista, São Paulo - SP, 01310-000 ("nós", "nosso", "nossa", a "Empresa" ou "R6").
 
 Acessando o Site, (2) usando o nosso conteúdo ou (3) adquirindo nossos Serviços, o usuário (você) formaliza sua concordância com os termos e condições descritos abaixo ("Termos"). Em caso de discordância com estes termos, o Site e os Serviços não deverão ser utilizados ou adquiridos. 
 
@@ -23,17 +23,17 @@ Para os efeitos deste Termo, "você" é aquele que paga pelo acesso aos Serviço
 
 #### 3. Do Serviço
 
-- 3.1 A partir dos nossos Serviços, a R6 oferece aos usuários a venda online de vagas para cursos presenciais ou online de programação na linguagem R ministrados por professores selecionados pela Empresa.
+- 3.1 A partir dos nossos Serviços, a R6 oferece aos usuários a venda online de vagas para cursos online de programação na linguagem R ministrados por professores selecionados pela Empresa. Os cursos podem ser ao vivo, com data e hora marcada e contato direto com a pessoa ministrante (Modelo ao vivo), ou gravados, com acesso imediato a todas as vídeo-aulas do curso e sem contato direto com a pessoa ministrante (Modelo gravado).
 
-- 3.2 As vagas para os cursos são oferecidas conforme disponibilidade, com valores, locais, datas e horários de cada turma definidos pela Empresa.
+- 3.2 As vagas para os cursos no Modelo ao vivo são oferecidas conforme disponibilidade, com valores, locais, datas e horários de cada turma definidos pela Empresa.
 
-- 3.3 Para cada turma aberta, as vagas serão vendidas pelo Site até 1 (uma) hora antes ao início do curso ou até acabarem as vagas disponíveis. O número de vagas disponíveis de cada turma é previamente definido pela Empresa. A R6 se reserva o direito de não divulgar o número de vagas disponíveis.
+- 3.3 Para cada turma aberta no Modelo ao vivo, as vagas serão vendidas até o final da segunda aula ao vivo ou até acabarem as vagas disponíveis. O número de vagas disponíveis de cada turma é previamente definido pela Empresa. A R6 se reserva o direito de não divulgar o número de vagas disponíveis.
 
 - 3.4 Todo material disponibilizado nos nossos Serviços (como livros, slides, códigos e vídeos) é de propriedade da R6. Os direitos autorais devem ser respeitados.
 
 - 3.5 A R6 se reserva o direito de, a seu livre critério, determinar qual material ficará aberto ao público e qual material será de uso restrito aos adquirentes do Serviço (alunos). 
 
-- 3.6 Ao adquirir o Serviço, você consente com a gravação em vídeo das aulas, nas quais poderão conter a sua voz e/ou imagem. 
+- 3.6 Ao adquirir o Serviço no Modelo ao vivo, você consente com a gravação em vídeo das aulas, nas quais poderão conter a sua voz e/ou imagem. 
 
 - 3.7 As gravações (vídeos) serão de propriedade da R6. Os direitos autorais devem ser respeitados, de tal forma que qualquer acesso ou compartilhamento do material em questão que não esteja de acordo com os termos deste documento estará sujeita a ação judicial.
     
@@ -53,7 +53,7 @@ Para os efeitos deste Termo, "você" é aquele que paga pelo acesso aos Serviço
 
 - 4.4 A R6 utilizada uma plataforma de pagamento terceirizada (Serviço de Pagamento). Ao realizar a compra, o usuário deverá concordar com os Termos de Uso do Serviço de Pagamento.
 
--  4.5 Ao realizar a compra utilizando o Serviço de Pagamento, seja por boleto bancário ou cartão de crédito, a comprovação do pagamento será feita de forma automática.
+-  4.5 Ao realizar a compra utilizando o Serviço de Pagamento, seja por boleto bancário, Pix ou cartão de crédito, a comprovação do pagamento será feita de forma automática.
 
 - 4.6 Será possível a Empresa optar por alterar temporariamente as taxas para os Serviços oferecidos no site, por exemplo para eventos promocionais, ou quando do lançamento de novos Serviços. Todas as taxas são cobradas em Reais (BRL).
 
