@@ -11,7 +11,7 @@ about:
   - icon : ti-bar-chart # themify icon pack : https://themify.me/themify-icons
     title : Consultoria
     content : Temos um time especialista em projetos de Ciência de Dados. Se você ou sua empresa tem um problema envolvendo dados, nós somos a solução.
-    link :  /#contact
+    link :  "http://www.rseis.com.br"
     
   - icon : ti-heart # themify icon pack : https://themify.me/themify-icons
     title : Comunidade

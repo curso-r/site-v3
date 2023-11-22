@@ -74,6 +74,12 @@ url = "portfolio"
 weight = 4
 
 [[Languages.pt.menu.main]]
+name = "Consultoria"
+pre = ""
+url = "http://www.rseis.com.br"
+weight = 4
+
+[[Languages.pt.menu.main]]
 name = "Equipe"
 pre = "#"
 url = "team"
