@@ -62,12 +62,6 @@ url = "https://loja.curso-r.com"
 weight = 2
 
 [[Languages.pt.menu.main]]
-name = "Trilhas"
-pre = "#"
-url = "services"
-weight = 3
-
-[[Languages.pt.menu.main]]
 name = "Cursos"
 pre = "#"
 url = "portfolio"
@@ -259,7 +253,7 @@ languageCode = "pt-br"
 contentDir = "content/portuguese"
 weight = 1
 home = "Home"
-copyright = "&copy; Copyright Curso-R 2023. Todos os direitos reservados."
+copyright = "&copy; Copyright Curso-R 2024. Todos os direitos reservados."
 ref = "Tema por [Themefisher](https://themefisher.com). Site feito em [Hugo](https://gohugo.io/) com o pacote [{blogdown}](https://bookdown.org/yihui/blogdown/)."
 
 
@@ -270,6 +264,6 @@ languageCode = "en-us"
 contentDir = "content/english"
 weight = 2
 home = "Home"
-copyright = "Copyright &copy; Curso-R 2023"
+copyright = "Copyright &copy; Curso-R 2024"
 ref = "Theme by [Themefisher](https://themefisher.com). Site built with [Hugo](https://gethugothemes.com) and the package [{blogdown}](https://bookdown.org/yihui/blogdown/)."
 
