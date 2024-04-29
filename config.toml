@@ -56,16 +56,10 @@ url = "about"
 weight = 1
 
 [[Languages.pt.menu.main]]
-name = "Loja"
-pre = ""
-url = "https://loja.curso-r.com"
-weight = 2
-
-[[Languages.pt.menu.main]]
 name = "Cursos"
-pre = "#"
-url = "portfolio"
-weight = 4
+pre = ""
+url = "/cursos"
+weight = 2
 
 [[Languages.pt.menu.main]]
 name = "Consultoria"

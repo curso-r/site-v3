@@ -52,13 +52,16 @@
 					<h3>{{ .name | markdownify }}</h3>
 					{{ $curso := index (where $cursos ".Params.nome" .name) 0 }}
 					<div class="caption">
-						<a class="search-icon" href="{{ .link | safeURL }}">
-							Inscreva-se
-						</a>
 						<h4 class="mt-3">
-							<a href="{{ .link | safeURL }}">{{ .name }}</a>
+							{{ .name }}
 						</h4>
 						<p>{{ .content | markdownify }}</p>
+						<a class="search-icon green" href="{{ .link_ao_vivo | safeURL }}">
+							Curso ao vivo
+						</a>
+						<a class="search-icon blue mt-2" href="{{ .link_gravacao | safeURL }}">
+							Curso gravado
+						</a>
 					</div>
 				</div>
 			</div>
