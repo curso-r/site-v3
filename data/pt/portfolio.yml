@@ -4,20 +4,22 @@ portfolio:
   title : Nossos cursos
   portfolio_item :
     # portfolio item loop
-    # - name : Introdução à programação com R
-    #   image : images/cursos/intro-programacao.webp
-    #   categories : ["Programação para Ciência de Dados"]
-    #   content : O ponto de partida para quem nunca programou.
-    #   link : "https://loja.curso-r.com/introduc-o-a-programac-o-com-r.html"
-    #   icon : ti-shift-right-alt # themify icon pack : https://themify.me/themify-icons
-    #   material: "https://curso-r.github.io/main-intro-programacao/"
+    - name : Introdução à Estatística com R
+      image : images/cursos/intro-programacao.webp
+      categories : ["Programação para Ciência de Dados"]
+      content : Conceitos básicos de Estatística com atividades práticas dentro do R.
+      link_ao_vivo : "https://www.sympla.com.br/evento-online/introducao-a-estatistica-com-r/2396430"
+      link_gravacao: ""
+      icon : ti-shift-right-alt # themify icon pack : https://themify.me/themify-icons
+      material: "https://curso-r.github.io/main-intro-programacao/"
       
     # portfolio item loop
     - name : R para Ciência de Dados I
       image : images/cursos/r4ds1.webp
       categories : ["Programação para Ciência de Dados"]
-      content : Comece a usar o R nas suas análises de dados.
-      link : "https://loja.curso-r.com/r-para-ciencia-de-dados-i.html"
+      content : Comece a usar o R em suas análises de dados.
+      link_ao_vivo : "https://www.sympla.com.br/evento-online/r-para-ciencia-de-dados-i/2396390"
+      link_gravacao : ""
       icon : ti-shift-right-alt # themify icon pack : https://themify.me/themify-icons
       material: "https://curso-r.github.io/main-r4ds-1/"
       
@@ -26,7 +28,8 @@ portfolio:
       image : images/cursos/r4ds2.webp
       categories : ["Programação para Ciência de Dados"]
       content : Explore mais ferramentas de manipulação de dados.
-      link : "https://loja.curso-r.com/r-para-ciencia-de-dados-ii.html"
+      link_ao_vivo : "https://www.sympla.com.br/evento-online/r-para-ciencia-de-dados-ii/2396456"
+      link_gravacao : ""
       icon : ti-angle-right # themify icon pack : https://themify.me/themify-icons
       material: "https://curso-r.github.io/main-r4ds-2/"
       
@@ -35,7 +38,8 @@ portfolio:
       image : images/cursos/r4ds3.jpg
       categories : ["Programação para Ciência de Dados"]
       content : Domine os seus dados e aumente a sua produtividade.
-      link : "https://loja.curso-r.com/r-para-ciencia-de-dados-3.html"
+      link_ao_vivo : ""
+      link_gravacao: ""
       icon : ti-angle-double-right # themify icon pack : https://themify.me/themify-icons
       material: "https://curso-r.github.io/main-r4ds-2/"
       
@@ -44,7 +48,8 @@ portfolio:
       image : images/cursos/python-r.webp
       categories : ["Programação para Ciência de Dados"]
       content : A melhor linguagem é a união das duas.
-      link : "https://loja.curso-r.com/python-para-ciencia-de-dados-i.html"
+      link_ao_vivo : ""
+      link_gravacao: ""
       icon : ti-loop # themify icon pack : https://themify.me/themify-icons
       material: "https://curso-r.github.io/main-python-r/"
       
@@ -62,7 +67,8 @@ portfolio:
       image : images/cursos/visualizacao.webp
       categories : ["Visualização"]
       content : Construa gráficos e mapas para explorar os seus dados.
-      link : "https://loja.curso-r.com/visualizac-o-de-dados.html"
+      link_ao_vivo : "https://www.sympla.com.br/evento-online/visualizacao-de-dados/2396473"
+      link_gravacao: ""
       icon : ti-gallery # themify icon pack : https://themify.me/themify-icons
       material: "https://curso-r.github.io/main-visualizacao/"
       
@@ -70,7 +76,8 @@ portfolio:
       image : images/cursos/relatorios.webp
       categories : ["Visualização"]
       content : Construa e automatize relatórios e apresentações para comunicar suas análises.
-      link : "https://loja.curso-r.com/relatorios-e-apresentacoes-automaticas.html"
+      link_ao_vivo : "https://www.sympla.com.br/evento-online/relatorios-e-apresentacoes-automaticas/2446266"
+      link_gravacao: ""
       icon : ti-file # themify icon pack : https://themify.me/themify-icons
       material: "https://curso-r.github.io/main-relatorios/"
       
@@ -79,7 +86,8 @@ portfolio:
       image : images/cursos/dashboards.webp
       categories : ["Visualização"]
       content : Comunique seus resultados construindo dashboards incríveis a partir do R.
-      link : "https://loja.curso-r.com/construindo-dashboards-i.html"
+      link_ao_vivo : ""
+      link_gravacao: ""
       icon : ti-layout # themify icon pack : https://themify.me/themify-icons
       material: "https://curso-r.github.io/main-dashboards/"
     
@@ -88,7 +96,8 @@ portfolio:
       image : images/cursos/dashboards2.webp
       categories : ["Visualização"]
       content : Construa dashboards ainda mais complexos e bonitos utilizando o Shiny.
-      link : "https://loja.curso-r.com/construindo-dashboards-ii.html"
+      link_ao_vivo : ""
+      link_gravacao: ""
       icon : ti-layout-accordion-list # themify icon pack : https://themify.me/themify-icons
       material: "https://curso-r.github.io/main-dashboards-2/"
       
@@ -97,7 +106,8 @@ portfolio:
       image : images/cursos/deploy.webp
       categories : ["Visualização"]
       content : Aprenda a disponibilizar dashboards e o resultado dos seus modelos na Web.
-      link : "https://loja.curso-r.com/deploy-colocando-seu-trabalho-em-produc-o.html"
+      link_ao_vivo : "https://www.sympla.com.br/evento-online/deploy/2446249"
+      link_gravacao: ""
       icon : ti-cloud-up # themify icon pack : https://themify.me/themify-icons
       material: "https://curso-r.github.io/main-deploy/"
     
@@ -115,7 +125,8 @@ portfolio:
       image : images/cursos/iml.webp
       categories : ["Machine Learning"]
       content : Aprenda os principais conceitos de Machine Learning utilizando o R como ferramenta.
-      link : "https://loja.curso-r.com/introduc-o-ao-machine-learning.html"
+      link_ao_vivo : "https://www.sympla.com.br/evento-online/introducao-ao-machine-learning/2446218"
+      link_gravacao: ""
       icon : ti-panel # themify icon pack : https://themify.me/themify-icons
       material: "https://curso-r.github.io/main-intro-ml/"
     
@@ -142,7 +153,8 @@ portfolio:
       image : images/cursos/web-scraping.webp
       categories : ["Web scraping"]
       content : Aprenda a coletar dados da internet de forma autônoma e eficiente utilizando o R.
-      link : "https://loja.curso-r.com/web-scraping.html"
+      link_ao_vivo : ""
+      link_gravacao: ""
       icon : ti-world # themify icon pack : https://themify.me/themify-icons
       material: "https://curso-r.github.io/main-web-scraping/"
     

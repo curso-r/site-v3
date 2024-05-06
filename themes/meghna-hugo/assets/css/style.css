@@ -985,21 +985,23 @@ cta
 }
 
 .portfolio-block:hover .caption h4 {
+  font-weight: bold;
+  color: black;
   top: 45%;
 }
 
 .portfolio-block:hover .caption {
   opacity: 1;
-  top: 55%;
+  top: 50%;
 }
 
 .portfolio-block .caption {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 33%;
   opacity: 0;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -40%);
+  transform: translate(-24%, -50%);
   z-index: 9;
   transition: all 0.2s ease-in-out;
   text-align: center;
@@ -1015,12 +1017,19 @@ cta
 }
 
 .portfolio-block .caption .search-icon {
-  background: #fa2d48;
   padding: 8px 10px;
   color: #fff;
   display: inline-block;
   font-size: 20px;
   border-radius: 0px;
+}
+
+.portfolio-block .caption .green.search-icon {
+  background: #1aa147;
+}
+
+.portfolio-block .caption .blue.search-icon {
+  background: #2db2c3;
 }
 
 .portfolio-block .caption .search-icon i {
