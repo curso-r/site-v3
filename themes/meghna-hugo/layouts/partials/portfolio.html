@@ -56,12 +56,19 @@
 							{{ .name }}
 						</h4>
 						<p>{{ .content | markdownify }}</p>
+						{{ if ne .link_ao_vivo "" }}
 						<a class="search-icon green" href="{{ .link_ao_vivo | safeURL }}">
 							Curso ao vivo
 						</a>
+						{{ end }}
+						{{ if ne .link_gravacao "" }}
 						<a class="search-icon blue mt-2" href="{{ .link_gravacao | safeURL }}">
 							Curso gravado
 						</a>
+						{{ end }}
+						{{ if and (eq .link_gravacao "")  (eq .link_ao_vivo "") }}
+						  <p class = "font-weight-bold">Sem turmas no momento.</p>
+						{{ end }}
 					</div>
 				</div>
 			</div>
