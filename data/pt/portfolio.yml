@@ -8,17 +8,17 @@ portfolio:
       image : images/cursos/intro-programacao.webp
       categories : ["Programação para Ciência de Dados"]
       content : Conceitos básicos de Estatística com atividades práticas dentro do R.
-      link_ao_vivo : "https://www.sympla.com.br/evento-online/introducao-a-estatistica-com-r/2396430"
-      link_gravacao: ""
+      link_ao_vivo : "https://www.sympla.com.br/introducao-a-estatistica-com-r__2396430"
+      link_gravacao : ""
       icon : ti-shift-right-alt # themify icon pack : https://themify.me/themify-icons
-      material: "https://curso-r.github.io/main-intro-programacao/"
+      material : "https://github.com/curso-r/202402-intro-estatistica"
       
     # portfolio item loop
     - name : R para Ciência de Dados I
       image : images/cursos/r4ds1.webp
       categories : ["Programação para Ciência de Dados"]
       content : Comece a usar o R em suas análises de dados.
-      link_ao_vivo : "https://www.sympla.com.br/evento-online/r-para-ciencia-de-dados-i/2396390"
+      link_ao_vivo : "https://www.sympla.com.br/r-para-ciencia-de-dados-i__2396390"
       link_gravacao : ""
       icon : ti-shift-right-alt # themify icon pack : https://themify.me/themify-icons
       material: "https://curso-r.github.io/main-r4ds-1/"
@@ -28,7 +28,7 @@ portfolio:
       image : images/cursos/r4ds2.webp
       categories : ["Programação para Ciência de Dados"]
       content : Explore mais ferramentas de manipulação de dados.
-      link_ao_vivo : "https://www.sympla.com.br/evento-online/r-para-ciencia-de-dados-ii/2396456"
+      link_ao_vivo : "https://www.sympla.com.br/r-para-ciencia-de-dados-ii__2396456"
       link_gravacao : ""
       icon : ti-angle-right # themify icon pack : https://themify.me/themify-icons
       material: "https://curso-r.github.io/main-r4ds-2/"
@@ -39,7 +39,7 @@ portfolio:
       categories : ["Programação para Ciência de Dados"]
       content : Domine os seus dados e aumente a sua produtividade.
       link_ao_vivo : ""
-      link_gravacao: ""
+      link_gravacao : ""
       icon : ti-angle-double-right # themify icon pack : https://themify.me/themify-icons
       material: "https://curso-r.github.io/main-r4ds-2/"
       
@@ -49,7 +49,7 @@ portfolio:
       categories : ["Programação para Ciência de Dados"]
       content : A melhor linguagem é a união das duas.
       link_ao_vivo : ""
-      link_gravacao: ""
+      link_gravacao : ""
       icon : ti-loop # themify icon pack : https://themify.me/themify-icons
       material: "https://curso-r.github.io/main-python-r/"
       
@@ -58,7 +58,8 @@ portfolio:
     #   image : images/cursos/pacotes.webp
     #   categories : ["Programação para Ciência de Dados"]
     #   content : Aprendar a criar os seus próprios pacotes de R.
-    #   link : "https://loja.curso-r.com/pacotes.html"
+    #   link_ao_vivo : ""
+    #   link_gravacao : ""
     #   icon : ti-package # themify icon pack : https://themify.me/themify-icons
     #   material: "https://curso-r.github.io/main-pacotes/"
       
@@ -67,8 +68,8 @@ portfolio:
       image : images/cursos/visualizacao.webp
       categories : ["Visualização"]
       content : Construa gráficos e mapas para explorar os seus dados.
-      link_ao_vivo : "https://www.sympla.com.br/evento-online/visualizacao-de-dados/2396473"
-      link_gravacao: ""
+      link_ao_vivo : "https://www.sympla.com.br/visualizacao-de-dados__2396473"
+      link_gravacao : ""
       icon : ti-gallery # themify icon pack : https://themify.me/themify-icons
       material: "https://curso-r.github.io/main-visualizacao/"
       
@@ -76,8 +77,8 @@ portfolio:
       image : images/cursos/relatorios.webp
       categories : ["Visualização"]
       content : Construa e automatize relatórios e apresentações para comunicar suas análises.
-      link_ao_vivo : "https://www.sympla.com.br/evento-online/relatorios-e-apresentacoes-automaticas/2446266"
-      link_gravacao: ""
+      link_ao_vivo : "https://www.sympla.com.br/relatorios-e-apresentacoes-automaticas__2446266"
+      link_gravacao : ""
       icon : ti-file # themify icon pack : https://themify.me/themify-icons
       material: "https://curso-r.github.io/main-relatorios/"
       
@@ -87,7 +88,7 @@ portfolio:
       categories : ["Visualização"]
       content : Comunique seus resultados construindo dashboards incríveis a partir do R.
       link_ao_vivo : ""
-      link_gravacao: ""
+      link_gravacao : ""
       icon : ti-layout # themify icon pack : https://themify.me/themify-icons
       material: "https://curso-r.github.io/main-dashboards/"
     
@@ -97,7 +98,7 @@ portfolio:
       categories : ["Visualização"]
       content : Construa dashboards ainda mais complexos e bonitos utilizando o Shiny.
       link_ao_vivo : ""
-      link_gravacao: ""
+      link_gravacao : ""
       icon : ti-layout-accordion-list # themify icon pack : https://themify.me/themify-icons
       material: "https://curso-r.github.io/main-dashboards-2/"
       
@@ -106,8 +107,8 @@ portfolio:
       image : images/cursos/deploy.webp
       categories : ["Visualização"]
       content : Aprenda a disponibilizar dashboards e o resultado dos seus modelos na Web.
-      link_ao_vivo : "https://www.sympla.com.br/evento-online/deploy/2446249"
-      link_gravacao: ""
+      link_ao_vivo : "https://www.sympla.com.br/deploy__2446249"
+      link_gravacao : ""
       icon : ti-cloud-up # themify icon pack : https://themify.me/themify-icons
       material: "https://curso-r.github.io/main-deploy/"
     
@@ -116,7 +117,8 @@ portfolio:
     #   image : images/cursos/regressao.webp
     #   categories : ["Machine Learning"]
     #   content : Familiarize-se com os principais conceitos por trás da regressão linear e logística.
-    #   link : "https://loja.curso-r.com/modelos-lineares.html"
+    #   link_ao_vivo : ""
+    #   link_gravacao : ""
     #   icon : ti-pulse # themify icon pack : https://themify.me/themify-icons
     #   material: "https://curso-r.github.io/main-regressao-linear/"
       
@@ -125,8 +127,8 @@ portfolio:
       image : images/cursos/iml.webp
       categories : ["Machine Learning"]
       content : Aprenda os principais conceitos de Machine Learning utilizando o R como ferramenta.
-      link_ao_vivo : "https://www.sympla.com.br/evento-online/introducao-ao-machine-learning/2446218"
-      link_gravacao: ""
+      link_ao_vivo : "https://www.sympla.com.br/introducao-ao-machine-learning__2446218"
+      link_gravacao : ""
       icon : ti-panel # themify icon pack : https://themify.me/themify-icons
       material: "https://curso-r.github.io/main-intro-ml/"
     
@@ -135,7 +137,8 @@ portfolio:
     #   image : images/cursos/series.webp
     #   categories : ["Machine Learning"]
     #   content : Aprenda métodos de previsão de séries temporais utilizando o R.
-    #   link : "https://loja.curso-r.com/modelagem-de-series-temporais.html"
+    #   link_ao_vivo : ""
+    #   link_gravacao : ""
     #   icon : ti-stats-up # themify icon pack : https://themify.me/themify-icons
     #   material: "https://curso-r.github.io/main-series/"
       
@@ -144,7 +147,8 @@ portfolio:
     #   image : images/cursos/nao-supervisionado.webp
     #   categories : ["Machine Learning"]
     #   content : Aprenda as principais técnicas de modelagem não supervisionada.
-    #   link : "https://loja.curso-r.com/modelagem-n-o-supervisionada.html"
+    #   link_ao_vivo : ""
+    #   link_gravacao : ""
     #   icon : ti-layout-grid3 # themify icon pack : https://themify.me/themify-icons
     #   material: "https://github.com/curso-r/main-nao-superv"
       
@@ -154,7 +158,7 @@ portfolio:
       categories : ["Web scraping"]
       content : Aprenda a coletar dados da internet de forma autônoma e eficiente utilizando o R.
       link_ao_vivo : ""
-      link_gravacao: ""
+      link_gravacao : ""
       icon : ti-world # themify icon pack : https://themify.me/themify-icons
       material: "https://curso-r.github.io/main-web-scraping/"
     
@@ -164,7 +168,8 @@ portfolio:
     #  image : images/cursos/rcpp.webp
     #  categories : ["Programação para Ciência de Dados"]
     #  content : Acelere seus scripts integrando o R com o C++.
-    #  link : "/cursos/rcpp/"
+    #   link_ao_vivo : ""
+    #   link_gravacao : ""
     #  icon : ti-control-forward # themify icon pack : https://themify.me/themify-icons
     #  material: "https://curso-r.github.io/main-rcpp/"
       
