@@ -1,13 +1,3 @@
-install.packages(c(
-  "dplyr",
-  "tidyr",
-  "forcats",
-  "googlesheets4",
-  "stringr",
-  "purrr",
-  "glue"
-))
-
 googlesheets4::gs4_deauth()
 
 tab <- googlesheets4::read_sheet(
