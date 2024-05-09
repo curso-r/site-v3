@@ -127,7 +127,7 @@ portfolio:
       image : images/cursos/iml.webp
       categories : ["Machine Learning"]
       content : Aprenda os principais conceitos de Machine Learning utilizando o R como ferramenta.
-      link_ao_vivo : "https://www.sympla.com.br/introducao-ao-machine-learning__2446218"
+      link_ao_vivo : "https://www.sympla.com.br/introducao-ao-machine-learning__2396509"
       link_gravacao : ""
       icon : ti-panel # themify icon pack : https://themify.me/themify-icons
       material: "https://curso-r.github.io/main-intro-ml/"
