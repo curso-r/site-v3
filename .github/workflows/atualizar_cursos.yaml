@@ -1,12 +1,8 @@
-# This workflow deploys the app on push or pull request
-
 name: Atualizar cursos
 
-# Controls when the action will run. Triggers the workflow on push or pull request
-# events but only for the master branch
 on:
   schedule:
-  - cron: "0 3 * * *"
+    - cron:  "0 3 * * *"
   workflow_dispatch:
 
 jobs:
@@ -14,17 +10,14 @@ jobs:
     name: Atualizar cursos
     runs-on: ubuntu-latest
     steps:
-      - name: Set up R
-        uses: r-lib/actions/setup-r@v2
+      - uses: actions/checkout@v3
+      - uses: r-lib/actions/setup-r@v2
         with:
-          r-version: ${{ matrix.config.r }}
-          http-user-agent: ${{ matrix.config.http-user-agent }}
           use-public-rspm: true
-
-      - name: Install packages
-        uses: r-lib/actions/setup-r-dependencies@v2
+      - uses: r-lib/actions/setup-r-dependencies@v2
         with:
-          packages: |
+          cache-version: 2
+          extra-packages: |
             any::dplyr
             any::tidyr
             any::forcats
@@ -32,14 +25,9 @@ jobs:
             any::purrr
             any::googlesheets4
             any::glue
-            
-      - name: Check out repository
-        uses: actions/checkout@v3
-
       - name: Run script
         run: |
           Rscript R/atualizar_portfolio.R
-
       - name: Commit
         run: |
           git config --local user.email "actions@github.com"
