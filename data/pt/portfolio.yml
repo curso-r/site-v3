@@ -107,7 +107,7 @@ portfolio:
       image : images/cursos/deploy.webp
       categories : ["Visualização"]
       content : Aprenda a disponibilizar dashboards e o resultado dos seus modelos na Web.
-      link_ao_vivo : "https://www.sympla.com.br/deploy__2446249"
+      link_ao_vivo : "https://www.sympla.com.br/deploy__2396526"
       link_gravacao : ""
       icon : ti-cloud-up # themify icon pack : https://themify.me/themify-icons
       material: "https://curso-r.github.io/main-deploy/"
