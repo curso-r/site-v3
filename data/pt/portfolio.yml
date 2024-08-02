@@ -18,7 +18,7 @@ portfolio:
       image : images/cursos/r4ds1.webp
       categories : ["Programação para Ciência de Dados"]
       content : Comece a usar o R em suas análises de dados.
-      link_ao_vivo : "https://www.sympla.com.br/r-para-ciencia-de-dados-i__2396390"
+      link_ao_vivo : ""
       link_gravacao : ""
       icon : ti-shift-right-alt # themify icon pack : https://themify.me/themify-icons
       material: "https://curso-r.github.io/main-r4ds-1/"
