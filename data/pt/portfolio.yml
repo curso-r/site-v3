@@ -88,7 +88,7 @@ portfolio:
       categories : ["Visualização"]
       content : Comunique seus resultados construindo dashboards incríveis a partir do R.
       link_ao_vivo : ""
-      link_gravacao : ""
+      link_gravacao : "https://r6treinamentos.hotmart.host/r-shiny"
       icon : ti-layout # themify icon pack : https://themify.me/themify-icons
       material: "https://curso-r.github.io/main-dashboards/"
     
