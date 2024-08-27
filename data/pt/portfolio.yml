@@ -8,7 +8,7 @@ portfolio:
       image : images/cursos/intro-programacao.webp
       categories : ["Programação para Ciência de Dados"]
       content : Conceitos básicos de Estatística com atividades práticas dentro do R.
-      link_ao_vivo : "https://www.sympla.com.br/introducao-a-estatistica-com-r__2396430"
+      link_ao_vivo : ""
       link_gravacao : ""
       icon : ti-shift-right-alt # themify icon pack : https://themify.me/themify-icons
       material : "https://github.com/curso-r/202402-intro-estatistica"
