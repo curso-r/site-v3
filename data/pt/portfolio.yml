@@ -28,7 +28,7 @@ portfolio:
       image : images/cursos/r4ds2.webp
       categories : ["Programação para Ciência de Dados"]
       content : Explore mais ferramentas de manipulação de dados.
-      link_ao_vivo : "https://www.sympla.com.br/r-para-ciencia-de-dados-ii__2396456"
+      link_ao_vivo : ""
       link_gravacao : ""
       icon : ti-angle-right # themify icon pack : https://themify.me/themify-icons
       material: "https://curso-r.github.io/main-r4ds-2/"
