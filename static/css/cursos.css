@@ -49,7 +49,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9a1334', end
 .home-info-row .description{
     margin-top: 20px;
     font-weight: 300;
-    font-size: 15px;
+    font-size: 17px;
     margin-bottom: 20px;
     
 }
@@ -66,7 +66,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9a1334', end
 }
 .date-cont, .time-cont{
     margin: 8px 0;
-    font-size: 0.9em;
+    font-size: 1em;
 }
 .desc-info{
     margin: 35px 0 5px
@@ -124,15 +124,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9a1334', end
 }
 .insc-btn{
     background: transparent;
-    padding: 18px 40px;
-    width: 300px;
+    padding: 16px 24px;
     font-size: 20px;
     font-weight: 700;
     border-radius: 20px;
     border: 1px solid white;
-    margin-left: 8%;
     transition: .7s;
     color: white;
+    margin-top: 16px;
 }
 .insc-btn:hover{
     transform: scale(1.06)
@@ -524,7 +523,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9a1334', end
     }
     .curso-box{
         padding: 0 5%;
-        width: 
     }
      .plus-black{
         display: none;

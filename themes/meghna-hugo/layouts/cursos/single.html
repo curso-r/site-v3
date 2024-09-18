@@ -1,20 +1,363 @@
 <html>
+
 <head>
-    <meta charset="utf-8"/>
-        <meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
-        <title>{{ .Params.nome }} | Curso-R</title>
-        <meta http-equiv="refresh" content="0; URL=https://loja.curso-r.com">
-    <link rel="canonical" href="https://loja.curso-r.com">
-    <link rel="shortcut icon" type="image/png" href="{{ `images/favicon.webp`| absURL }}"/>
-    <link href="{{ `css/bootstrap.min.css`| absURL }}" rel="stylesheet" type="text/css">
-    <link href="{{ `plugins/themify-icons/themify-icons.css`| absURL }}" rel="stylesheet" type="text/css">
-    <link href="{{ `css/cursos.css`| absURL }}" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500,700,900&display=swap" rel="stylesheet">
-    <script src="https://assets.pagar.me/checkout/1.1.0/checkout.js"></script>
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script src ="https://assets.pagar.me/checkout/1.1.0//easyXDM.js"></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+    <title>{{ .Params.nome }} | Curso-R</title>
+    <link rel="shortcut icon" type="image/png" href="{{ `images/favicon.png`| absURL }}" />
+    <link href="{{ `css/bootstrap.min.css`| absURL }}" rel="stylesheet" type="text/css" />
+    <link href="{{ `plugins/themify-icons/themify-icons.css`| absURL }}" rel="stylesheet" type="text/css" />
+    <link href="{{ `css/cursos.css`| absURL }}" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500,700,900&display=swap" rel="stylesheet" />
 </head>
-    <body>
-        
-    </body>
+
+<body>
+    <div class="reg-all">
+        <!--home-->
+        <div class="row home-info-row" style="background: url({{.Params.imagem|absURL}}); background-size: cover; ">
+            <div class="bg-gradient"></div>
+            <div class="container">
+                <div class="col-xs-12 col-sm-12 col-md-8 col-lg-7">
+                    <div class="local-btn">Curso Online</div>
+                    <h1>{{ .Params.nome }}</h1>
+                    <p class="description"> {{ .Params.desc | markdownify }} </p>
+                    <div class="date-cont">
+                        <i class="ti-calendar icone"></i>
+                        <span>
+                            {{if eq .Params.aberto true}}
+                            {{ .Params.data | }}
+                            {{else}}
+                            A definir
+                            {{end}}
+                        </span>
+                    </div>
+                    {{if (and (.Params.obs_data) (eq .Params.aberto true)) }}
+                    <div class="date-cont">
+                        <i class="ti-info-alt icone"></i>
+                        <span> {{ .Params.obs_data }} </span>
+                    </div>
+                    {{ end }}
+                    <div class="time-cont">
+                        <i class="ti-time icone"></i>
+                        <span> {{ .Params.aulas_horas }}</span>
+                    </div>
+                    <br>
+                    <div class="row price-row">
+                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 price">
+                            <h2 id="valor" style="margin-top: 10px;">{{ .Params.valor }}</h2>
+                        </div>
+                    </div>
+                    {{if eq .Params.aberto true}}
+                    <div class="row">
+                        {{ if ne .Params.pagina_venda_aovivo "" }}
+                        <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+                            <a href="{{ .Params.pagina_venda_aovivo }}" target="_blank">
+                                <button id="pagamento" class="btn-insc insc-btn">Comprar ao vivo</button>
+                            </a>
+                        </div>
+                        {{ end }}
+                        {{ if ne .Params.pagina_venda_gravado "" }}
+                        <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+                            <a href="{{ .Params.pagina_venda_gravado }}" target="_blank">
+                                <button id="pagamento" class="btn-insc insc-btn">Comprar gravado</button>
+                            </a>
+                        </div>
+                        {{ end }}
+                    </div>
+                    {{ else }}
+                    <p style="margin-top: 20px; color: #CC023C;">Não há turmas abertas para este curso no momento :(</p>
+                    {{ end }}
+                    <p class="disclaimer">Ao se inscrever no curso, você declara estar de acordo com os nossos 
+                        <a class="terms" href="{{ `/termos-de-uso` | absURL  }}" target="_blank">Termos de uso.</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!--nav-bar-->
+    <div class="row nav-cont-row sticker sticker-mob">
+        <div class="container">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 nav-cont">
+                <ul>
+                    <li class="nav-item i-sobre nav-item-active"><a href="#sobre">Sobre</a></li>
+                    <li class="nav-item i-como"><a href="#sobre-curso">Sobre o curso</a></li>
+                    <li class="nav-item i-inst"><a href="#professores">Instrutores</a></li>
+                    <li class="nav-item i-faq"><a href="#faq">FAQ</a></li>
+                    <li class="nav-item"><a href="{{ `/cursos` | absURL }}">Todos os cursos</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--FIRST SEC-->
+    <div class="row one-row " id="sobre">
+        <div class="container">
+            <div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+                <h1 class="title-r"><span>Você sairá deste curso apta(o) a:</span></h1>
+
+                <div class="item-skill">
+                    <ul>
+                        {{ range .Params.habilidades }}
+                        <li>
+                            {{ . | markdownify}}
+                        </li>
+                        {{ end }}
+                    </ul>
+                </div>
+                <h1 class="title-r"><span>Ementa do curso</span></h1>
+                <ul>
+                    {{ range .Params.ementa }}
+                    <li>
+                        {{ .item | markdownify }}
+                        <ul>
+                            {{ range .subitens }}
+                            <li>
+                                {{ . | markdownify}}
+                            </li>
+                            {{ end }}
+                        </ul>
+                    </li>
+                    {{ end }}
+                </ul>
+
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+                <div class="box-r">
+                    <div class="row box-r-cont">
+                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                            <i class="ti-layout-cta-center icone"></i>
+                        </div>
+                        <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+                            <h4 class="bold">Certificado do curso</h4>
+                            <p>Emitido após conclusão</p>
+                        </div>
+                    </div>
+                    <div class="row box-r-cont">
+                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                            <i class="ti-world icone"></i>
+                        </div>
+                        <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+                            <h4 class="bold">Cursos 100% on-line</h4>
+                            <p style="line-height: 12px;">Nos cursos ao vivo, as aulas são gravadas e ficam disponíveis
+                                por 1 ano</p>
+                        </div>
+                    </div>
+                    <div class="row box-r-cont">
+                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                            <i class="ti-dashboard icone"></i>
+                        </div>
+                        <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+                            <h4 class="bold">Nível {{ .Params.nivel }}</h4>
+                            {{ if .Params.cursos_recomendados}}
+                            <p style="margin-bottom: 0;">Conhecimento prévio recomendado:</p>
+                            <ul>
+                                {{ range .Params.cursos_recomendados}}
+                                <li>
+                                    <a href="{{ .link }}" target="_blank">{{ .nome }}</a>
+                                </li>
+                                {{ end }}
+                            </ul>
+                            {{ else }}
+                            <p>Não exige experiência prévia.</p>
+                            {{ end }}
+                        </div>
+                    </div>
+                    <div class="row box-r-cont">
+                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                            <i class="ti-text icone"></i>
+                        </div>
+                        <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+                            <h4 class="bold">Português</h4>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--INSTRUÇÕES-->
+    <div class="row pre-row" id="sobre-curso">
+        <div class="container">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="t-item">
+                    <i class="ti-comments"></i>
+                    <h1>Como será o curso?</h1>
+                </div>
+                <div class="red-box">
+                    <ul>
+                        {{ range .Params.como_sera }}
+                        <li> {{ . }}</li>
+                        {{ end }}
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="t-item-b">
+                    <i class="ti-alert"></i>
+                    <h1>Pré-requisitos</h1>
+                </div>
+                <div class="red-box">
+                    <ul>
+                        {{ range .Params.cursos_recomendados }}
+                        <li> O conteúdo do curso <a href="{{ .link }}" target="_blank">{{ .nome }}</a>. </li>
+                        {{ end }}
+                        {{ range .Params.pre_requisitos }}
+                        <li> {{ . }} </li>
+                        {{ end }}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row prof-row" id="professores">
+        <div class="container">
+            <h1 class="text-center title-r"><span>Ministrantes</span></h1>
+            {{ $data := index site.Data site.Language.Lang }}
+            {{ range where $data.team.team.team_member "name" "in" .Params.professores}}
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="row semi-prof-row">
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                        <img class="prof-img" src="{{ .image | absURL }}" />
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 prof-item">
+                        <h1> {{ .name }} </h1>
+                        <p> {{ .content }}</p>
+                        <div class="item-redes">
+                            {{ range .social }}
+                            <a href="{{ .link | safeURL }}" target="_blank"><i class="{{ .icon }} icone"></i></a>
+                            {{ end }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+    {{ if .Params.trabalhos }}
+    <div class="row prof-row">
+        <div class="container">
+            <h1 class="text-center  title-r"><span>Trabalhos entregues neste curso</span></h1>
+            <p class="text-center"> Ao final de cada curso, nossas alunas e alunos entregam um trabalho de conclusão.
+                Veja alguns dos trabalhos entregues neste curso.</p>
+            {{ range .Params.trabalhos }}
+            <p class="text-center" style="margin-top: 30px;">
+                <a href="{{ .link }}" target="_blank">{{ .nome }}</a>
+            </p>
+
+            {{ end }}
+            </ul>
+        </div>
+    </div>
+    {{ end }}
+    <div class="faq"></div>
+    <div class="row faq-row" id="faq">
+        <h1 class="text-center title-r"><span>Perguntas Frequentes - FAQ</span></h1>
+        <div class="container">
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="black-faq">
+                    <button class="btn-faq-black" data-toggle="collapse" data-target="#faq-b">
+                        <h1>Terei direito ao certificado?</h1>
+                        <h1 class="plus-black">+</h1>
+                    </button>
+                </div>
+                <div class="red-border collapse multi-collapse" id="faq-b">
+                    <p> Sim, você receberá o certificado ao final do curso, a depender de conclusão das aulas e de
+                        eventual trabalho de conclusão solicitado pela/pelo ministrante. O certificado é individual e
+                        terá o mesmo nome que você utilizou na compra.</p>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="black-faq">
+                    <button class="btn-faq-black" data-toggle="collapse" data-target="#faq-c">
+                        <h1>Nos cursos ao vivo, as aulas são gravadas?</h1>
+                        <h1 class="plus-black">+</h1>
+                    </button>
+                </div>
+                <div class="red-border collapse multi-collapse" id="faq-c">
+                    <p> Sim, as aulas são gravadas e disponibilizadas para os alunos inscritos por pelo menos 1 ano.</p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="black-faq">
+                    <button class="btn-faq-black" data-toggle="collapse" data-target="#faq-d">
+                        <h1>Como eu sei que minha inscrição foi confirmada? </h1>
+                        <h1 class="plus-black">+</h1>
+                    </button>
+                </div>
+                <div class="red-border collapse multi-collapse" id="faq-d">
+                    <p> Após a confirmação da compra, você receberá um e-mail de nossa equipe com a confirmação de sua
+                        inscrição e as instruções de acesso ao curso.
+                    </p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="black-faq">
+                    <button class="btn-faq-black" data-toggle="collapse" data-target="#faq-e">
+                        <h1>Fiz minha inscrição, mas não recebi o email de confirmação</h1>
+                        <h1 class="plus-black">+</h1>
+                    </button>
+                </div>
+                <div class="red-border collapse multi-collapse" id="faq-e">
+                    <p> Caso você não receba email de confirmação, primeiramente verifique a sua caixa de spam. Caso não
+                        esteja lá, basta nos enviar um e-mail para contato@curso-r.com.</p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="black-faq">
+                    <button class="btn-faq-black" data-toggle="collapse" data-target="#faq-f">
+                        <h1>Quanto custam os cursos da Curso-R? </h1>
+                        <h1 class="plus-black">+</h1>
+                    </button>
+                </div>
+                <div class="red-border collapse multi-collapse" id="faq-f">
+                    <p> Depende do curso, todas as informações necessárias para ingressar em qualquer curso da Curso-R
+                        pode ser encontrada na sua respectiva página.</p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="black-faq">
+                    <button class="btn-faq-black" data-toggle="collapse" data-target="#faq-g">
+                        <h1>Quais as formas de pagamento?</h1>
+                        <h1 class="plus-black">+</h1>
+                    </button>
+                </div>
+                <div class="red-border collapse multi-collapse" id="faq-g">
+                    <p>Você pode pagar via cartão de crédito, pix e boleto.</p>
+                </div>
+            </div>
+
+            {{ range .Params.faq}}
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="black-faq">
+                    <button class="btn-faq-black" data-toggle="collapse" data-target="#faq-{{ .id }}">
+                        <h1> {{ .pergunta }} </h1>
+                        <h1 class="plus-black">+</h1>
+                    </button>
+                </div>
+                <div class="red-border collapse multi-collapse" id="faq-{{ .id }}">
+                    <p> {{ .resposta }} </p>
+                </div>
+            </div>
+            {{ end }}
+
+
+
+        </div>
+    </div>
+
+    <div style="margin-top: 100px;">
+        {{ partial "footer.html" . }}
+    </div>
+
+
+    </div><!--REG-ALL-->
+    <script src="{{ `js/jquery-3.4.1.min.js`| absURL }}" type="text/javascript"></script>
+    <script src="{{ `js/bootstrap.min.js`| absURL }}" type="text/javascript"></script>
+    <script src="{{ `js/function.js`| absURL }}" type="text/javascript"></script>
+</body>
+
 </html>
