@@ -8,6 +8,7 @@ portfolio:
       image : images/cursos/intro-programacao.webp
       categories : ["Programação para Ciência de Dados"]
       content : Conceitos básicos de Estatística com atividades práticas dentro do R.
+      pagina: "intro-estatistica"
       icon : ti-shift-right-alt # themify icon pack : https://themify.me/themify-icons
       material : "https://github.com/curso-r/202402-intro-estatistica"
       
@@ -16,6 +17,7 @@ portfolio:
       image : images/cursos/r4ds1.webp
       categories : ["Programação para Ciência de Dados"]
       content : Comece a usar o R em suas análises de dados.
+      pagina: "r4ds-1"
       icon : ti-shift-right-alt # themify icon pack : https://themify.me/themify-icons
       material: "https://curso-r.github.io/main-r4ds-1/"
       
@@ -24,6 +26,7 @@ portfolio:
       image : images/cursos/r4ds2.webp
       categories : ["Programação para Ciência de Dados"]
       content : Explore mais ferramentas de manipulação de dados.
+      pagina: "r4ds-2"
       icon : ti-angle-right # themify icon pack : https://themify.me/themify-icons
       material: "https://curso-r.github.io/main-r4ds-2/"
       
@@ -32,6 +35,7 @@ portfolio:
       image : images/cursos/r4ds3.jpg
       categories : ["Programação para Ciência de Dados"]
       content : Domine os seus dados e aumente a sua produtividade.
+      pagina: "r4ds-3"
       icon : ti-angle-double-right # themify icon pack : https://themify.me/themify-icons
       material: "https://curso-r.github.io/main-r4ds-2/"
       
@@ -40,6 +44,7 @@ portfolio:
       image : images/cursos/python-r.webp
       categories : ["Programação para Ciência de Dados"]
       content : A melhor linguagem é a união das duas.
+      pagina: "python-r"
       icon : ti-loop # themify icon pack : https://themify.me/themify-icons
       material: "https://curso-r.github.io/main-python-r/"
       
@@ -56,6 +61,7 @@ portfolio:
       image : images/cursos/visualizacao.webp
       categories : ["Visualização"]
       content : Construa gráficos e mapas para explorar os seus dados.
+      pagina: "visualizacao"
       icon : ti-gallery # themify icon pack : https://themify.me/themify-icons
       material: "https://curso-r.github.io/main-visualizacao/"
       
@@ -63,6 +69,7 @@ portfolio:
       image : images/cursos/relatorios.webp
       categories : ["Visualização"]
       content : Construa e automatize relatórios e apresentações para comunicar suas análises.
+      pagina: "relatorios"
       icon : ti-file # themify icon pack : https://themify.me/themify-icons
       material: "https://curso-r.github.io/main-relatorios/"
       
@@ -71,6 +78,7 @@ portfolio:
       image : images/cursos/dashboards.webp
       categories : ["Visualização"]
       content : Comunique seus resultados construindo dashboards incríveis a partir do R.
+      pagina: "dashboards"
       icon : ti-layout # themify icon pack : https://themify.me/themify-icons
       material: "https://curso-r.github.io/main-dashboards/"
     
@@ -79,6 +87,7 @@ portfolio:
       image : images/cursos/deploy.webp
       categories : ["Visualização"]
       content : Aprenda a disponibilizar dashboards e o resultado dos seus modelos na Web.
+      pagina: "deploy"
       icon : ti-cloud-up # themify icon pack : https://themify.me/themify-icons
       material: "https://curso-r.github.io/main-deploy/"
     
@@ -95,6 +104,7 @@ portfolio:
       image : images/cursos/iml.webp
       categories : ["Machine Learning"]
       content : Aprenda os principais conceitos de Machine Learning utilizando o R como ferramenta.
+      pagina: "intro-ml"
       icon : ti-panel # themify icon pack : https://themify.me/themify-icons
       material: "https://curso-r.github.io/main-intro-ml/"
     
@@ -119,6 +129,7 @@ portfolio:
       image : images/cursos/web-scraping.webp
       categories : ["Web scraping"]
       content : Aprenda a coletar dados da internet de forma autônoma e eficiente utilizando o R.
+      pagina: "web-scraping"
       icon : ti-world # themify icon pack : https://themify.me/themify-icons
       material: "https://curso-r.github.io/main-web-scraping/"
     

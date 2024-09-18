@@ -4,8 +4,6 @@ data: Curso gravado no Hotmart
 
 aulas_horas: 10 horas de aulas gravadas + 10 horas de conteúdo extra
 
-valor: R$350,00
-
 aberto: true
 
 ## Ver arquivo data/pt/team.yml
@@ -15,7 +13,7 @@ professores:
 # Descrição do curso
 nome: Dashboards em Shiny
 
-pagina_venda_gravado: https://pay.hotmart.com/C94374621I
+pagina_venda_gravado: https://hotmart.com/pt-br/marketplace/produtos/dashboards-em-shiny/C94374621I
 
 pagina_venda_aovivo: ""
 
@@ -67,10 +65,10 @@ ementa:
     - Como colocar senha no seu dashboard com o `auth0`
     
 como_sera: 
-  - Aulas gravadas.
-  - Diversos exercícios para praticar e tirar dúvidas.
-  - Lives e vídeos com conteúdos extras.
-  - Um plantão de dúvidas ao vivo por mês.
+  - Aulas expositivas para apresentar o conteúdo.
+  - Diversos exercícios para praticar e levantar dúvidas.
+  - Nos cursos ao vivo, projeto de análise de dados para aplicar o conteúdo aprendido.
+  - Nos cursos ao vivo, a gravação das aulas ficam disponíveis por pelo menos 1 ano.
   
 pre_requisitos: 
   - Interesse por construção de dashboards.

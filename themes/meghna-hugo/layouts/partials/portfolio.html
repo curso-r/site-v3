@@ -56,11 +56,9 @@
 							{{ .name }}
 						</h4>
 						<p>{{ .content | markdownify }}</p>
-						{{ if ne .material "" }}
-						<a class="search-icon green" target="_blank" href="{{ .material | safeURL }}">
-							Material
+						<a class="search-icon green" target="_blank" href="{{ .Site.BaseURL }}/cursos/{{ .pagina | safeURL }}">
+							Saiba mais
 						</a>
-						{{ end }}
 					</div>
 				</div>
 			</div>

@@ -4,13 +4,12 @@ data: Às segundas, de 21 de outubro a 11 de novembro de 2024, das 19h às 22h
 
 aulas_horas: 4 aulas, 12 horas de curso
 
-valor: R$550,00
-
 aberto: true
 
 ## Ver arquivo data/pt/team.yml
 professores:
   - Beatriz Milz
+  - Julio Trecenti
 
 # Descrição do curso
 nome: Relatórios e apresentações automáticas
@@ -53,15 +52,15 @@ ementa:
   - item: O pacote `pagedown`
     
 como_sera: 
-  - Aulas online, em tempo real.
-  - Diversos exercícios para praticar e tirar dúvidas.
-  - Projeto de análise de dados para aplicar o conteúdo aprendido.
-  - Gravação das aulas disponíveis por pelo menos 1 ano.
+  - Aulas expositivas para apresentar o conteúdo.
+  - Diversos exercícios para praticar e levantar dúvidas.
+  - Nos cursos ao vivo, projeto de análise de dados para aplicar o conteúdo aprendido.
+  - Nos cursos ao vivo, a gravação das aulas ficam disponíveis por pelo menos 1 ano.
   
 pre_requisitos: 
   - Interesse por Ciência de Dados.
   - Conhecimentos básicos de computação, como criação de arquivos e pastas, instalação de programas e navegação na internet.
-  - Uma conta de e-mail Google para acessar o Google Sala de Aula.
-  - Últimas versões do R e do RStudio instaladas.
+  - No curso ao vivo, uma conta de e-mail Google para acessar o Google Sala de Aula.
+  - Últimas versões do R e do RStudio instaladas. Também é possível utilizar o VSCode ou Positron.
 
 ---

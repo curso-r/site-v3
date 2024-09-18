@@ -21,45 +21,20 @@
                     <div class="local-btn">Curso Online</div>
                     <h1>{{ .Params.nome }}</h1>
                     <p class="description"> {{ .Params.desc | markdownify }} </p>
-                    <div class="date-cont">
-                        <i class="ti-calendar icone"></i>
-                        <span>
-                            {{if eq .Params.aberto true}}
-                            {{ .Params.data | }}
-                            {{else}}
-                            A definir
-                            {{end}}
-                        </span>
-                    </div>
-                    {{if (and (.Params.obs_data) (eq .Params.aberto true)) }}
-                    <div class="date-cont">
-                        <i class="ti-info-alt icone"></i>
-                        <span> {{ .Params.obs_data }} </span>
-                    </div>
-                    {{ end }}
-                    <div class="time-cont">
-                        <i class="ti-time icone"></i>
-                        <span> {{ .Params.aulas_horas }}</span>
-                    </div>
                     <br>
-                    <div class="row price-row">
-                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 price">
-                            <h2 id="valor" style="margin-top: 10px;">{{ .Params.valor }}</h2>
-                        </div>
-                    </div>
                     {{if eq .Params.aberto true}}
                     <div class="row">
                         {{ if ne .Params.pagina_venda_aovivo "" }}
                         <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
                             <a href="{{ .Params.pagina_venda_aovivo }}" target="_blank">
-                                <button id="pagamento" class="btn-insc insc-btn">Comprar ao vivo</button>
+                                <button id="pagamento" class="btn-insc insc-btn">Curso ao vivo</button>
                             </a>
                         </div>
                         {{ end }}
                         {{ if ne .Params.pagina_venda_gravado "" }}
                         <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
                             <a href="{{ .Params.pagina_venda_gravado }}" target="_blank">
-                                <button id="pagamento" class="btn-insc insc-btn">Comprar gravado</button>
+                                <button id="pagamento" class="btn-insc insc-btn">Curso gravado</button>
                             </a>
                         </div>
                         {{ end }}
@@ -138,8 +113,9 @@
                         </div>
                         <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
                             <h4 class="bold">Cursos 100% on-line</h4>
-                            <p style="line-height: 12px;">Nos cursos ao vivo, as aulas são gravadas e ficam disponíveis
-                                por 1 ano</p>
+                            <p style="line-height: 12px;">
+                                Nos cursos ao vivo, as aulas são gravadas e ficam disponíveis por 1 ano
+                            </p>
                         </div>
                     </div>
                     <div class="row box-r-cont">
