@@ -1,9 +1,5 @@
 ---
 # Dados da próxima turma
-data: Às segundas, de 21 de outubro a 11 de novembro de 2024, das 19h às 22h
-
-aulas_horas: 4 aulas, 12 horas de curso
-
 aberto: true
 
 ## Ver arquivo data/pt/team.yml
@@ -37,7 +33,6 @@ habilidades:
   - Turbinar seus R Markdowns usando as funcionalidades mais importantes da ferramenta
   - Construir documentos programaticamente em formato compatível com Python, Julia, JavaScript e R
 
-
 ementa:
   - item: Introdução ao R Markdown e ao Quarto
   - item: R Markdown e seus outputs
@@ -51,16 +46,12 @@ ementa:
   - item: O pacote `xaringan`
   - item: O pacote `pagedown`
     
-como_sera: 
-  - Aulas expositivas para apresentar o conteúdo.
-  - Diversos exercícios para praticar e levantar dúvidas.
-  - Nos cursos ao vivo, projeto de análise de dados para aplicar o conteúdo aprendido.
-  - Nos cursos ao vivo, a gravação das aulas ficam disponíveis por pelo menos 1 ano.
-  
-pre_requisitos: 
-  - Interesse por Ciência de Dados.
-  - Conhecimentos básicos de computação, como criação de arquivos e pastas, instalação de programas e navegação na internet.
-  - No curso ao vivo, uma conta de e-mail Google para acessar o Google Sala de Aula.
-  - Últimas versões do R e do RStudio instaladas. Também é possível utilizar o VSCode ou Positron.
+# como_sera:
+  # - Personalizado 1
+  # - Personalizado 2
+
+# pre_requisitos:
+  # - Personalizado 1
+  # - Personalizado 2
 
 ---

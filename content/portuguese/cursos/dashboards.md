@@ -1,16 +1,10 @@
 ---
-# Dados da próxima turma
-data: Curso gravado no Hotmart
-
-aulas_horas: 10 horas de aulas gravadas + 10 horas de conteúdo extra
-
 aberto: true
 
 ## Ver arquivo data/pt/team.yml
 professores:
   - William Amorim
 
-# Descrição do curso
 nome: Dashboards em Shiny
 
 pagina_venda_gravado: https://hotmart.com/pt-br/marketplace/produtos/dashboards-em-shiny/C94374621I
@@ -64,15 +58,11 @@ ementa:
     - Hospedando um app no `shinyapps.io`
     - Como colocar senha no seu dashboard com o `auth0`
     
-como_sera: 
-  - Aulas expositivas para apresentar o conteúdo.
-  - Diversos exercícios para praticar e levantar dúvidas.
-  - Nos cursos ao vivo, projeto de análise de dados para aplicar o conteúdo aprendido.
-  - Nos cursos ao vivo, a gravação das aulas ficam disponíveis por pelo menos 1 ano.
-  
-pre_requisitos: 
-  - Interesse por construção de dashboards.
-  - Um computador com acesso à internet para assistar às aulas.
-  - Últimas versões do R e do RStudio instaladas. Também é possível utilizar o VSCode ou Positron.
+# como_sera:
+  # - Personalizado 1
+  # - Personalizado 2
 
+# pre_requisitos:
+  # - Personalizado 1
+  # - Personalizado 2
 ---

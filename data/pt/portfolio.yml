@@ -31,13 +31,13 @@ portfolio:
       material: "https://curso-r.github.io/main-r4ds-2/"
       
     # portfolio item loop
-    - name : R para Ciência de Dados III
-      image : images/cursos/r4ds3.jpg
-      categories : ["Programação para Ciência de Dados"]
-      content : Domine os seus dados e aumente a sua produtividade.
-      pagina: "r4ds-3"
-      icon : ti-angle-double-right # themify icon pack : https://themify.me/themify-icons
-      material: "https://curso-r.github.io/main-r4ds-2/"
+    # - name : R para Ciência de Dados III
+    #   image : images/cursos/r4ds3.jpg
+    #   categories : ["Programação para Ciência de Dados"]
+    #   content : Domine os seus dados e aumente a sua produtividade.
+    #   pagina: "r4ds-3"
+    #   icon : ti-angle-double-right # themify icon pack : https://themify.me/themify-icons
+    #   material: "https://curso-r.github.io/main-r4ds-3/"
       
     # portfolio item loop
     - name : Python para usuários de R

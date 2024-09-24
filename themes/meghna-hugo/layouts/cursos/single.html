@@ -144,7 +144,6 @@
                         </div>
                         <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
                             <h4 class="bold">Português</h4>
-
                         </div>
                     </div>
                 </div>
@@ -162,6 +161,10 @@
                 </div>
                 <div class="red-box">
                     <ul>
+                        <li>Aulas expositivas para apresentar o conteúdo.</li>
+                        <li>Diversos exercícios para praticar e levantar dúvidas.</li>
+                        <li>Nos cursos ao vivo, projeto de análise de dados para aplicar o conteúdo aprendido.</li>
+                        <li>Nos cursos ao vivo, a gravação das aulas ficam disponíveis por pelo menos 1 ano.</li>
                         {{ range .Params.como_sera }}
                         <li> {{ . }}</li>
                         {{ end }}
@@ -179,6 +182,10 @@
                         {{ range .Params.cursos_recomendados }}
                         <li> O conteúdo do curso <a href="{{ .link }}" target="_blank">{{ .nome }}</a>. </li>
                         {{ end }}
+                        <li>Interesse por Ciência de Dados.</li>
+                        <li>Conhecimentos básicos de computação, como criação de arquivos e pastas, instalação de programas e navegação na internet.</li>
+                        <li>No curso ao vivo, uma conta de e-mail Google para acessar o Google Sala de Aula.</li>
+                        <li>Últimas versões do R e do RStudio, VSCode ou Positron instaladas.</li>
                         {{ range .Params.pre_requisitos }}
                         <li> {{ . }} </li>
                         {{ end }}
