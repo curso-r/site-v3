@@ -3,7 +3,6 @@ aberto: true
 
 ## Ver arquivo data/pt/team.yml
 professores:
-  - Fernando Corrêa
   - Julio Trecenti
 
 nome: Web Scraping
