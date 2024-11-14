@@ -1,5 +1,5 @@
 ---
-aberto: false
+aberto: true
 
 ## Ver arquivo data/pt/team.yml
 professores:
