@@ -14,7 +14,7 @@ pagina_venda_aovivo: ""
 
 imagem: "images/cursos/iml.webp"
 
-desc: O objetivo deste workshop é apresentar as principais ferramentas e estratégias para baixar e organizar dados da internet utilizando o R. Para isso, abordaremos as noções básicas de como um site é construído, como funcionam as requisições web e como descobrir o caminho até um conteúdo específico de uma página. Também abordaremos o uso de APIs e o que fazer quando o fluxo usual de raspagem não funciona.
+desc: O objetivo deste curso é apresentar as principais ferramentas e estratégias para baixar e organizar dados da internet. Para isso, abordamos as noções básicas de como um site é construído, como funcionam as requisições web e como descobrir o caminho até um conteúdo específico de uma página. Também abordamos o uso de APIs e o que fazer quando o fluxo usual de raspagem não funciona e páginas dinâmicas usando Selenium.
 
 nivel: intermediário
 
@@ -24,11 +24,11 @@ cursos_recomendados:
 
 habilidades:
   - Organizar um projeto de web scraping;
-  - Escrever scripts em R para baixar dados da internet;
+  - Escrever scripts para baixar dados da internet;
   - Construir robôs para coletar dados da internet de forma automática;
-  - Estruturar dados de arquivos `.xml`, `.html` e `.json`;
-  - Baixar dados de APIs.
-  - Identificar a forma mais eficiente de implementar soluções para raspar sites complexos.
+  - Estruturar dados de arquivos baixados;
+  - Baixar dados de APIs;
+  - Usar ferramentas para baixar dados de sites dinâmicos;
 
 ementa:
   - item: "**Introdução**"
@@ -40,21 +40,16 @@ ementa:
     subitens:
     - Acessando dados de APIs
     - APIs escondidas em sites
-    - APIs com autenticação simples
-    - Acessar APIs com OAuth2
+    - APIs com autenticação
   - item: "**Baixando dados em HTML ou XML**"
     subitens:
     - Imitando a requisição do inspetor
-    - O pacote httr
     - Requisições GET e POST
-  - item: "**Construindo um parser**"
-    subitens:
-    - O pacote xml2
     - Introdução ao XPath
     - Estruturando os dados brutos
   - item: "**Aprimorando seu algoritmo**"
     subitens:
-    - Como iterar algoritmos no R
+    - Como iterar algoritmos
     - Tratamento de erros
     - Paralelização
   - item: "**Raspagem de páginas complexas**"
