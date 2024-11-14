@@ -85,7 +85,7 @@ team:
       image_webp : images/team/julio.webp
       image : images/team/julio.webp
       designation : Sócio e professor
-      content : Faxineiro de dados. Doutorando em Estatística pelo IME-USP. Secretário-geral da Associação Brasileira de Jurimetria (ABJ). Trabalha com web scraping, arrumação de dados, construção de modelos preditivos, APIs e dashboards em Shiny.
+      content : Faxineiro de dados. Doutor em Estatística pelo IME-USP. Professor Tempo Parcial no Insper. Diretor da Associação Brasileira de Jurimetria (ABJ). Trabalha com web scraping, arrumação de dados, construção de modelos preditivos, APIs e dashboards em Shiny.
       social :
         - icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
           link : "https://twitter.com/jtrecenti"
