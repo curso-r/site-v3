@@ -8,7 +8,7 @@ professores:
 
 nome: Web Scraping
 
-pagina_venda_gravado: ""
+pagina_venda_gravado: https://hotmart.com/pt-br/marketplace/produtos/web-scraping/O96497127V
 
 pagina_venda_aovivo: ""
 
