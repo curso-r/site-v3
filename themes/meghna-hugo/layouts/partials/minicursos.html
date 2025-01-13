@@ -2,8 +2,8 @@
 
 {{ $cursos := where .Site.Pages "Type" "cursos"}}
 
-{{ if $data.portfolio.portfolio.enable }}
-{{ with $data.portfolio.portfolio }}
+{{ if $data.minicursos.minicursos.enable }}
+{{ with $data.minicursos.minicursos }}
 {{"<!-- Portfolio Section -->" | safeHTML}}
 <section class="portfolio section" id="portfolio">
 	<div class="container">
@@ -16,6 +16,8 @@
 					<div class="border-meghna"></div>
 				</div>
 				{{"<!-- /section title -->" | safeHTML}}
+				<h4 style = "text-align: center;">Segue o nosso calendário de minicursos ao vivo para os membros do nosso <a href = "https://www.youtube.com/@CursoR6">canal no YouTube.</a></h4>
+				<br>
 			</div>
 		</div>
 		<div class="row">
@@ -26,7 +28,7 @@
 						<input type="radio" name="shuffle-filter" value="all" checked="checked" />{{ i18n "all"}}
 					</label>
 						{{ $categories := slice }}
-						{{ range .portfolio_item }}
+						{{ range .minicursos_item }}
 						{{ range .categories }}
 						{{ $categories = $categories | append . }}
 						{{ end }}
@@ -42,23 +44,22 @@
 
 		<div class="row shuffle-wrapper justify-content-center">
 			{{"<!-- portfolio item -->" | safeHTML}}
-			{{ range .portfolio_item }}
+			{{ range .minicursos_item }}
 			<div class="col-lg-4 col-md-6 shuffle-item"
 				data-groups="[{{range $index, $element:= .categories }}{{if ne $index 0}},{{end}}&quot;{{. | urlize}}&quot;{{ end }}]">
 				<div class="portfolio-block text-center mb-4" style = "background-image: url('{{ .image | absURL }}' )">
 				  <div class="portfolio-icon text-center">
 						<i class="{{ .icon }}"></i>
 					</div>
-					<h3>{{ .name | markdownify }}</h3>
+					<h3 style = "background-color: #999999aa;">{{ .name | markdownify }}</h3>
 					{{ $curso := index (where $cursos ".Params.nome" .name) 0 }}
 					<div class="caption">
 						<h4 class="mt-3">
 							{{ .name }}
 						</h4>
 						<p>{{ .content | markdownify }}</p>
-						<a class="search-icon green" target="_blank" href="{{ .Site.BaseURL }}/cursos/{{ .pagina | safeURL }}">
-							Saiba mais
-						</a>
+						<p><b>Início:</b> {{ .inicio }}</p>
+						<p><b>Aulas às segundas-feiras, 19h</b></p>
 					</div>
 				</div>
 			</div>

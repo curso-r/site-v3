@@ -1,0 +1,68 @@
+#################################### portfolio ###############################
+minicursos:
+  enable : true
+  title : Minicursos 2025
+  minicursos_item :
+    # portfolio item loop
+    - name : Introdução ao R
+      image : images/minicursos/intro-r.jpg
+      categories : ["Programação para Ciência de Dados"]
+      content : Aprenda os conceitos básicos de programação em R.
+      inicio : "20/01/2025"
+      icon : ti-shift-right-alt # themify icon pack : https://themify.me/themify-icons
+      
+    # portfolio item loop
+    - name : Manipulação de dados em R
+      image : images/minicursos/manipulacao-r.jpg
+      categories : ["Programação para Ciência de Dados"]
+      content : Aprenda as principais ferramentas de manipulação de dados em R.
+      inicio: "10/03/2025"
+      icon : ti-brush # themify icon pack : https://themify.me/themify-icons
+      
+    # portfolio item loop
+    - name : Introdução à Estatística com R
+      image : images/minicursos/intro-estatistica-r.jpg
+      content : Aprenda os conceitos básicos de estatística utilizando o R.
+      inicio: "28/04/2025"
+      icon : ti-angle-right # themify icon pack : https://themify.me/themify-icons
+      
+    # portfolio item loop
+    - name : Visualização de dados
+      image : images/minicursos/visuaulizacao.jpg
+      categories : ["Visualização"]
+      content : Construa gráficos e mapas para explorar os seus dados.
+      inicio: "16/06/2025"
+      icon : ti-loop # themify icon pack : https://themify.me/themify-icons
+
+    # portfolio item loop
+    - name : Relatórios automáticos
+      image : images/minicursos/relatorios.jpg
+      categories : ["Visualização"]
+      content : Construa e automatize relatórios e apresentações para comunicar suas análises.
+      inicio: "21/07/2025"
+      icon : ti-file # themify icon pack : https://themify.me/themify-icons
+
+    # portfolio item loop
+    - name : Manipulação de dados em Python
+      image : images/minicursos/manipulacao-python.jpg
+      categories : ["Programação para Ciência de Dados"]
+      content : Aprenda as principais ferramentas de manipulação de dados em Python.
+      inicio: "18/08/2025"
+      icon : ti-brush # themify icon pack : https://themify.me/themify-icons
+
+    # portfolio item loop
+    - name : Dashboards em Shiny
+      image : images/minicursos/shiny.jpg
+      categories : ["Visualização"]
+      content : Comunique seus resultados construindo dashboards incríveis a partir do R.
+      inicio: "29/09/2025"
+      icon : ti-layout # themify icon pack : https://themify.me/themify-icons
+      
+    # portfolio item loop
+    - name : Web scraping
+      image : images/minicursos/web-scraping.jpg
+      categories : ["Web scraping"]
+      content : Aprenda a coletar dados da internet de forma autônoma e eficiente utilizando o R.
+      inicio: "10/11/2025"
+      icon : ti-world # themify icon pack : https://themify.me/themify-icons
+    

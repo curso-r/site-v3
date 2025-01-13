@@ -1,5 +1,5 @@
 ############################# call to action ##############################
-discourse:
+forum:
   enable : true
   bg_image : "images/backgrounds/bg-universe.webp"
   title : "Dúvidas sobre R e Ciência de Dados?"
@@ -7,4 +7,4 @@ discourse:
   button:
     enable : true
     label : "Compartilhe a sua dúvida com a comunidade"
-    link : "https://discourse.curso-r.com/"
+    link : "https://github.com/orgs/curso-r/discussions"

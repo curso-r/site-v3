@@ -56,10 +56,16 @@ url = "about"
 weight = 1
 
 [[Languages.pt.menu.main]]
-name = "Cursos"
-pre = ""
-url = "/cursos"
+name = "Minicursos"
+pre = "#"
+url = "portfolio"
 weight = 2
+
+[[Languages.pt.menu.main]]
+name = "Cursos gravados"
+pre = "#"
+url = "services"
+weight = 3
 
 [[Languages.pt.menu.main]]
 name = "Consultoria"
@@ -227,7 +233,7 @@ name = "Blog"
 
 [[params.links]]
 icon = "ti-comment" # themify icon pack : https://themify.me/themify-icons
-link = "https://discourse.curso-r.com/"
+link = "https://github.com/orgs/curso-r/discussions"
 name = "Fórum de dúvidas"
 
 [[params.links]]
