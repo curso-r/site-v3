@@ -56,16 +56,10 @@ url = "about"
 weight = 1
 
 [[Languages.pt.menu.main]]
-name = "Minicursos"
+name = "Cursos"
 pre = "#"
 url = "portfolio"
 weight = 2
-
-[[Languages.pt.menu.main]]
-name = "Cursos gravados"
-pre = "#"
-url = "services"
-weight = 3
 
 [[Languages.pt.menu.main]]
 name = "Consultoria"
