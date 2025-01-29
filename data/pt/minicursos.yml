@@ -1,7 +1,7 @@
 #################################### portfolio ###############################
 minicursos:
   enable : true
-  title : Minicursos 2025
+  title : Cursos YouTube
   minicursos_item :
     # portfolio item loop
     - name : Introdução ao R

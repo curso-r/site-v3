@@ -1,34 +1,34 @@
 #################################### portfolio ###############################
 portfolio:
   enable : true
-  title : Nossos cursos
+  title : Cursos Gravados
   portfolio_item :
     # portfolio item loop
-    - name : Introdução à Estatística com R
-      image : images/cursos/intro-programacao.webp
-      categories : ["Programação para Ciência de Dados"]
-      content : Conceitos básicos de Estatística com atividades práticas dentro do R.
-      pagina : "intro-estatistica"
-      icon : ti-shift-right-alt # themify icon pack : https://themify.me/themify-icons
-      material : "https://github.com/curso-r/202402-intro-estatistica"
+    # - name : Introdução à Estatística com R
+    #   image : images/cursos/intro-programacao.webp
+    #   categories : ["Programação para Ciência de Dados"]
+    #   content : Conceitos básicos de Estatística com atividades práticas dentro do R.
+    #   pagina : "intro-estatistica"
+    #   icon : ti-shift-right-alt # themify icon pack : https://themify.me/themify-icons
+    #   material : "https://github.com/curso-r/202402-intro-estatistica"
       
     # portfolio item loop
-    - name : R para Ciência de Dados I
-      image : images/cursos/r4ds1.webp
-      categories : ["Programação para Ciência de Dados"]
-      content : Comece a usar o R em suas análises de dados.
-      pagina : "r4ds-1"
-      icon : ti-shift-right-alt # themify icon pack : https://themify.me/themify-icons
-      material: "https://curso-r.github.io/main-r4ds-1/"
+    # - name : R para Ciência de Dados I
+    #   image : images/cursos/r4ds1.webp
+    #   categories : ["Programação para Ciência de Dados"]
+    #   content : Comece a usar o R em suas análises de dados.
+    #   pagina : "r4ds-1"
+    #   icon : ti-shift-right-alt # themify icon pack : https://themify.me/themify-icons
+    #   material: "https://curso-r.github.io/main-r4ds-1/"
       
     # portfolio item loop
-    - name : R para Ciência de Dados II
-      image : images/cursos/r4ds2.webp
-      categories : ["Programação para Ciência de Dados"]
-      content : Explore mais ferramentas de manipulação de dados.
-      pagina : "r4ds-2"
-      icon : ti-angle-right # themify icon pack : https://themify.me/themify-icons
-      material: "https://curso-r.github.io/main-r4ds-2/"
+    # - name : R para Ciência de Dados II
+    #   image : images/cursos/r4ds2.webp
+    #   categories : ["Programação para Ciência de Dados"]
+    #   content : Explore mais ferramentas de manipulação de dados.
+    #   pagina : "r4ds-2"
+    #   icon : ti-angle-right # themify icon pack : https://themify.me/themify-icons
+    #   material: "https://curso-r.github.io/main-r4ds-2/"
       
     # # portfolio item loop
     # - name : R para Ciência de Dados III
@@ -40,13 +40,13 @@ portfolio:
     #   material: "https://curso-r.github.io/main-r4ds-2/"
       
     # portfolio item loop
-    - name : Python para usuários de R
-      image : images/cursos/python-r.webp
-      categories : ["Programação para Ciência de Dados"]
-      content : A melhor linguagem é a união das duas.
-      pagina : "python-r"
-      icon : ti-loop # themify icon pack : https://themify.me/themify-icons
-      material: "https://curso-r.github.io/main-python-r/"
+    # - name : Python para usuários de R
+    #   image : images/cursos/python-r.webp
+    #   categories : ["Programação para Ciência de Dados"]
+    #   content : A melhor linguagem é a união das duas.
+    #   pagina : "python-r"
+    #   icon : ti-loop # themify icon pack : https://themify.me/themify-icons
+    #   material: "https://curso-r.github.io/main-python-r/"
       
     # portfolio item loop
     # - name : Pacotes
@@ -59,21 +59,21 @@ portfolio:
     #   material: "https://curso-r.github.io/main-pacotes/"
       
     # portfolio item loop
-    - name : Visualização de dados
-      image : images/cursos/visualizacao.webp
-      categories : ["Visualização"]
-      content : Construa gráficos e mapas para explorar os seus dados.
-      pagina : "visualizacao"
-      icon : ti-gallery # themify icon pack : https://themify.me/themify-icons
-      material: "https://curso-r.github.io/main-visualizacao/"
+    # - name : Visualização de dados
+    #   image : images/cursos/visualizacao.webp
+    #   categories : ["Visualização"]
+    #   content : Construa gráficos e mapas para explorar os seus dados.
+    #   pagina : "visualizacao"
+    #   icon : ti-gallery # themify icon pack : https://themify.me/themify-icons
+    #   material: "https://curso-r.github.io/main-visualizacao/"
       
-    - name : Relatórios e apresentações automáticas
-      image : images/cursos/relatorios.webp
-      categories : ["Visualização"]
-      content : Construa e automatize relatórios e apresentações para comunicar suas análises.
-      pagina : "relatorios"
-      icon : ti-file # themify icon pack : https://themify.me/themify-icons
-      material: "https://curso-r.github.io/main-relatorios/"
+    # - name : Relatórios e apresentações automáticas
+    #   image : images/cursos/relatorios.webp
+    #   categories : ["Visualização"]
+    #   content : Construa e automatize relatórios e apresentações para comunicar suas análises.
+    #   pagina : "relatorios"
+    #   icon : ti-file # themify icon pack : https://themify.me/themify-icons
+    #   material: "https://curso-r.github.io/main-relatorios/"
       
     # portfolio item loop
     - name : Dashboards em Shiny
@@ -83,6 +83,7 @@ portfolio:
       pagina : "dashboards"
       icon : ti-layout # themify icon pack : https://themify.me/themify-icons
       material: "https://curso-r.github.io/main-dashboards/"
+      link: https://hotmart.com/pt-br/marketplace/produtos/dashboards-em-shiny/C94374621I
     
     # # portfolio item loop  
     # - name : Dashboards em Shiny II
@@ -94,13 +95,13 @@ portfolio:
     #   material: "https://curso-r.github.io/main-dashboards-2/"
       
     # portfolio item loop
-    - name : Deploy
-      image : images/cursos/deploy.webp
-      categories : ["Visualização"]
-      content : Aprenda a disponibilizar dashboards e o resultado dos seus modelos na Web.
-      pagina : "deploy"
-      icon : ti-cloud-up # themify icon pack : https://themify.me/themify-icons
-      material: "https://curso-r.github.io/main-deploy/"
+    # - name : Deploy
+    #   image : images/cursos/deploy.webp
+    #   categories : ["Visualização"]
+    #   content : Aprenda a disponibilizar dashboards e o resultado dos seus modelos na Web.
+    #   pagina : "deploy"
+    #   icon : ti-cloud-up # themify icon pack : https://themify.me/themify-icons
+    #   material: "https://curso-r.github.io/main-deploy/"
     
     # portfolio item loop
     # - name : Modelos lineares
@@ -113,13 +114,13 @@ portfolio:
     #   material: "https://curso-r.github.io/main-regressao-linear/"
       
     # portfolio item loop
-    - name : Introdução ao Machine Learning
-      image : images/cursos/iml.webp
-      categories : ["Machine Learning"]
-      content : Aprenda os principais conceitos de Machine Learning utilizando o R como ferramenta.
-      pagina : "intro-ml"
-      icon : ti-panel # themify icon pack : https://themify.me/themify-icons
-      material: "https://curso-r.github.io/main-intro-ml/"
+    # - name : Introdução ao Machine Learning
+    #   image : images/cursos/iml.webp
+    #   categories : ["Machine Learning"]
+    #   content : Aprenda os principais conceitos de Machine Learning utilizando o R como ferramenta.
+    #   pagina : "intro-ml"
+    #   icon : ti-panel # themify icon pack : https://themify.me/themify-icons
+    #   material: "https://curso-r.github.io/main-intro-ml/"
     
     # portfolio item loop
     # - name : Modelagem de Séries Temporais
@@ -149,6 +150,7 @@ portfolio:
       pagina : "web-scraping"
       icon : ti-world # themify icon pack : https://themify.me/themify-icons
       material: "https://curso-r.github.io/main-web-scraping/"
+      link: https://hotmart.com/pt-br/marketplace/produtos/web-scraping/O96497127V
     
       
     # portfolio item loop

@@ -16,7 +16,7 @@
 					<div class="border-meghna"></div>
 				</div>
 				{{"<!-- /section title -->" | safeHTML}}
-				<h4 style = "text-align: center;">Segue o nosso calendário de minicursos ao vivo para os membros do nosso <a href = "https://www.youtube.com/@CursoR6">canal no YouTube.</a></h4>
+				<h4 style = "text-align: center;">Seja membro do nosso <a target="_blank" href = "https://www.youtube.com/@CursoR6">canal no YouTube</a> e tenha acesso a diversos cursos ao vivo ao longo de todo o ano. Veja abaixo os cursos programados para este ano.</h4>
 				<br>
 			</div>
 		</div>
@@ -51,7 +51,7 @@
 				  <div class="portfolio-icon text-center">
 						<i class="{{ .icon }}"></i>
 					</div>
-					<h3 style = "background-color: #999999aa;">{{ .name | markdownify }}</h3>
+					<h3 style = "background-color: #00000055;">{{ .name | markdownify }}</h3>
 					{{ $curso := index (where $cursos ".Params.nome" .name) 0 }}
 					<div class="caption">
 						<h4 class="mt-3">

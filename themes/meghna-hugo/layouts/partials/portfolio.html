@@ -16,6 +16,8 @@
 					<div class="border-meghna"></div>
 				</div>
 				{{"<!-- /section title -->" | safeHTML}}
+				<h4 style = "text-align: center;">Assista aos nossos cursos gravados pela plataforma HotMart.</h4>
+				<br>
 			</div>
 		</div>
 		<div class="row">
@@ -56,7 +58,7 @@
 							{{ .name }}
 						</h4>
 						<p>{{ .content | markdownify }}</p>
-						<a class="search-icon green" target="_blank" href="{{ .Site.BaseURL }}/cursos/{{ .pagina | safeURL }}">
+						<a class="search-icon green" target="_blank" href="{{ .link }}">
 							Saiba mais
 						</a>
 					</div>
