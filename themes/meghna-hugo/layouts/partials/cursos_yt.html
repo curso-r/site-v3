@@ -2,10 +2,10 @@
 
 {{ $cursos := where .Site.Pages "Type" "cursos"}}
 
-{{ if $data.minicursos.minicursos.enable }}
-{{ with $data.minicursos.minicursos }}
+{{ if $data.cursos_yt.cursos_yt.enable }}
+{{ with $data.cursos_yt.cursos_yt }}
 {{"<!-- Portfolio Section -->" | safeHTML}}
-<section class="portfolio section" id="minicursos">
+<section class="portfolio section" id="cursos_yt">
 	<div class="container">
 		<div class="row ">
 			<div class="col-xl-12">
@@ -16,7 +16,7 @@
 					<div class="border-meghna"></div>
 				</div>
 				{{"<!-- /section title -->" | safeHTML}}
-				<h4 style = "text-align: center;">Seja membro do nosso <a target="_blank" href = "https://www.youtube.com/@CursoR6">canal no YouTube</a> e tenha acesso a diversos cursos ao vivo ao longo de todo o ano. Veja abaixo os cursos programados para este ano.</h4>
+				<h4 style = "text-align: center;"><a target="_blank" href = "https://www.youtube.com/@CursoR6/join">Seja membro do nosso canal no YouTube</a> e tenha acesso a diversos cursos ao vivo ao longo de todo o ano. Veja abaixo os cursos programados para este ano.</h4>
 				<br>
 			</div>
 		</div>
@@ -28,7 +28,7 @@
 						<input type="radio" name="shuffle-filter" value="all" checked="checked" />{{ i18n "all"}}
 					</label>
 						{{ $categories := slice }}
-						{{ range .minicursos_item }}
+						{{ range .cursos_yt_item }}
 						{{ range .categories }}
 						{{ $categories = $categories | append . }}
 						{{ end }}
@@ -44,7 +44,7 @@
 
 		<div class="row shuffle-wrapper justify-content-center">
 			{{"<!-- portfolio item -->" | safeHTML}}
-			{{ range .minicursos_item }}
+			{{ range .cursos_yt_item }}
 			<div class="col-lg-4 col-md-6 shuffle-item"
 				data-groups="[{{range $index, $element:= .categories }}{{if ne $index 0}},{{end}}&quot;{{. | urlize}}&quot;{{ end }}]">
 				<div class="portfolio-block text-center mb-4" style = "background-image: url('{{ .image | absURL }}' )">

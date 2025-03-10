@@ -1,11 +1,11 @@
 #################################### portfolio ###############################
-minicursos:
+cursos_yt:
   enable : true
   title : Cursos YouTube
-  minicursos_item :
+  cursos_yt_item :
     # portfolio item loop
     - name : Introdução ao R
-      image : images/minicursos/intro-r.jpg
+      image : images/cursos_yt/intro-r.jpg
       categories : ["Programação para Ciência de Dados"]
       content : Aprenda os conceitos básicos de programação em R.
       inicio : "20/01/2025"
@@ -13,7 +13,7 @@ minicursos:
       
     # portfolio item loop
     - name : Manipulação de dados em R
-      image : images/minicursos/manipulacao-r.jpg
+      image : images/cursos_yt/manipulacao-r.jpg
       categories : ["Programação para Ciência de Dados"]
       content : Aprenda as principais ferramentas de manipulação de dados em R.
       inicio: "10/03/2025"
@@ -21,14 +21,14 @@ minicursos:
       
     # portfolio item loop
     - name : Introdução à Estatística com R
-      image : images/minicursos/intro-estatistica-r.jpg
+      image : images/cursos_yt/intro-estatistica-r.jpg
       content : Aprenda os conceitos básicos de estatística utilizando o R.
       inicio: "28/04/2025"
       icon : ti-angle-right # themify icon pack : https://themify.me/themify-icons
       
     # portfolio item loop
     - name : Visualização de dados
-      image : images/minicursos/visuaulizacao.jpg
+      image : images/cursos_yt/visuaulizacao.jpg
       categories : ["Visualização"]
       content : Construa gráficos e mapas para explorar os seus dados.
       inicio: "16/06/2025"
@@ -36,7 +36,7 @@ minicursos:
 
     # portfolio item loop
     - name : Relatórios automáticos
-      image : images/minicursos/relatorios.jpg
+      image : images/cursos_yt/relatorios.jpg
       categories : ["Visualização"]
       content : Construa e automatize relatórios e apresentações para comunicar suas análises.
       inicio: "21/07/2025"
@@ -44,7 +44,7 @@ minicursos:
 
     # portfolio item loop
     - name : Manipulação de dados em Python
-      image : images/minicursos/manipulacao-python.jpg
+      image : images/cursos_yt/manipulacao-python.jpg
       categories : ["Programação para Ciência de Dados"]
       content : Aprenda as principais ferramentas de manipulação de dados em Python.
       inicio: "18/08/2025"
@@ -52,7 +52,7 @@ minicursos:
 
     # portfolio item loop
     - name : Dashboards em Shiny
-      image : images/minicursos/shiny.jpg
+      image : images/cursos_yt/shiny.jpg
       categories : ["Visualização"]
       content : Comunique seus resultados construindo dashboards incríveis a partir do R.
       inicio: "29/09/2025"
@@ -60,7 +60,7 @@ minicursos:
       
     # portfolio item loop
     - name : Web scraping
-      image : images/minicursos/web-scraping.jpg
+      image : images/cursos_yt/web-scraping.jpg
       categories : ["Web scraping"]
       content : Aprenda a coletar dados da internet de forma autônoma e eficiente utilizando o R.
       inicio: "10/11/2025"
