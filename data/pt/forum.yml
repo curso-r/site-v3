@@ -2,8 +2,8 @@
 forum:
   enable : true
   bg_image : "images/backgrounds/bg-universe.webp"
-  title : "Dúvidas sobre R e Ciência de Dados?"
-  content : "A Comunidade Curso-R está se tornando o maior fórum brasileiro de dúvidas sobre R e análise de dados."
+  title : "Dúvidas sobre R, Python e Ciência de Dados?"
+  content : "A nossa página de discussões no GitHub é o lugar ideal para você tirar dúvidas, compartilhar conhecimento e aprender com a comunidade. As dúvidas são respondidas pelo fórum e também ao vivo em nossas [lives no YouTube](https://www.youtube.com/@CursoR6/streams)."
   button:
     enable : true
     label : "Compartilhe a sua dúvida com a comunidade"

@@ -74,28 +74,34 @@ url = "team"
 weight = 5
 
 [[Languages.pt.menu.main]]
+name = "Fórum de dúvidas"
+pre = "#"
+url = "forum"
+weight = 6
+
+[[Languages.pt.menu.main]]
 name = "Blog"
 pre = "#"
 url = "blog"
-weight = 6
+weight = 7
 
 [[Languages.pt.menu.main]]
 name = "Material"
 pre = ""
 url = "/material"
-weight = 7
+weight = 8
 
 [[Languages.pt.menu.main]]
 name = "Pacotes"
 pre = ""
 url = "/pacotes"
-weight = 8
+weight = 9
 
 [[Languages.pt.menu.main]]
 name = "Contato"
 pre = "#"
 url = "contact"
-weight = 9
+weight = 10
 
 ################### English Navigation ########################
 [[Languages.en.menu.main]]
