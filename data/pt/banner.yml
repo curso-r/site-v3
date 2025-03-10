@@ -10,4 +10,4 @@ banner:
   button:
     enable : true
     label : "Inicie a sua jornada"
-    link : "#services"
+    link : "#cursos_yt"
