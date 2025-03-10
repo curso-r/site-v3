@@ -5,15 +5,20 @@ about:
   about_item :
   - icon : ti-book # themify icon pack : https://themify.me/themify-icons
     title : Cursos
-    content : Formamos profissionais nas mais diversas tarefas da Ciência de Dados. Escolha uma trilha e inicie essa nova jornada com a gente.
+    content : Ensinamos R, Python e Ciência de Dados no nosso canal do YouTube e a partir de cursos gravados. Venha aprender com a gente!
     link : "https://loja.curso-r.com"
 
   - icon : ti-bar-chart # themify icon pack : https://themify.me/themify-icons
     title : Consultoria
-    content : Temos um time especialista em projetos de Ciência de Dados. Se você ou sua empresa tem um problema envolvendo dados, nós somos a solução.
+    content : Temos um time especialista em Ciência de Dados. Se sua empresa tem um problema de dados, nós somos a solução.
     link :  "http://www.rseis.com.br"
     
   - icon : ti-heart # themify icon pack : https://themify.me/themify-icons
     title : Comunidade
-    content : O conteúdo dos nossos cursos é gratuito e todos nossos produtos são código aberto. Acreditamos na democratização do conhecimento.
+    content : Nosso conteúdo é gratuito e todos nossos produtos são código aberto. Acreditamos na democratização do conhecimento.
     link : /material/
+
+  - icon : ti-hand-open # themify icon pack : https://themify.me/themify-icons
+    title : Fórum
+    content : Temos um fórum de dúvidas e discussões para alunos e não alunos. Está com dúvida? Pergunte para a gente!
+    link : "https://github.com/orgs/curso-r/discussions"
