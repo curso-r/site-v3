@@ -4,8 +4,8 @@ about:
   title : Sobre nós
   about_item :
   - icon : ti-book # themify icon pack : https://themify.me/themify-icons
-    title : Cursos
-    content : Ensinamos R, Python e Ciência de Dados no nosso canal do YouTube e a partir de cursos gravados. Venha aprender com a gente!
+    title : Treinamentos
+    content : Ensinamos programação em R e Python para Ciência de Dados a partir de treinamentos customizados para a sua empresa.
     link : "https://loja.curso-r.com"
 
   - icon : ti-bar-chart # themify icon pack : https://themify.me/themify-icons

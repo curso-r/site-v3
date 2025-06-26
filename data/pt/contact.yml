@@ -2,7 +2,7 @@
 contact:
   enable : true
   title : Nosso contato
-  content : Entre em contato para tirar dúvidas sobre os nossos cursos, solicitar propostas para treinamentos in-company e projetos de análise de dados.  Para dúvidas de R e Ciência de Dados, por favor acesse o [nosso fórum](https://github.com/orgs/curso-r/discussions).
+  content : Entre em contato para solicitar propostas para treinamentos in-company e projetos de análise de dados.  Para dúvidas de R e Ciência de Dados, por favor acesse o [nosso fórum](https://github.com/orgs/curso-r/discussions).
   warning : __Utilizaremos seus dados apenas para responder a solicitação__.
 
   # Contact details

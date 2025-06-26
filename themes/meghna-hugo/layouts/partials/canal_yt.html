@@ -1,0 +1,36 @@
+{{ $data := index site.Data site.Language.Lang }}
+
+{{ $cursos := where .Site.Pages "Type" "cursos"}}
+
+{{ if $data.canal_yt.canal_yt.enable }}
+{{ with $data.canal_yt.canal_yt }}
+{{"<!-- Portfolio Section -->" | safeHTML}}
+<section class="portfolio section" id="canal_yt">
+	<div class="container">
+		<div class="row ">
+			<div class="col-xl-12">
+				{{"<!-- section title -->" | safeHTML}}
+				<div class="title text-center">
+					<h2>{{ with .title }} {{ index (split . " ") 0 | safeHTML }} {{ end }}<span class="color">
+						{{ with .title }} {{ after (len (index (split . " ") 0)) . | safeHTML }} {{ end }}</span></h2>
+					<div class="border-meghna"></div>
+				</div>
+				{{"<!-- /section title -->" | safeHTML}}
+				<h4 style = "text-align: center;"><a target="_blank" href = "https://www.youtube.com/@CursoR6/join">Se inscreva em nosso canal no YouTube</a> e tenha acesso a cursos gravados e diversos conteúdos de Ciência de Dados.</h4>
+				<br>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-6">
+				<iframe width="500" height="315" src="https://www.youtube.com/embed/1ILUjve1RCk?si=4No5davKGf6HhyPj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+			</div>
+			<div class="col-lg-6">
+				<iframe width="500" height="315" src="https://www.youtube.com/embed/MqOqSmNqJng?si=kFsQAh2uAFWd5r6j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+			</div>
+		</div>
+
+	</div>
+</section>
+{{"<!-- /Portfolio -->" | safeHTML}}
+{{ end }}
+{{ end }}

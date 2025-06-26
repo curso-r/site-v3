@@ -56,16 +56,16 @@ url = "about"
 weight = 1
 
 [[Languages.pt.menu.main]]
-name = "Cursos"
-pre = "#"
-url = "portfolio"
-weight = 2
-
-[[Languages.pt.menu.main]]
 name = "Consultoria"
 pre = ""
 url = "http://www.rseis.com.br"
-weight = 4
+weight = 2
+
+[[Languages.pt.menu.main]]
+name = "YouTube"
+pre = "#"
+url = "canal_yt"
+weight = 3
 
 [[Languages.pt.menu.main]]
 name = "Equipe"
