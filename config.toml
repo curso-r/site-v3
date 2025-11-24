@@ -11,6 +11,7 @@ summaryLength = "15"
 disqusShortname = "curso-r-com"
 # disable language
 disableLanguages = ["en"]
+publishDir = "docs"
 
 ############################# Plugins ##########################
 # css plugins
