@@ -156,7 +156,7 @@ weight = 8
 [[Languages.en.menu.main]]
 name = "Book"
 pre = ""
-url = "https://livro.curso-r.com/"
+url = "https://curso-r.github.io/livro-material/"
 weight = 9
 
 ############################# Default Parameters ##########################
@@ -239,7 +239,7 @@ name = "Fórum de dúvidas"
 
 [[params.links]]
 icon = "ti-book" # themify icon pack : https://themify.me/themify-icons
-link = "https://livro.curso-r.com/"
+link = "https://curso-r.github.io/livro-material/"
 name = "R para Ciência de Dados"
 
 [[params.links]]
