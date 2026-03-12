@@ -244,7 +244,7 @@ name = "R para Ciência de Dados"
 
 [[params.links]]
 icon = "ti-book" # themify icon pack : https://themify.me/themify-icons
-link = "https://programando-em-shiny.curso-r.com/"
+link = "https://curso-r.github.io/programando-em-shiny/"
 name = "Programando em Shiny"
 
 ################################ Portuguese Language ########################
